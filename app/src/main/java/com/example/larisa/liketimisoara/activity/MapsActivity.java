@@ -21,6 +21,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private List<Attraction> attractions;
 
+
+
     @SuppressWarnings("unchecked")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
