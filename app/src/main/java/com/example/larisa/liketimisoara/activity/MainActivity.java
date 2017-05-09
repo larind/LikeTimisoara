@@ -3,8 +3,14 @@ package com.example.larisa.liketimisoara.activity;
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.location.LocationManager;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -47,6 +53,7 @@ public class MainActivity extends AppCompatActivity
     private boolean mIsBackVisible = false;
     public View mCardFrontLayout;
     private View mCardBackLayout;
+    private Context context;
 
     private boolean initDone = false;
 
@@ -56,6 +63,8 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        context = this;
 
         SharedPreferences sharedPreferences = getPreferences(MODE_PRIVATE);
 
@@ -104,6 +113,42 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         loadAnimations();
+
+        LocationManager lm = (LocationManager)context.getSystemService(Context.LOCATION_SERVICE);
+        boolean gps_enabled = false;
+        boolean network_enabled = false;
+
+        try {
+            gps_enabled = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
+        } catch(Exception ex) {}
+
+        try {
+            network_enabled = lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+        } catch(Exception ex) {}
+
+        if(!gps_enabled && !network_enabled) {
+            // notify user
+            AlertDialog.Builder dialog = new AlertDialog.Builder(context);
+            dialog.setMessage(context.getResources().getString(R.string.gps_network_not_enabled));
+            final AlertDialog.Builder builder = dialog.setPositiveButton(context.getResources().getString(R.string.open_location_settings), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+                    // TODO Auto-generated method stub
+                    Intent myIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                    context.startActivity(myIntent);
+                    //get gps
+                }
+            });
+            dialog.setNegativeButton(context.getString(R.string.Cancel), new DialogInterface.OnClickListener() {
+
+                @Override
+                public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+                    // TODO Auto-generated method stub
+
+                }
+            });
+            dialog.show();
+        }
     }
 
     @Override
@@ -141,7 +186,7 @@ public class MainActivity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         super.onCreateOptionsMenu(menu);
-        getMenuInflater().inflate(R.menu.main, menu);
+//        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
@@ -166,13 +211,13 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+      /*  if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_gallery)
 
         } else if (id == R.id.nav_bazine) {
 
-        }
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

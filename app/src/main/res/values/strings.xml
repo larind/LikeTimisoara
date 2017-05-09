@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Like TM</string>
+    <string name="app_name">Like Timisoara</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_main">MainActivity</string>
 
@@ -7,4 +7,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="gps_network_not_enabled">Locatia nu este activata</string>
+    <string name="open_location_settings">Activati locatia</string>
+    <string name="Cancel">Cancel</string>
 </resources>

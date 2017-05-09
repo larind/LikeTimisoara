@@ -10,12 +10,18 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.larisa.liketimisoara.Attraction;
 import com.example.larisa.liketimisoara.DataModel;
 import com.example.larisa.liketimisoara.R;
+import com.example.larisa.liketimisoara.activity.DetailsActivity;
 import com.example.larisa.liketimisoara.activity.InfoActivity;
 import com.example.larisa.liketimisoara.activity.MapsActivity;
+import com.example.larisa.liketimisoara.db.DB;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder> {
 
@@ -58,26 +64,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int listPosition) {
 
-        switch (dataSet.get(listPosition).getType()) {
-
-            case HOTEL:
-
-                holder.cardView.setBackgroundColor(context.getResources().getColor(android.R.color.holo_blue_bright));
-
-                break;
-
-            case PARC:
-
-                holder.cardView.setBackgroundColor(context.getResources().getColor(android.R.color.holo_green_light));
-
-                break;
-
-            default:
-
-                holder.cardView.setBackgroundColor(context.getResources().getColor(android.R.color.holo_red_light));
-
-                break;
-        }
+                holder.cardView.setBackgroundColor(context.getResources().getColor(android.R.color.white));
 
         TextView textViewName = holder.textViewName;
         ImageView imageView = holder.imageViewIcon;
@@ -97,13 +84,15 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         });
 
         holder.mapItemImageButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-                public void onClick(View v) {
-                    Intent mapsIntent = new Intent(context, MapsActivity.class);
 
-                    mapsIntent.putExtra("EXTRA_ATTRACTION_TYPE", dataSet.get(listPosition).getType());
+            public void onClick(View v) {
+                Intent mapIntent = new Intent(context, MapsActivity.class);
 
-                    context.startActivity(mapsIntent);
+                ArrayList<Attraction> attractions = (ArrayList<Attraction>)DB.getInstance(context).getAttractions(dataSet.get(listPosition).getType());
+
+                mapIntent.putExtra("EXTRA_ATTRACTIONS", attractions);
+
+                context.startActivity(mapIntent);
             }
         });
     }
