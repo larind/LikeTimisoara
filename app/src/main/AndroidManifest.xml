@@ -52,7 +52,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.InfoActivity" />
-        <activity android:name=".activity.DetailsActivity"></activity>
+        <activity android:name=".activity.DetailsActivity" />
+        <activity
+            android:name=".activity.NavMenuItems"
+            android:label="@string/title_activity_nav_menu_items"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

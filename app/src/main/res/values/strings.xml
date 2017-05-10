@@ -10,4 +10,6 @@
     <string name="gps_network_not_enabled">Locatia nu este activata</string>
     <string name="open_location_settings">Activati locatia</string>
     <string name="Cancel">Cancel</string>
+    <string name="title_activity_nav_menu_items">NavMenuItems</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

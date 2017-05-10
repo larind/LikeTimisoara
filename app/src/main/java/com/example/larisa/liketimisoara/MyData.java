@@ -6,13 +6,13 @@ package com.example.larisa.liketimisoara;
 
 public class MyData {
 
-    public static String[] nameArray = {"Hoteluri", "Parcuri", "Taxi", "Inchirieri Biciclete", "Gingerbread", "Honeycomb", "Ice Cream Sandwich"};
+    public static String[] nameArray = { "Muzee", "Piete", "Parcuri", "Biserici si Catedrale","Restaurante", "Cafenele si Baruri", "Cluburi si Pub-uri", "Hoteluri", "Hosteuri", "Pensiuni" };
 
-    public static Integer[] drawableArray = {R.drawable.hotel, R.drawable.parc, R.drawable.taxi,
-            R.drawable.bicicleta, R.drawable.biserica, R.drawable.pensiune, R.drawable.cafenea,
-            R.drawable.tennis, R.drawable.club, R.drawable.muzeu, R.drawable.piata};
+    public static Integer[] drawableArray = { R.drawable.muzeu,
+            R.drawable.piata, R.drawable.parc, R.drawable.biserica, R.drawable.restaurant,
+            R.drawable.cafenea, R.drawable.club, R.drawable.hotel, R.drawable.hostel, R.drawable.pensiune };
 
-    public static Integer[] id_ = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    public static Integer[] id_ = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-    public static AttractionType[] attractionTypeArray = {AttractionType.HOTEL, AttractionType.PARC, AttractionType.CATEDRALA, AttractionType.MUZEU, AttractionType.PIATA, AttractionType.MUZEU, AttractionType.CATEDRALA};
+    public static AttractionType[] attractionTypeArray = {AttractionType.MUZEU, AttractionType.PIATA, AttractionType.PARC, AttractionType.CATEDRALA, AttractionType.RESTAURANT, AttractionType.CAFENEA, AttractionType.CLUB, AttractionType.HOTEL, AttractionType.HOSTEL, AttractionType.PENSIUNE};
 }

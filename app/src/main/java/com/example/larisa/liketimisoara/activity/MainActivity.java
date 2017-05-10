@@ -167,9 +167,13 @@ public class MainActivity extends AppCompatActivity
 
         try {
 
-            database.insertAttraction(new Attraction(0, "Parcul Central", AttractionType.PARC, "cel mai central parc din lume",
-                    R.drawable.parc, true, 21.2211, 45.7513));
+            database.insertAttraction(new Attraction(0, "Parcul Central",AttractionType.PARC, "Parcul Central „Anton Scudier” este unul dintre cele mai vechi parcuri din Timișoara, înființat în 1880 din dispoziția generalului Anton von Scudier. În parc se află mai multe monumente ale unor personalități și Monumentul Ostașului Român. Parcul este amenajat cu fântâni, bănci și mese de șah.",
+                    R.drawable.parculcentral, true, 21.2211, 45.7513));
             database.insertAttraction(new Attraction(1, "Parcul Botanic", AttractionType.PARC, "binebossss",
+                    R.drawable.parc, true, 21.2253, 45.7602));
+            database.insertAttraction(new Attraction(1, "Parcul Poporului", AttractionType.PARC, "binebossss",
+                    R.drawable.parc, true, 21.2253, 45.7602));
+            database.insertAttraction(new Attraction(1, "Parcul Justitiei", AttractionType.PARC, "binebossss",
                     R.drawable.parc, true, 21.2253, 45.7602));
             database.insertAttraction(new Attraction(2, "HOTEL ARTA", AttractionType.HOTEL, "cel mai central parc din lume",
                     R.drawable.parc, true, 45.7513, 21.2211));

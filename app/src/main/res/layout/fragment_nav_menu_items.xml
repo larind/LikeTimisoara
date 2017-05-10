@@ -1,45 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_details"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.larisa.liketimisoara.activity.DetailsActivity">
+    android:orientation="vertical"
+    tools:context="com.example.larisa.liketimisoara.activity.NavMenuItems$PlaceholderFragment">
 
     <TextView
-        android:id="@+id/attraction_title_textView"
+        android:id="@+id/pagging_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingBottom="15dp"
-        android:text="Cafeneaua Verde"
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textSize="20dp"/>
 
     <ImageView
-        android:id="@+id/details_imageview"
+        android:id="@+id/pagging_image"
         android:layout_width="270dp"
         android:layout_height="220dp"
         android:layout_gravity="center"
         android:paddingBottom="20dp"/>
 
     <TextView
-        android:id="@+id/details_textview"
+        android:id="@+id/pagging_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:gravity="center"
-        android:text="Cafeneau verde este cea mai frumoasa cafenea ce o puteti intalni in Timisoara. Este situata in centrul orasului si acolo puteti sa va opriti dupa o zi in care ati vizitat multe locuri minunate din oras." />
-
+        android:gravity="center"/>
 
     <Button
-        android:id="@+id/details_imagebutton"
+        android:id="@+id/pagging_button"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,5 +44,3 @@
         android:textColor="@android:color/background_dark"
         android:textAppearance="@style/TextAppearance.AppCompat"/>
 </LinearLayout>
-
-

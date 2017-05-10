@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/obiective_apropiate"
+            android:icon="@drawable/obiective"
+            android:title="Ce pot sa vizitez in zona" />
+        <item
+            android:id="@+id/top10"
+            android:icon="@drawable/top10"
+            android:title="Top 10 obiective" />
 
     <item android:title="Sport">
         <menu>

@@ -19,6 +19,8 @@ import com.example.larisa.liketimisoara.db.DB;
 import java.util.ArrayList;
 import java.util.List;
 
+import static android.widget.GridLayout.HORIZONTAL;
+
 public class InfoActivity extends AppCompatActivity {
 
     @Override
@@ -35,8 +37,9 @@ public class InfoActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(recyclerView.getContext(),
-                DividerItemDecoration.HORIZONTAL);
+                HORIZONTAL);
         recyclerView.addItemDecoration(dividerItemDecoration);
+
 
         List<Attraction> attractions = DB.getInstance(this).getAttractions(chosenAttractionType);
 

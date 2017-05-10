@@ -23,9 +23,9 @@
             <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.4"
+                android:layout_weight="0.3"
                 android:layout_gravity="center"
-                android:background="@android:color/holo_red_dark"
+                android:background="@android:color/darker_gray"
                 android:clickable="true"
                 android:onClick="flipToFront"
                 android:src="@android:drawable/ic_menu_revert" />
@@ -34,8 +34,8 @@
                 android:id="@+id/itemInfo"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.8"
-                android:background="@android:color/holo_blue_bright"
+                android:layout_weight="0.9"
+                android:background="@android:color/holo_blue_light"
                 android:src="@android:drawable/ic_dialog_info" />
 
             <ImageButton

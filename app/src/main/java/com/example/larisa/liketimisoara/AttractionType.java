@@ -10,5 +10,10 @@ public enum AttractionType {
     PARC,
     PIATA,
     MUZEU,
+    CAFENEA,
+    PENSIUNE,
+    HOSTEL,
+    CLUB,
+    RESTAURANT,
     CATEDRALA
 }
