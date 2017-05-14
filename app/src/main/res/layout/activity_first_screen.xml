@@ -14,7 +14,7 @@
         android:id="@+id/atractions_button"
         android:layout_marginBottom="39dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"/>
 
     <ImageView
         android:layout_width="match_parent"
