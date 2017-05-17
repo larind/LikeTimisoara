@@ -24,6 +24,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.example.larisa.liketimisoara.Attraction;
 import com.example.larisa.liketimisoara.AttractionType;
@@ -35,6 +36,7 @@ import com.example.larisa.liketimisoara.db.DB;
 import com.example.larisa.liketimisoara.db.DBException;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -80,10 +82,6 @@ public class MainActivity extends AppCompatActivity
 
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
         recyclerView.setHasFixedSize(true);
-
-//        View cardBackLayout = getLayoutInflater().inflate(R.layout.card_back, null);
-//
-//        mCardBackLayout = cardBackLayout.findViewById(R.id.card_back);
 
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
@@ -171,13 +169,13 @@ public class MainActivity extends AppCompatActivity
             database.insertAttraction(new Attraction(1, "Parcul Botanic", AttractionType.PARC, "parc",
                     R.drawable.parc, true, 21.2253, 45.7602));
             database.insertAttraction(new Attraction(1, "Parcul Poporului", AttractionType.PARC, "parc",
-                    R.drawable.parc, true, 21.2253, 45.7602));
+                    R.drawable.parc, false, 21.2253, 45.7602));
             database.insertAttraction(new Attraction(1, "Parcul Justitiei", AttractionType.PARC, "parc",
-                    R.drawable.parc, true, 21.2253, 45.7602));
+                    R.drawable.parc, false, 21.2253, 45.7602));
             database.insertAttraction(new Attraction(2, "Hotel Arta", AttractionType.HOTEL, "hotel",
-                    R.drawable.parc, true, 45.7513, 21.2211));
+                    R.drawable.parc, false, 45.7513, 21.2211));
             database.insertAttraction(new Attraction(3, "Muzeul Banat", AttractionType.MUZEU, "muzeu",
-                    R.drawable.parc, true, 45.7513, 21.2211));
+                    R.drawable.parc, false, 45.7513, 21.2211));
 
         } catch (DBException ex) {
 
@@ -214,13 +212,18 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-      /*  if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery)
+        if (id == R.id.obiective_apropiate) {
+            Intent obiectiveApropiate = new Intent(MainActivity.this, DetailFromMenu.class);
+            startActivity(obiectiveApropiate);
 
-        } else if (id == R.id.nav_bazine) {
-
-        }*/
+        } else if (id == R.id.top10) {
+            Intent top10 = new Intent(MainActivity.this, DetailFromMenu.class);
+            startActivity(top10);
+        }
+        else if (id == R.id.nav_fitness) {
+            Intent top10 = new Intent(MainActivity.this, DetailFromMenu.class);
+            startActivity(top10);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
         <item
+            android:id="@+id/istoric"
+            android:icon="@drawable/history2"
+            android:title="Scurt Istoric Timisoara" />
+        <item
             android:id="@+id/obiective_apropiate"
             android:icon="@drawable/obiective"
             android:title="Ce pot sa vizitez in zona" />
@@ -46,5 +50,4 @@
                 android:title="Statii biciclete" />
         </menu>
     </item>
-
 </menu>

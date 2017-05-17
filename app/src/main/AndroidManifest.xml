@@ -45,15 +45,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".activity.InfoActivity" />
         <activity android:name=".activity.DetailsActivity" />
-        <activity android:name=".activity.MainActivity"
-                  android:parentActivityName=".FirstScreen"/>
-
+        <activity
+            android:name=".activity.MainActivity"
+            android:parentActivityName=".FirstScreen" />
+        <activity
+            android:name=".activity.DetailFromMenu"
+            android:label="@string/title_activity_detail_from_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
