@@ -224,6 +224,10 @@ public class MainActivity extends AppCompatActivity
             Intent top10 = new Intent(MainActivity.this, DetailFromMenu.class);
             startActivity(top10);
         }
+        else if(id == R.id.istoric){
+            Intent historyIntent = new Intent(MainActivity.this, HistoryActivity.class);
+            startActivity(historyIntent);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

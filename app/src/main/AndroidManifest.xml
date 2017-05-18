@@ -58,7 +58,12 @@
         <activity
             android:name=".activity.DetailFromMenu"
             android:label="@string/title_activity_detail_from_menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SportsActivity"
+            android:label="@string/title_activity_sports"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.HistoryActivity"></activity>
     </application>
 
 </manifest>

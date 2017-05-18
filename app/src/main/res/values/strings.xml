@@ -13,4 +13,5 @@
     <string name="title_activity_nav_menu_items">Like Timisoara</string>
     <string name="section_format">%1$s</string>
     <string name="title_activity_detail_from_menu">Like Timisoara</string>
+    <string name="title_activity_sports">SportsActivity</string>
 </resources>
