@@ -1,7 +1,6 @@
 package com.example.larisa.liketimisoara.activity;
 
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -16,9 +15,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.larisa.liketimisoara.Attraction;
+import com.example.larisa.liketimisoara.AttractionType;
 import com.example.larisa.liketimisoara.R;
+import com.example.larisa.liketimisoara.db.DB;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class SportsActivity extends AppCompatActivity {
 
@@ -46,22 +54,15 @@ public class SportsActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+
+        AttractionType attractionType = (AttractionType) getIntent().getSerializableExtra("EXTRA_ATTRACTION");
+        List<Attraction> attractions = DB.getInstance(this).getAttractions(attractionType);
+
+        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager(), attractions);
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
     }
 
 
@@ -96,6 +97,7 @@ public class SportsActivity extends AppCompatActivity {
          * fragment.
          */
         private static final String ARG_SECTION_NUMBER = "section_number";
+        private static final String ARG_SECTION_ATTRACTION = "section_attraction";
 
         public PlaceholderFragment() {
         }
@@ -104,10 +106,11 @@ public class SportsActivity extends AppCompatActivity {
          * Returns a new instance of this fragment for the given section
          * number.
          */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
+        public static PlaceholderFragment newInstance(int sectionNumber, Attraction attraction) {
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
             args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+            args.putSerializable(ARG_SECTION_ATTRACTION, attraction);
             fragment.setArguments(args);
             return fragment;
         }
@@ -115,9 +118,24 @@ public class SportsActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
+
+            final Attraction attraction = (Attraction) getArguments().getSerializable(ARG_SECTION_ATTRACTION);
             View rootView = inflater.inflate(R.layout.fragment_sports, container, false);
-            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            TextView tile = (TextView) rootView.findViewById(R.id.sports_title);
+            ImageView image = (ImageView) rootView.findViewById(R.id.sports_image);
+            TextView info = (TextView) rootView.findViewById(R.id.sports_info);
+
+
+            tile.setText(getString(R.string.section_format, attraction.getName()));
+            Button mapsButton = (Button) rootView.findViewById(R.id.sports_maps);
+            mapsButton.setOnClickListener(new View.OnClickListener(){
+                public void onClick(View v) {
+
+                    Intent mapIntent = new Intent(getContext(), MapsActivity.class);
+                    mapIntent.putExtra("EXTRA_ATTRACTIONS", new ArrayList<>(Collections.singletonList(attraction)));
+                    startActivity(mapIntent);
+                }
+            });
             return rootView;
         }
     }
@@ -128,21 +146,23 @@ public class SportsActivity extends AppCompatActivity {
      */
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-        public SectionsPagerAdapter(FragmentManager fm) {
+        private List<Attraction> attractions;
+
+        public SectionsPagerAdapter(FragmentManager fm, List<Attraction> attractions) {
             super(fm);
+            this.attractions = attractions;
         }
 
         @Override
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+            return PlaceholderFragment.newInstance(position + 1, attractions.get(position));
         }
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            return attractions.size();
         }
 
         @Override

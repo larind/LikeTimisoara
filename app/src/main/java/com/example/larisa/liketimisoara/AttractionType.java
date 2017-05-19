@@ -15,5 +15,12 @@ public enum AttractionType {
     HOSTEL,
     CLUB,
     RESTAURANT,
-    CATEDRALA
+    CATEDRALA,
+    BAZIN_INOT,
+    SALA_FITNESS,
+    TEREN_TENIS,
+    SALA_SQUASH,
+    COMPANIE_TAXI,
+    INCHIRIERI_AUTO,
+    STATIE_BICICLETE
 }

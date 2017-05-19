@@ -48,8 +48,6 @@ public class MainActivity extends AppCompatActivity
     private static RecyclerView recyclerView;
     private static ArrayList<DataModel> data;
 
-    private RelativeLayout contentMain;
-
     private AnimatorSet mSetRightOut;
     private AnimatorSet mSetLeftIn;
     private boolean mIsBackVisible = false;
@@ -77,8 +75,6 @@ public class MainActivity extends AppCompatActivity
             initDatabase();
 
         }
-
-        contentMain = (RelativeLayout) findViewById(R.id.content_main);
 
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
         recyclerView.setHasFixedSize(true);
@@ -176,6 +172,8 @@ public class MainActivity extends AppCompatActivity
                     R.drawable.parc, false, 45.7513, 21.2211));
             database.insertAttraction(new Attraction(3, "Muzeul Banat", AttractionType.MUZEU, "muzeu",
                     R.drawable.parc, false, 45.7513, 21.2211));
+            database.insertAttraction(new Attraction(4, "SmartFit Studio 3", AttractionType.SALA_FITNESS, "CEA MAI TARE SALA DIN ORAS",
+                    R.drawable.harta, false, 45.7513, 21.2211));
 
         } catch (DBException ex) {
 
@@ -221,13 +219,15 @@ public class MainActivity extends AppCompatActivity
             startActivity(top10);
         }
         else if (id == R.id.nav_fitness) {
-            Intent top10 = new Intent(MainActivity.this, DetailFromMenu.class);
-            startActivity(top10);
+            Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
+            fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.SALA_FITNESS);
+            startActivity(fitnessActivity);
         }
         else if(id == R.id.istoric){
             Intent historyIntent = new Intent(MainActivity.this, HistoryActivity.class);
             startActivity(historyIntent);
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
