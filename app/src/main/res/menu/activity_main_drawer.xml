@@ -3,51 +3,51 @@
         <item
             android:id="@+id/istoric"
             android:icon="@drawable/history2"
-            android:title="Scurt Istoric Timisoara" />
+            android:title="@string/history" />
         <item
             android:id="@+id/obiective_apropiate"
             android:icon="@drawable/obiective"
-            android:title="Ce pot sa vizitez in zona" />
+            android:title="@string/nearby_attractions" />
         <item
             android:id="@+id/top10"
             android:icon="@drawable/top10"
-            android:title="Top 10 obiective" />
+            android:title="@string/top10_attractions" />
 
-    <item android:title="Sport">
+    <item android:title="@string/sports_menu">
         <menu>
             <item
                 android:id="@+id/nav_bazine"
                 android:icon="@drawable/innot"
-                android:title="Bazine de innot" />
+                android:title="@string/swimming_pools" />
             <item
                 android:id="@+id/nav_fitness"
                 android:icon="@drawable/fitness"
-                android:title="Sali de fitness" />
+                android:title="@string/fitness_centers_menu" />
             <item
                 android:id="@+id/nav_tenis"
                 android:icon="@drawable/tennis"
-                android:title="Teren de tenis" />
+                android:title="@string/tennis_court_menu" />
             <item
                 android:id="@+id/nav_squash"
                 android:icon="@drawable/squash"
-                android:title="Squash" />
+                android:title="@string/squash_menu" />
 
         </menu>
     </item>
-    <item android:title="Utile">
+    <item android:title="@string/useful_info_main">
         <menu>
             <item
                 android:id="@+id/nav_taxi"
                 android:icon="@drawable/taxi"
-                android:title="Taxi" />
+                android:title="@string/taxi_menu" />
             <item
                 android:id="@+id/nav_inchirieri"
                 android:icon="@drawable/inchirieri"
-                android:title="Inchirieri auto" />
+                android:title="@string/rent_cars_menu" />
             <item
                 android:id="@+id/nav_bicicleta"
                 android:icon="@drawable/bicicleta"
-                android:title="Statii biciclete" />
+                android:title="@string/bike_stations_menu" />
         </menu>
     </item>
 </menu>

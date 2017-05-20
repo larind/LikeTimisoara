@@ -1,17 +1,91 @@
 <resources>
     <string name="app_name">Like Timisoara</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="title_activity_main">MainActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="gps_network_not_enabled">Locatia nu este activata</string>
-    <string name="open_location_settings">Activati locatia</string>
+    <string name="gps_network_not_enabled">Location is not active</string>
+    <string name="open_location_settings" translatable="false">Activate location</string>
     <string name="Cancel">Cancel</string>
     <string name="title_activity_nav_menu_items">Like Timisoara</string>
     <string name="section_format">%1$s</string>
     <string name="title_activity_detail_from_menu">Like Timisoara</string>
-    <string name="title_activity_sports">SportsActivity</string>
+    <string name="title_activity_sports">Like Timisoara</string>
+    <string name="tennis_court_menu">Tennis Court</string>
+    <string name="history">History of Timisoara</string>
+    <string name="nearby_attractions">Nearby attractions</string>
+    <string name="top10_attractions">Top 10 attractions</string>
+    <string name="swimming_pools_menu">Swimming pools</string>
+    <string name="fitness_centers_menu">Fitness Centers</string>
+    <string name="squash_menu">Squash</string>
+    <string name="sports_menu">Sports</string>
+    <string name="swimming_pools">Swimming pools</string>
+    <string name="taxi_menu">Taxi</string>
+    <string name="useful_info_main">Useful infos</string>
+    <string name="rent_cars_menu">Rent a car</string>
+    <string name="bike_stations_menu">Bike stations</string>
+    <string name="museum_card">Museums</string>
+    <string name="squares_card">Squares</string>
+    <string name="parks_card">Parks</string>
+    <string name="church_card">Churches and Cathedrals</string>
+    <string name="restaurants_card">Restaurants</string>
+    <string name="cafes_card">Cafés and Bars</string>
+    <string name="clubs_card">Clubs and Pubs</string>
+    <string name="hotels_card">Hotels</string>
+    <string name="hostels_cards">Hostels</string>
+    <string name="guest_house_card">Guest houses</string>
+    <string name="central_park_name">Central Park</string>
+    <string name="botanical_park_name">Botanical Park</string>
+    <string name="justice_park_name">The Park of Justice</string>
+    <string name="lidia_park_name">Lidia Park</string>
+    <string name="roses_park_name">The Roses Park</string>
+    <string name="carmen_sylva_park_name">Carmen Sylva Park</string>
+    <string name="cathedral_park_name">Cathedral Park</string>
+    <string name="civic_park_name">The Civic Park</string>
+    <string name="childrens_park_name">The Children\'s Park</string>
+    <string name="ion_creanga_park_name">The Children\'s Ion Creanga Park</string>
+    <string name="clabucet_park_name">Clabucet Park</string>
+    <string name="regina_maria_park_name">Regina Maria Park</string>
+    <string name="bucovina_park_name">Bucovina Park</string>
+    <string name="banat_museum_name">Banat Museum</string>
+    <string name="banat_village_museum_name">Banat Village Museum</string>
+    <string name="art_museum_name">Art Museum</string>
+    <string name="communist_museum_name">Museum of the communist consumer</string>
+    <string name="memorial_revolution_name">Asociation of  Revolution Memorial 16-22 December 1989 </string>
+    <string name="traian_square_name">Traian Square</string>
+    <string name="st_gheorghe_square_name">St. Gheorghe Square</string>
+    <string name="liberty_square_name">Liberty Square</string>
+    <string name="victory_square_name">Victory Square</string>
+    <string name="union_square_name">Union Square</string>
+    <string name="ortodox_cathedral_name">Timisoara Orthodox Cathedral</string>
+    <string name="assumption_church_name">Assumption of the Virgin Mary Church</string>
+    <string name="catherine_church_name">Saint Catherine Church</string>
+    <string name="elim_church_name">Elim Church</string>
+    <string name="birth_mary_name">The birt of Mary the Virgin Church</string>
+    <string name="millenium_cathedral_name">Millenium Cathedral</string>
+    <string name="merlot_restaurant_name">Merlot Restaurant</string>
+    <string name="sabres_restaurant_name">Sabres Restaurant</string>
+    <string name="grill_to_chill_name">Grill to chill</string>
+    <string name="caruso_restaurant_name">Caruso Restaurant</string>
+    <string name="amphora_enoteca_restaurant_name">Amphora Enoteca-Restaurant</string>
+    <string name="belvedere_restaurant_name">Belvedere Restaurant</string>
+    <string name="enoteca_restaurant_name">Enoteca de Savoya Restaurant</string>
+    <string name="mercy_restaurant_name">Mercy Restaurant</string>
+    <string name="ristorante_al_duomo_name">Ristorante Al Duomo </string>
+    <string name="timsoreana_restaurant_name">Timisoareana Restaurant</string>
+    <string name="chinese_restaurant_name">The great Chinese Restaurant</string>
+    <string name="riviere_restaurant_name">Rivière Brasserie</string>
+    <string name="banat_garden_name">Banat Garden</string>
+
+
+
+
+
+    
+    <string name="info_central_park">The "Anton Scudier" Central Park is one of the oldest parks in Timisoara, founded in 1880 by the general Anton von Scudier.
+        In the park there are several monuments of some personalities and the Monument of the Romanian Soldier.
+        The park is equipped with fountains, benches and chess tables.</string>
+
+
 </resources>

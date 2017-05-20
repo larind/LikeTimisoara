@@ -5,20 +5,20 @@ package com.example.larisa.liketimisoara;
  */
 
 public class DataModel {
-    String name;
+    int nameId;
     int id_;
     int image;
     AttractionType type;
 
-    public DataModel(String name, int id_, int image, AttractionType type) {
-        this.name = name;
+    public DataModel(int nameId, int id_, int image, AttractionType type) {
+        this.nameId = nameId;
         this.id_ = id_;
         this.image = image;
         this.type = type;
     }
 
-    public String getName() {
-        return name;
+    public int getName() {
+        return nameId;
     }
 
     public int getImage() {

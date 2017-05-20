@@ -98,7 +98,21 @@ public class MainActivity extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close) {
+
+            @Override
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+                invalidateOptionsMenu();
+            }
+
+            @Override
+            public void onDrawerClosed(View drawerView) {
+                super.onDrawerClosed(drawerView);
+                invalidateOptionsMenu();
+            }
+        };
+
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
@@ -160,7 +174,7 @@ public class MainActivity extends AppCompatActivity
 
         try {
 
-            database.insertAttraction(new Attraction(0, "Parcul Central",AttractionType.PARC, "Parcul Central „Anton Scudier” este unul dintre cele mai vechi parcuri din Timișoara, înființat în 1880 din dispoziția generalului Anton von Scudier. În parc se află mai multe monumente ale unor personalități și Monumentul Ostașului Român. Parcul este amenajat cu fântâni, bănci și mese de șah.",
+            database.insertAttraction(new Attraction(0, "Parcul Central",AttractionType.PARC, getString(R.string.info_central_park),
                     R.drawable.parculcentral, true, 21.2211, 45.7513));
             database.insertAttraction(new Attraction(1, "Parcul Botanic", AttractionType.PARC, "parc",
                     R.drawable.parc, true, 21.2253, 45.7602));
