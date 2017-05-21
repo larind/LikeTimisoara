@@ -12,16 +12,146 @@
     <string name="section_format">%1$s</string>
     <string name="title_activity_detail_from_menu">Like Timisoara</string>
     <string name="title_activity_sports">Like Timisoara</string>
+    
     <string name="tennis_court_menu">Tennis Court</string>
+    <string name="club_tivoli_name">Tennis Club Tivoli</string>
+    <string name="club_tivoli_info">Aleea Ghirodei no. 36, Timisoara
+                Schedule: Monday-Sunday: 8 - 22
+                Details and reservations by phone:
+                0040755-092.021
+                0040256-207.436</string>
+    <string name="club_millenium_name">Tennis Club Millenium</string>
+    <string name="club_millenium_info">Calea Dorobanti No. 94, Timisoara.
+                    Schedule: Monday-Sunday: 00 - 24
+                    Reservations : 0040 (256) 287575,
+                                   0040 (256) 287576,
+                                   0040 (788) 379637</string>
+    <string name="club_helios_name">Helios Sport Club</string>
+    <string name="club_helios_info">
+                Iosif Bulbuca 21
+                Schedule: Monday-Sunday: 08 - 18
+                Email: office@helios-sport.ro
+                Reservations : 0040256-46-38-18,
+                               0040743-96-94-86 </string>
+    <string name="berlin_sport_name">Berlin Sport</string>
+    <string name="berlin_sport_info">Str. Berlin, nr. 1, Dumbravita(outdoor)
+                    Schedule: Monday-Sunday: 08 - 24
+                    Email: office@berlinsport.ro
+                    Reservations : 0040722.534.060</string>
+    <string name="banu_sport_name">Banu Sport</string>
+    <string name="banu_sport_info"> Str. FC Ripensiei, nr.33
+                                    Schedule: Monday-Sunday: 08 - 24
+                                    Email: contact@banusport.ro
+                                    Reservations: 0040256220642;
+                                                  0040720440720</string>
     <string name="history">History of Timisoara</string>
     <string name="nearby_attractions">Nearby attractions</string>
     <string name="top10_attractions">Top 10 attractions</string>
     <string name="swimming_pools_menu">Swimming pools</string>
+    <string name="arena_pool_name">Arena Aqua Sport</string>
+    <string name="arena_pool_info">Dorobantilor, no. 92
+                    Schedule: Monday-Friday: 07 - 23
+                              Saturday-Sunday: 09 - 22
+                    Tel: 0040256213103</string>
+    <string name="ice_dyp_name">Ice Dyp - Resort &amp; Spa</string>
+    <string name="ice_dyp_info">Lugojului, no.37
+                    Shedule: Monday-Sunday: 07 - 23
+                    Telefon: 0040256221341,
+                             0040256221343
+                </string>
+    <string name="bega_complex_name">Bega sports Complex</string>
+    <string name="bega_complex_info">Libelulei
+                            Schedule: Monday-Friday: 08 - 22
+                            Tel: 0040256444963</string>
     <string name="fitness_centers_menu">Fitness Centers</string>
+    <string name="extreme_fitness_name">Extreme Fitness</string>
+    <string name="extreme_fitness_info">Str. Mures, no. 132
+                                    Schedule: Monday-Friday: 07 - 24
+                                              Saturday: 09 - 21
+                                              Sunday: 10 - 20
+                                    Tel:  0040730830290</string>
+    <string name="friends_arena_name">Friend\'s Arena</string>
+    <string name="friends_arena_info">Str. Lacului, no.1
+                                    Schedule: Monday-Friday: 07 - 24
+                                              Saturday-Sunday: 09 - 22
+                                    Tel: 00400256224645</string>
+    <string name="iguana_fitness_name">Iguana Fitness</string>
+    <string name="iguana_fitness_info">Str. Simion Bărnutiu, no.49
+                                    Schedule: Monday-Saturday: 08 - 23
+                                              Sunday: 12 - 16
+                                    Tel: 0040256494144</string>
+    <string name="stil_fitness_name">Stil Fitness Club</string>
+    <string name="stil_fitness_info">Str. Martir Caceu Sisters
+                                    Schedule: Monday-Friday: 08 - 24
+                                              Saturday: 09 - 22
+                                              Sunday: 10 - 14
+                                    Tel: 0040256489830</string>
+    <string name="body_time_name">Body Time</string>
+    <string name="body_time_info">Str. Sever Bocu
+                                    Schedule: Monday-Saturday: 09 - 21
+                                    Tel: 0040723440463</string>
+    <string name="smart_fit1_name">Smartfit Studio 1</string>
+    <string name="smart_fit1_info">Bulevardul Cetatii, no.97
+                                    Schedule: Monday-Saturday: 07 - 24
+                                              Sunday: 10 - 16
+                                    Tel: 0040356453124</string>
+    <string name="smart_fit2_name">Smartfit Studio 2</string>
+    <string name="smart_fit2_info">Buziasului no.12,
+                                    Schedule: Monday-Saturday: 06:30 - 24
+                                              Sunday: 10 - 22
+                                    Tel: 0040741332000
+                                    </string>
+    <string name="smart_fit3_name">Smartfit Studio 3</string>
+    <string name="smart_fit3_info">Sagului no.100 ,
+                                    Schedule: Monday-Saturday: 06:30 - 24
+                                              Sunday: 10 - 22
+                                    Tel: 0040741332001</string>
+    <string name="continental_fitness_name">Continental Fitness-Spa</string>
+    <string name="continental_fitness_info">1989 Revolution Boulevard
+                                    Schedule: Monday-Sunday: 07 - 23
+                                    Tel: 0040256494144</string>
+    <string name="world_class_name">World Class Fitness Academy</string>
+    <string name="world_class_info"> Str. Aristide Demetriade No. 1, 2nd floor
+                   Schedule: Sunday-Friday: 07 - 21:30
+                             Saturday-Sunday: 07:30 – 21:30
+                    Tel: 0040356100671</string>
+    <string name="banu_fitness_name">Banu Sport</string>
+    <string name="banu_fitness_info"> Aleea F.C. Ripensia, no. 33
+                                    Schedule: Monday-Sunday: 07 - 24
+                                    Tel: 0040256220642</string>
+    <string name="constantin_jude_fitness_name">Constantin Jude</string>
+    <string name="constantin_jude_fitness_info"> Aleea F.C. Ripensia
+                                    Schedule: Monday-Sunday: 08 - 23
+                                    Tel: 0040256204286,
+                                         0040256204649</string>
+    <string name="beauty_fitness_name">Beauty Center</string>
+    <string name="beauty_fitness_info">  Str. Iancu Flondor
+                                    Schedule: Monday-Friday: 07 - 22
+                                              Saturday: 10 - 20
+                                              Sunday: 11 - 17
+                                    Tel: 0040256242279</string>
     <string name="squash_menu">Squash</string>
+    <string name="squash_sport_name">Squash Sport Arena</string>
+    <string name="squash_sport_info">Torontalului, no.61
+                                    Schedule: Monday-Sunday: 08 - 24
+                                    Tel: 0040729271886</string>
+    <string name="the_squashers_name">The Squashers</string>
+    <string name="the_squashers_info">Aradului, no.48
+                                    Schedule: Monday-Saturday: 08 - 23
+                                    Tel: 0040770681288</string>
+    <string name="helios_squash_name">Helios Sport Club</string>
+    <string name="helios_squash_info">Iosif Bulbuca 21
+                Schedule: Monday-Sunday: 08 - 18
+                Email: office@helios-sport.ro
+                Tel : 0040256463818</string>
+    <string name="squash_club_name">Squash Club</string>
+    <string name="squash_club_info"> Str. Johann Heinrich Pestalozzi, no.20
+                Schedule: Monday-Sunday: 08 - 24
+                Tel : 0040721868477</string>
     <string name="sports_menu">Sports</string>
     <string name="swimming_pools">Swimming pools</string>
     <string name="taxi_menu">Taxi</string>
+    
     <string name="useful_info_main">Useful infos</string>
     <string name="rent_cars_menu">Rent a car</string>
     <string name="bike_stations_menu">Bike stations</string>
@@ -54,16 +184,34 @@
     <string name="communist_museum_name">Museum of the communist consumer</string>
     <string name="memorial_revolution_name">Asociation of  Revolution Memorial 16-22 December 1989 </string>
     <string name="traian_square_name">Traian Square</string>
+    <string name="traian_square_info">Surrounded by historic buildings, in the center of Fabric district, Traian Square has also been called the Square of Complaint or Kossuth tér and Hauptplatz.
+        It was designed by military engineers in 1740, being considered a smaller replica of the Union Square, hosting the daily market and weekly fairs.
+        It has been and is still being used as an event square.</string>
     <string name="st_gheorghe_square_name">St. Gheorghe Square</string>
+    <string name="st_gheorghe_square_info">It is one of the oldest squares in Timisoara and was named after the church worn by St. George, which was transformed into a mosque during the Ottoman occupation.
+On the southern side is the Klapka house, where Georg Klapka, the son of the famous mayor Josef Klapka, was born, who founded the first public lending library in Timisoara and the first in the empire.
+In St. George's Square was launched the first tram on the territory of Romania in July 1869, a premiere for Timisoara.</string>
     <string name="liberty_square_name">Liberty Square</string>
+    <string name="liberty_square_info">Parade Square "-" Parade Platz "," Prince Eugen Square "-" Jenö herceg tér "or" Freedom Square "-" Freiheitsplatz ", a name acquired during the Revolution of 1848-1849, is undoubtedly the oldest square of Timisoara.
+        It is the nucleus from which Timisoara evolved, the first space where people settled and lived continuously on the hearth of the present city.
+        Here was also the "Baia Mare", the largest public bath in the city, recently erected by archaeologists, but which is now covered with sand for preservation.
+        Liberty shelters some of the oldest buildings in Timisoara: the Garrison Command, the former Chancellery of War - the eastern wing of the Old Town Hall, the Old Town Hall and the Military Casino.</string>
     <string name="victory_square_name">Victory Square</string>
+    <string name="victory_square_info">Located in the heart of Timisoara, Victory Square, the newest square in the city, has a special significance for all Romanians, being the place where the Revolutionaries of Timisoara were gathered and where Timisoara was proclaimed on December 20, 1989, the first free city in Romania.
+       The Opera Square, as it was said before the Revolution, was designed in 1870, in the hope that the decision to cancel the military fortress would be obtained.
+        It was the main boulevard of the city, from the opera and cathedral to the boulevards called "Corso" for the right side, the place of the high society walk, full of luxury shops and restaurants, and "Surogat" for the left, this being a promenade For young people and workers, but also for soldiers, who had to prove that they are on leave to walk.</string>
     <string name="union_square_name">Union Square</string>
+    <string name="union_square_info">Union Square is considered to be the most beautiful market in Timisoara. It hosts some of the most valuable monuments of Timisoara: Baroque Palace, Catholic Cathedral, Serbian Vicarate, Monument of the Holy Trinity.
+                Located in the old town, Unirii Square is one of the oldest, not just the most beautiful. It was named in honor of the Romanian troops that entered Timisoara on 3 August 1919 and established the Romanian administration, thus finalizing the union of Banat with Romania.
+                It is also called the "Dome Square" because it hosts the Catholic Dome, built in 1736. It was also called "Hauptplatz", which means the Main Market. For three centuries, Union Square was the site of religious events, military parades, and other prestigious political and cultural events.
+                It looks as it is today from 1988-1989, the one who "drew it" being the architect Şerban Sturdza.</string>
     <string name="ortodox_cathedral_name">Timisoara Orthodox Cathedral</string>
     <string name="assumption_church_name">Assumption of the Virgin Mary Church</string>
     <string name="catherine_church_name">Saint Catherine Church</string>
     <string name="elim_church_name">Elim Church</string>
     <string name="birth_mary_name">The birt of Mary the Virgin Church</string>
     <string name="millenium_cathedral_name">Millenium Cathedral</string>
+    <string name="roman_catholic_catedral_name"> Roman Catholic Cathedral of Saint George</string>
     <string name="merlot_restaurant_name">Merlot Restaurant</string>
     <string name="sabres_restaurant_name">Sabres Restaurant</string>
     <string name="grill_to_chill_name">Grill to chill</string>
