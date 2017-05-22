@@ -149,12 +149,72 @@
                 Schedule: Monday-Sunday: 08 - 24
                 Tel : 0040721868477</string>
     <string name="sports_menu">Sports</string>
-    <string name="swimming_pools">Swimming pools</string>
     <string name="taxi_menu">Taxi</string>
-    
+    <string name="tudo_taxi_name">Tudo Taxi</string>
+    <string name="tudo_taxi_info">Price: 1.49 LEI/KM
+                             Tel: 00400256945</string>
+    <string name="pro_taxi_name">Pro Taxi</string>
+    <string name="pro_taxi_info">Price: 1.49 LEI/KM
+                             Tel: 0040256942</string>
+    <string name="radio_taxi_name">Radio Taxi</string>
+    <string name="radio_taxi_info">Price: 1.49 LEI/KM
+                             Tel: 0040256940</string>
+    <string name="taxi_timisoara_name">Taxi</string>
+    <string name="taxi_timisoara_info">Price: 1.49 LEI/KM
+                             Tel: 0040256942</string>
+    <string name="grup_taxi_name">Taxi Grup</string>
+    <string name="grup_taxi_info">Price: 1.49 LEI/KM
+                             Tel: 0040256207207</string>
+    <string name="fan_taxi_name">Fan Taxi</string>
+    <string name="fan_taxi_info">Price: 2.19 LEI/KM
+                             Tel: 0040256944</string>
+    <string name="windy_taxi_name">Pro Taxi</string>
+    <string name="windy_taxi_info">Price: 1.1 LEI/KM
+                             Tel: 0040256933</string>
     <string name="useful_info_main">Useful infos</string>
     <string name="rent_cars_menu">Rent a car</string>
-    <string name="bike_stations_menu">Bike stations</string>
+    <string name="eleven_rent_name">Eleven 11 Rent a Car Timisoara</string>
+    <string name="eleven_rent_info">Adress:  Str. Burebista, no.3
+                                  Tel: 0040720436107</string>
+    <string name="deluxe_rent_name">Deluxe Rent a Car Timisoara</string>
+    <string name="deluxe_rent_info">Adress:  Str. Fedra, no.19
+                                  Tel: 0040723799649</string>
+    <string name="swiso_rent_name">Swiso Rent a Car Timisoara</string>
+    <string name="swiso_rent_info">Adress:  Blvd. Iuliu Maniu, no.37
+                                  Tel: 0040786541800</string>
+    <string name="nataly_rent_name">Nataly Rent a Car Timisoara</string>
+    <string name="nataly_rent_info">Adress:  Blvd. Take Ionescu, no.47
+                                  Tel: 0040751997030</string>
+    <string name="novum_rent_name">Novum Rent a Car Timisoara</string>
+    <string name="novum_rent_info">Adress:  Blvd. Ion Dragalina, no.3
+                                  Tel: 0040256499579</string>
+    <string name="marvomil_rent_name">Marvomil Auto Timisoara</string>
+    <string name="marvomil_rent_info">Adress:  Str. Sever Bocu, no.37
+                                  Tel: 0040785560550</string>
+    <string name="bike_stations_menu">Velo TM Bike stations</string>
+    <string name="velo_ferdinand_longitude">21.22369</string>
+    <string name="velo_ferdinand_latitude">45.75140</string>
+    <string name="velo_sagului_longitude">21.19121</string>
+    <string name="velo_sagului_latitude">45.71155</string>
+    <string name="velo_circumvalatiunii_longitude">21.21781</string>
+    <string name="velo_circumvalatiunii_latitude">45.75857</string>
+    <string name="velo_sagului70_longitude">21.20471</string>
+    <string name="velo_sagului70_latitude">45.72830</string>
+    <string name="velo_aradului89_longitude">21.22122</string>
+    <string name="velo_aradului89_latitude">45.77504</string>
+    <string name="velo_nikolas_longitude">21.22218</string>
+    <string name="velo_nikolas_latitude">45.75748</string>
+    <string name="velo_severbocu_longitude">21.22218</string>
+    <string name="velo_severbocu_latitude">45.75748</string>
+    <string name="velo_dacilor_longitude">21.24957</string>
+    <string name="velo_dacilor_latitude">45.75904</string>
+    <string name="velo_carturarilor_longitude">21.24306</string>
+    <string name="velo_carturarilor_latitude">45.74479</string>
+    <string name="velo_tudorvladimirescu_longitude">21.20994</string>
+    <string name="velo_tudorvladimirescu_latitude">45.74716</string>
+
+
+
     <string name="museum_card">Museums</string>
     <string name="squares_card">Squares</string>
     <string name="parks_card">Parks</string>
