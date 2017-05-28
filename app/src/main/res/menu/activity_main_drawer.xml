@@ -18,7 +18,7 @@
             <item
                 android:id="@+id/nav_bazine"
                 android:icon="@drawable/innot"
-                android:title="@string/swimming_pools" />
+                android:title="@string/swimming_pools_menu" />
             <item
                 android:id="@+id/nav_fitness"
                 android:icon="@drawable/fitness"

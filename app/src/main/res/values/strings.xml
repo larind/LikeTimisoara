@@ -216,33 +216,13 @@
 
 
     <string name="museum_card">Museums</string>
-    <string name="squares_card">Squares</string>
-    <string name="parks_card">Parks</string>
-    <string name="church_card">Churches and Cathedrals</string>
-    <string name="restaurants_card">Restaurants</string>
-    <string name="cafes_card">Cafés and Bars</string>
-    <string name="clubs_card">Clubs and Pubs</string>
-    <string name="hotels_card">Hotels</string>
-    <string name="hostels_cards">Hostels</string>
-    <string name="guest_house_card">Guest houses</string>
-    <string name="central_park_name">Central Park</string>
-    <string name="botanical_park_name">Botanical Park</string>
-    <string name="justice_park_name">The Park of Justice</string>
-    <string name="lidia_park_name">Lidia Park</string>
-    <string name="roses_park_name">The Roses Park</string>
-    <string name="carmen_sylva_park_name">Carmen Sylva Park</string>
-    <string name="cathedral_park_name">Cathedral Park</string>
-    <string name="civic_park_name">The Civic Park</string>
-    <string name="childrens_park_name">The Children\'s Park</string>
-    <string name="ion_creanga_park_name">The Children\'s Ion Creanga Park</string>
-    <string name="clabucet_park_name">Clabucet Park</string>
-    <string name="regina_maria_park_name">Regina Maria Park</string>
-    <string name="bucovina_park_name">Bucovina Park</string>
     <string name="banat_museum_name">Banat Museum</string>
     <string name="banat_village_museum_name">Banat Village Museum</string>
     <string name="art_museum_name">Art Museum</string>
     <string name="communist_museum_name">Museum of the communist consumer</string>
     <string name="memorial_revolution_name">Asociation of  Revolution Memorial 16-22 December 1989 </string>
+
+    <string name="squares_card">Squares</string>
     <string name="traian_square_name">Traian Square</string>
     <string name="traian_square_info">Surrounded by historic buildings, in the center of Fabric district, Traian Square has also been called the Square of Complaint or Kossuth tér and Hauptplatz.
         It was designed by military engineers in 1740, being considered a smaller replica of the Union Square, hosting the daily market and weekly fairs.
@@ -250,7 +230,7 @@
     <string name="st_gheorghe_square_name">St. Gheorghe Square</string>
     <string name="st_gheorghe_square_info">It is one of the oldest squares in Timisoara and was named after the church worn by St. George, which was transformed into a mosque during the Ottoman occupation.
 On the southern side is the Klapka house, where Georg Klapka, the son of the famous mayor Josef Klapka, was born, who founded the first public lending library in Timisoara and the first in the empire.
-In St. George's Square was launched the first tram on the territory of Romania in July 1869, a premiere for Timisoara.</string>
+In St. George\'s Square was launched the first tram on the territory of Romania in July 1869, a premiere for Timisoara.</string>
     <string name="liberty_square_name">Liberty Square</string>
     <string name="liberty_square_info">Parade Square "-" Parade Platz "," Prince Eugen Square "-" Jenö herceg tér "or" Freedom Square "-" Freiheitsplatz ", a name acquired during the Revolution of 1848-1849, is undoubtedly the oldest square of Timisoara.
         It is the nucleus from which Timisoara evolved, the first space where people settled and lived continuously on the hearth of the present city.
@@ -265,6 +245,41 @@ In St. George's Square was launched the first tram on the territory of Romania i
                 Located in the old town, Unirii Square is one of the oldest, not just the most beautiful. It was named in honor of the Romanian troops that entered Timisoara on 3 August 1919 and established the Romanian administration, thus finalizing the union of Banat with Romania.
                 It is also called the "Dome Square" because it hosts the Catholic Dome, built in 1736. It was also called "Hauptplatz", which means the Main Market. For three centuries, Union Square was the site of religious events, military parades, and other prestigious political and cultural events.
                 It looks as it is today from 1988-1989, the one who "drew it" being the architect Şerban Sturdza.</string>
+
+    <string name="parks_card">Parks</string>
+    <string name="central_park_name">Central Park</string>
+    <string name="info_central_park">The "Anton Scudier" Central Park is one of the oldest parks in Timisoara, founded in 1880 by the general Anton von Scudier.
+        In the park there are several monuments of some personalities and the Monument of the Romanian Soldier.
+        The park is equipped with fountains, benches and chess tables.</string>
+    <string name="botanical_park_name">Botanical Park</string>
+    <string name="botanical_park_info">It has an area of nearly 9 ha and is a beautiful dendrological park, which contains a wide variety of tree species.
+        In 1995, for the first time, it was declared a scientific reserve in order to protect the local and exotic flora, and Timişoara hopes to be able to declare a protected area one day</string>
+    <string name="justice_park_name">The Park of Justice</string>
+    <string name="justice_park_info">The Justice Park, formerly known as the People's Council Park, is located in the center of Timisoara. The name of the park comes from an old building project in the area of the Palace of Justice, abandoned project. In the middle of the park there is the monument of deportees in Bărăgan during 1951-1956.
+    The park was refurbished in 2015, the alleys were rebuilt and an irrigation system mounted. In the park you can find a wide variety of trees and shrubs as well as many flowers: snowflakes, hyacinths, daffodils. In the park is admitted to stay on the grass. </string>
+    <string name="lidia_park_name">Lidia Park</string>
+
+    <string name="roses_park_name">The Roses Park</string>
+    <string name="roses_park_info">The park was established in 1891, along with the Children's Park on the occasion of the Universal Exhibition (Industrial, Commercial and Agrarian), where floral arrangements were made by gardeners Wilhelm Mühle, Franz Niemetz and Beno Agatsy.
+        The flowers were admired by Franz Joseph, who visited the exhibition. Landscape landscaping of the park began in 1929 by landscape architects Árpád Mühle, the son of Wilhelm Mühle, and Mihai Demetrovich, the head of the horticulture service of that period.
+        The park was designed in English style, with alleys, canopies and rows of roses. During the interwar period the name of the park was Rosarium, and there were over 1200 varieties of roses labeled.Also during this period the theater was arranged in open air.
+        In 1944 the park was destroyed after the bombings. After the Second World War, the park was restored, with various outdoor performances taking place. Also in the park there is a sports base, arranged in winter as a skating rink, and in summer as a tennis court.
+        In 2012 the park was refurbished. The busts of Wilhelm Mühle (1844-1908), unveiled on 2 August 2013 and Árpád Mühle (1870-1930), unveiled on August 1, 2014, are located near the main entrance of Academician Alexander Borza.</string>
+    
+    <string name="carmen_sylva_park_name">Carmen Sylva Park</string>
+    <string name="cathedral_park_name">Cathedral Park</string>
+    <string name="civic_park_name">The Civic Park</string>
+    
+    <string name="childrens_park_name">The Children\'s Park</string>
+   <string name="childrens_park_info">A precursor of the park was in 1858. Part of Mihai Eminescu Park was finally in a children's park in 1951.
+    It was named the first "Pioneer Park" before the two-year organization. After the revolution in 1989 - Children's Park ("Children's Park"), it was named for the first time, eventually with the suffix "Ion Creanga".
+    Between 2006 and 2012 he underwent many modernization works. The reopening took place on June 1, 2012, the International Children's Day.
+    The park is divided into zones of 23 age groups. The enchanted forest, the giant land, the liliputani country, the Indian Land, the dark forest or Snow White and the seven dwarves are few. There are regular shows for children and dolls.
+    There is a popular carousel, outdoor chess, mountaineering and slide.</string>
+    
+    <string name="regina_maria_park_name">Regina Maria Park</string>
+
+    <string name="church_card">Churches and Cathedrals</string>
     <string name="ortodox_cathedral_name">Timisoara Orthodox Cathedral</string>
     <string name="assumption_church_name">Assumption of the Virgin Mary Church</string>
     <string name="catherine_church_name">Saint Catherine Church</string>
@@ -272,6 +287,8 @@ In St. George's Square was launched the first tram on the territory of Romania i
     <string name="birth_mary_name">The birt of Mary the Virgin Church</string>
     <string name="millenium_cathedral_name">Millenium Cathedral</string>
     <string name="roman_catholic_catedral_name"> Roman Catholic Cathedral of Saint George</string>
+
+    <string name="restaurants_card">Restaurants</string>
     <string name="merlot_restaurant_name">Merlot Restaurant</string>
     <string name="sabres_restaurant_name">Sabres Restaurant</string>
     <string name="grill_to_chill_name">Grill to chill</string>
@@ -286,14 +303,23 @@ In St. George's Square was launched the first tram on the territory of Romania i
     <string name="riviere_restaurant_name">Rivière Brasserie</string>
     <string name="banat_garden_name">Banat Garden</string>
 
+    <string name="cafes_card">Cafés and Bars</string>
+    <string name="clubs_card">Clubs and Pubs</string>
+    <string name="hotels_card">Hotels</string>
+    <string name="hostels_cards">Hostels</string>
+    <string name="guest_house_card">Guest houses</string>
+
+
+
+
+
+
 
 
 
 
     
-    <string name="info_central_park">The "Anton Scudier" Central Park is one of the oldest parks in Timisoara, founded in 1880 by the general Anton von Scudier.
-        In the park there are several monuments of some personalities and the Monument of the Romanian Soldier.
-        The park is equipped with fountains, benches and chess tables.</string>
+
 
 
 </resources>

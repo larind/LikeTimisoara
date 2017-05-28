@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Like Timisoara</string>
+    <string name="gps_network_not_enabled">Locatia nu este activata</string>
+    <string name="open_location_settings" translatable="false">Activati locatia</string>
+    <string name="Cancel">Cancel</string>
+    <string name="title_activity_nav_menu_items">Like Timisoara</string>
+    <string name="section_format">%1$s</string>
+    <string name="title_activity_detail_from_menu">Like Timisoara</string>
+    <string name="title_activity_sports">Like Timisoara</string>
+    <string name="history">Istoria Timisoarei</string>
+    <string name="nearby_attractions">Ce pot sa vizitez in zona</string>
+    <string name="top10_attractions">Top 10 atractii</string>
+    <string name="swimming_pools_menu">Bazine de inot</string>
 </resources>

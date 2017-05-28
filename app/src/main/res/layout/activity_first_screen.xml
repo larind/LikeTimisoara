@@ -16,15 +16,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/timisoara"
-        android:scaleType="centerCrop"
-        android:id="@+id/imageView2"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,4 +29,32 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="101dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/timisoara"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/en_flag"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/en"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/atractions_button"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="43dp" />
+
+    <ImageButton
+        android:id="@+id/ro_flag"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ro"
+        android:layout_alignTop="@+id/en_flag"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp" />
 </RelativeLayout>
