@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity
                     R.drawable.parc, true, 21.2253, 45.7602));
             database.insertAttraction(new Attraction(1, "Parcul Poporului", AttractionType.PARC, "parc",
                     R.drawable.parc, false, 21.2253, 45.7602));
-            database.insertAttraction(new Attraction(1, "Parcul Justitiei", AttractionType.PARC, "parc",
+            database.insertAttraction(new Attraction(1, "Parcul Justitiei" , AttractionType.PARC, "parc",
                     R.drawable.parc, false, 21.2253, 45.7602));
             database.insertAttraction(new Attraction(2, "Hotel Arta", AttractionType.HOTEL, "hotel",
                     R.drawable.parc, false, 45.7513, 21.2211));

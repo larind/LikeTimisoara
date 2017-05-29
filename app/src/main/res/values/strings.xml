@@ -6,7 +6,7 @@
 
     <string name="action_settings">Settings</string>
     <string name="gps_network_not_enabled">Location is not active</string>
-    <string name="open_location_settings" translatable="false">Activate location</string>
+    <string name="open_location_settings">Activate location</string>
     <string name="Cancel">Cancel</string>
     <string name="title_activity_nav_menu_items">Like Timisoara</string>
     <string name="section_format">%1$s</string>
@@ -217,10 +217,21 @@
 
     <string name="museum_card">Museums</string>
     <string name="banat_museum_name">Banat Museum</string>
+    <string name="banat_museum_info">The Museum of Banat is a museum in Timisoara, Romania, headquartered in Huniade Castle. It was founded in 1872 under the name "The Society for History and Archaeology". It hosts the largest collection of archaeological objects Banat.
+        The ground floor houses the Parța Neolithic Sanctuary, a unique monument in Europe.The museum includes departments for history, archaeology, ethnography and natural sciences.
+        The museum also has a laboratory for conservation and preservation of objects of cultural heritage and history.</string>
     <string name="banat_village_museum_name">Banat Village Museum</string>
+    <string name="banat_village_museum_info">In 1928, Ioachim Miloia, the director of the Museum of Banat (1928-1940), considers the idea of creating an open-air ethnographic museum.Banat Village Museum manages to make a thumbnail of Banat villages by building authentic wood, stone and clay houses made after the local model.
+        Tourists attracted by the Banat culture can find household items used in the past centuries, can admire the architecture of the houses.
+        These, though with 2 or 3 rooms, attract attention with guest rooms, known as "clean stove," big stove" or "good stove”, being the most beautiful furnished and decorated with precious fabrics - towels, rugs, tablecloths once called "masaie".</string>
     <string name="art_museum_name">Art Museum</string>
+    <string name="art_museum_info">The Museum is hosted by the Baroque Palace. The history of the art collection is directly intertwined with the beginnings of the Banat Museum, founded in 1872.
+         One of the main exhibitions is the collection of painter Corneliu Baba, with over 80 works signed by master from various periods his artistic creation. Timisoara/’s artistic trends of the 1960s to 1980s can be found in the Collection of Contemporary Art.</string>
     <string name="communist_museum_name">Museum of the communist consumer</string>
-    <string name="memorial_revolution_name">Asociation of  Revolution Memorial 16-22 December 1989 </string>
+    <string name="commmunist_museum_info">At the end of 1989, Timisoara became the first city freed from the Communist regime in Romania. Shortly after, many Romanians began throwing out items that were used in the household during the Communist era. It was out with the old, in with the new.
+        Museum of the Communist Consumer is a collection of items that Romanians could buy during the “golden age” (as it was called by communist propaganda) that showcases a way of life that was present in every household of Communist Romania. </string>
+    <string name="memorial_revolution_museum_name">Association of  Revolution Memorial 16-22 December 1989 </string>
+    <string name="memorial_revolution_museum_info">The Association "Memorial of the the Revolution of Timisoara 16-22 December 1989" was created in 1990 with the aim of honouring the memory of the victims of the Romanian Revolution. They created a Memorial in the Heroes Cemetery (Calea Lipovei) and subsequently a series of 12 commissioned monuments to the Martyrs of the Revolution which stand in parts of the city where people were killed during the uprising.</string>
 
     <string name="squares_card">Squares</string>
     <string name="traian_square_name">Traian Square</string>
@@ -255,53 +266,69 @@ In St. George\'s Square was launched the first tram on the territory of Romania 
     <string name="botanical_park_info">It has an area of nearly 9 ha and is a beautiful dendrological park, which contains a wide variety of tree species.
         In 1995, for the first time, it was declared a scientific reserve in order to protect the local and exotic flora, and Timişoara hopes to be able to declare a protected area one day</string>
     <string name="justice_park_name">The Park of Justice</string>
-    <string name="justice_park_info">The Justice Park, formerly known as the People's Council Park, is located in the center of Timisoara. The name of the park comes from an old building project in the area of the Palace of Justice, abandoned project. In the middle of the park there is the monument of deportees in Bărăgan during 1951-1956.
+    <string name="justice_park_info">The Justice Park, formerly known as the People\'s Council Park, is located in the center of Timisoara. The name of the park comes from an old building project in the area of the Palace of Justice, abandoned project. In the middle of the park there is the monument of deportees in Baragan during 1951-1956.
     The park was refurbished in 2015, the alleys were rebuilt and an irrigation system mounted. In the park you can find a wide variety of trees and shrubs as well as many flowers: snowflakes, hyacinths, daffodils. In the park is admitted to stay on the grass. </string>
-    <string name="lidia_park_name">Lidia Park</string>
-
     <string name="roses_park_name">The Roses Park</string>
-    <string name="roses_park_info">The park was established in 1891, along with the Children's Park on the occasion of the Universal Exhibition (Industrial, Commercial and Agrarian), where floral arrangements were made by gardeners Wilhelm Mühle, Franz Niemetz and Beno Agatsy.
+    <string name="roses_park_info">The park was established in 1891, along with the Children\'s Park on the occasion of the Universal Exhibition (Industrial, Commercial and Agrarian), where floral arrangements were made by gardeners Wilhelm Mühle, Franz Niemetz and Beno Agatsy.
         The flowers were admired by Franz Joseph, who visited the exhibition. Landscape landscaping of the park began in 1929 by landscape architects Árpád Mühle, the son of Wilhelm Mühle, and Mihai Demetrovich, the head of the horticulture service of that period.
         The park was designed in English style, with alleys, canopies and rows of roses. During the interwar period the name of the park was Rosarium, and there were over 1200 varieties of roses labeled.Also during this period the theater was arranged in open air.
         In 1944 the park was destroyed after the bombings. After the Second World War, the park was restored, with various outdoor performances taking place. Also in the park there is a sports base, arranged in winter as a skating rink, and in summer as a tennis court.
         In 2012 the park was refurbished. The busts of Wilhelm Mühle (1844-1908), unveiled on 2 August 2013 and Árpád Mühle (1870-1930), unveiled on August 1, 2014, are located near the main entrance of Academician Alexander Borza.</string>
-    
-    <string name="carmen_sylva_park_name">Carmen Sylva Park</string>
     <string name="cathedral_park_name">Cathedral Park</string>
+    <string name="cathedral_park_info">As it's name suggests, the park is close by to the Orthodox Cathedral from Timisoara. More precisely, it's boundaries are the Cathedral, Regele Ferdinand Boulevard, 16th of December 1989 Boulevard and the Bega Canal.</string>
     <string name="civic_park_name">The Civic Park</string>
-    
+    <string name="civic_park_info">The park has an area of 76,000 square meters. It's on the site, a care took place in the war in Transylvania. This was in 1960 the demolished war plan, a new city center in its place to build.
+        The plan was abandoned and opened Civic Park. Between 1968 and 1971, then the largest building in Timisoara, Continental Hotel, Flower Street The proclamation of Timisoara, a landmark city was here.</string>
     <string name="childrens_park_name">The Children\'s Park</string>
-   <string name="childrens_park_info">A precursor of the park was in 1858. Part of Mihai Eminescu Park was finally in a children's park in 1951.
-    It was named the first "Pioneer Park" before the two-year organization. After the revolution in 1989 - Children's Park ("Children's Park"), it was named for the first time, eventually with the suffix "Ion Creanga".
-    Between 2006 and 2012 he underwent many modernization works. The reopening took place on June 1, 2012, the International Children's Day.
+   <string name="childrens_park_info">A precursor of the park was in 1858. Part of Mihai Eminescu Park was finally in a Children\'s park in 1951.
+    It was named the first "Pioneer Park" before the two-year organization. After the revolution in 1989 - Children\'s Park ("Children\'s Park"), it was named for the first time, eventually with the suffix "Ion Creanga".
+    Between 2006 and 2012 he underwent many modernization works. The reopening took place on June 1, 2012, the International Children\'s Day.
     The park is divided into zones of 23 age groups. The enchanted forest, the giant land, the liliputani country, the Indian Land, the dark forest or Snow White and the seven dwarves are few. There are regular shows for children and dolls.
     There is a popular carousel, outdoor chess, mountaineering and slide.</string>
-    
-    <string name="regina_maria_park_name">Regina Maria Park</string>
 
     <string name="church_card">Churches and Cathedrals</string>
     <string name="ortodox_cathedral_name">Timisoara Orthodox Cathedral</string>
+    <string name="ortodox_cathedral_info"></string>
     <string name="assumption_church_name">Assumption of the Virgin Mary Church</string>
+    <string name="assumption_church_info"></string>
     <string name="catherine_church_name">Saint Catherine Church</string>
+    <string name="catherine_church_info"></string>
     <string name="elim_church_name">Elim Church</string>
+    <string name="elim_church_info"></string>
     <string name="birth_mary_name">The birt of Mary the Virgin Church</string>
+    <string name="birth_mary_info"></string>
     <string name="millenium_cathedral_name">Millenium Cathedral</string>
+    <string name="millenium_cathedral_info"></string>
     <string name="roman_catholic_catedral_name"> Roman Catholic Cathedral of Saint George</string>
+    <string name="roman_catholic_catedral_info"></string>
 
     <string name="restaurants_card">Restaurants</string>
     <string name="merlot_restaurant_name">Merlot Restaurant</string>
+    <string name="merlot_restaurant_info"></string>
     <string name="sabres_restaurant_name">Sabres Restaurant</string>
+    <string name="sabres_restaurant_info"></string>
     <string name="grill_to_chill_name">Grill to chill</string>
+    <string name="grill_to_chill_info"></string>
     <string name="caruso_restaurant_name">Caruso Restaurant</string>
+    <string name="caruso_restaurant_info"></string>
     <string name="amphora_enoteca_restaurant_name">Amphora Enoteca-Restaurant</string>
+    <string name="amphora_enoteca_restaurant_info"></string>
     <string name="belvedere_restaurant_name">Belvedere Restaurant</string>
+    <string name="belvedere_restaurant_info"></string>
     <string name="enoteca_restaurant_name">Enoteca de Savoya Restaurant</string>
+    <string name="enoteca_restaurant_info"></string>
     <string name="mercy_restaurant_name">Mercy Restaurant</string>
+    <string name="mercy_restaurant_info"></string>
     <string name="ristorante_al_duomo_name">Ristorante Al Duomo </string>
+    <string name="ristorante_al_duomo_info"></string>
     <string name="timsoreana_restaurant_name">Timisoareana Restaurant</string>
+    <string name="timisoareana_restaurant_info"></string>
     <string name="chinese_restaurant_name">The great Chinese Restaurant</string>
+    <string name="chinese_restaurant_info"></string>
     <string name="riviere_restaurant_name">Rivière Brasserie</string>
+    <string name="riviere_restaurant_info"></string>
     <string name="banat_garden_name">Banat Garden</string>
+    <string name="banat_garden_info"></string>
 
     <string name="cafes_card">Cafés and Bars</string>
     <string name="clubs_card">Clubs and Pubs</string>
