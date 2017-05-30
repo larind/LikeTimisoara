@@ -12,6 +12,8 @@
     <string name="section_format">%1$s</string>
     <string name="title_activity_detail_from_menu">Like Timisoara</string>
     <string name="title_activity_sports">Like Timisoara</string>
+    <string name="app_title">Timisoara European Capital of Culture in 2021</string>
+    <string name="atrractions_button">Attractions of Timisoara</string>
     
     <string name="tennis_court_menu">Tennis Court</string>
     <string name="club_tivoli_name">Tennis Club Tivoli</string>
@@ -275,9 +277,9 @@ In St. George\'s Square was launched the first tram on the territory of Romania 
         In 1944 the park was destroyed after the bombings. After the Second World War, the park was restored, with various outdoor performances taking place. Also in the park there is a sports base, arranged in winter as a skating rink, and in summer as a tennis court.
         In 2012 the park was refurbished. The busts of Wilhelm Mühle (1844-1908), unveiled on 2 August 2013 and Árpád Mühle (1870-1930), unveiled on August 1, 2014, are located near the main entrance of Academician Alexander Borza.</string>
     <string name="cathedral_park_name">Cathedral Park</string>
-    <string name="cathedral_park_info">As it's name suggests, the park is close by to the Orthodox Cathedral from Timisoara. More precisely, it's boundaries are the Cathedral, Regele Ferdinand Boulevard, 16th of December 1989 Boulevard and the Bega Canal.</string>
+    <string name="cathedral_park_info">As it\'s name suggests, the park is close by to the Orthodox Cathedral from Timisoara. More precisely, it\'s boundaries are the Cathedral, Regele Ferdinand Boulevard, 16th of December 1989 Boulevard and the Bega Canal.</string>
     <string name="civic_park_name">The Civic Park</string>
-    <string name="civic_park_info">The park has an area of 76,000 square meters. It's on the site, a care took place in the war in Transylvania. This was in 1960 the demolished war plan, a new city center in its place to build.
+    <string name="civic_park_info">The park has an area of 76,000 square meters. It\'s on the site, a care took place in the war in Transylvania. This was in 1960 the demolished war plan, a new city center in its place to build.
         The plan was abandoned and opened Civic Park. Between 1968 and 1971, then the largest building in Timisoara, Continental Hotel, Flower Street The proclamation of Timisoara, a landmark city was here.</string>
     <string name="childrens_park_name">The Children\'s Park</string>
    <string name="childrens_park_info">A precursor of the park was in 1858. Part of Mihai Eminescu Park was finally in a Children\'s park in 1951.
