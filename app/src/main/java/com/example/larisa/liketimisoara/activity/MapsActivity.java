@@ -89,8 +89,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     @NonNull
-    private MarkerOptions createMarker(double latitude, double longitude, String landmarkName) {
+    private MarkerOptions createMarker(double latitude, double longitude, int title) {
         LatLng landmarkPosition = new LatLng(latitude, longitude);
-        return new MarkerOptions().position(landmarkPosition).title(landmarkName);
+        String landmarkTitle = getTitle().toString();
+        return new MarkerOptions().position(landmarkPosition).title(landmarkTitle);
     }
 }

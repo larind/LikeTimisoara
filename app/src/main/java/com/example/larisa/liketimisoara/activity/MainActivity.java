@@ -174,21 +174,38 @@ public class MainActivity extends AppCompatActivity
 
         try {
 
-            database.insertAttraction(new Attraction(0, "Parcul Central",AttractionType.PARC, getString(R.string.info_central_park),
+         /*   database.insertAttraction(new Attraction(0, "Parcul Central",AttractionType.PARC, getString(R.string.info_central_park),
                     R.drawable.parculcentral, true, 21.2211, 45.7513));
             database.insertAttraction(new Attraction(1, "Parcul Botanic", AttractionType.PARC, "parc",
                     R.drawable.parc, true, 21.2253, 45.7602));
-            database.insertAttraction(new Attraction(1, "Parcul Poporului", AttractionType.PARC, "parc",
+            database.insertAttraction(new Attraction(2, "Parcul Poporului", AttractionType.PARC, "parc",
                     R.drawable.parc, false, 21.2253, 45.7602));
-            database.insertAttraction(new Attraction(1, "Parcul Justitiei" , AttractionType.PARC, "parc",
+            database.insertAttraction(new Attraction(3, "Parcul Justitiei" , AttractionType.PARC, "parc",
                     R.drawable.parc, false, 21.2253, 45.7602));
-            database.insertAttraction(new Attraction(2, "Hotel Arta", AttractionType.HOTEL, "hotel",
+            database.insertAttraction(new Attraction(4, "Hotel Arta", AttractionType.HOTEL, "hotel",
                     R.drawable.parc, false, 45.7513, 21.2211));
-            database.insertAttraction(new Attraction(3, "Muzeul Banat", AttractionType.MUZEU, "muzeu",
+            database.insertAttraction(new Attraction(5, "Muzeul Banat", AttractionType.MUZEU, "muzeu",
                     R.drawable.parc, false, 45.7513, 21.2211));
-            database.insertAttraction(new Attraction(4, "SmartFit Studio 3", AttractionType.SALA_FITNESS, "CEA MAI TARE SALA DIN ORAS",
-                    R.drawable.harta, false, 45.7513, 21.2211));
-
+            database.insertAttraction(new Attraction(6, "SmartFit Studio 3", AttractionType.SALA_FITNESS, "CEA MAI TARE SALA DIN ORAS",
+                    R.drawable.harta, false, 45.7513, 21.2211));      */
+            database.insertAttraction(new Attraction(7, R.string.extreme_fitness_name, AttractionType.SALA_FITNESS, R.string.extreme_fitness_info,
+                    R.drawable.extreme, false, 45.728675, 21.2386))  ;
+            database.insertAttraction(new Attraction(7, R.string.friends_arena_name, AttractionType.SALA_FITNESS, R.string.friends_arena_info,
+                    R.drawable.friends, false, 45.7301899, 21.2013))  ;
+            database.insertAttraction(new Attraction(7, R.string.iguana_fitness_name, AttractionType.SALA_FITNESS, R.string.iguana_fitness_info,
+                    R.drawable.iguana, false, 45.7639368, 21.2561))  ;
+            database.insertAttraction(new Attraction(7, R.string.stil_fitness_name, AttractionType.SALA_FITNESS, R.string.stil_fitness_info,
+                    R.drawable.stil, false, 45.7434774, 21.2441))  ;
+            database.insertAttraction(new Attraction(7, R.string.body_time_name, AttractionType.SALA_FITNESS, R.string.body_time_info,
+                    R.drawable.bodytime, false, 45.7739105, 21.2313))  ;
+            database.insertAttraction(new Attraction(7, R.string.smart_fit3_name, AttractionType.SALA_FITNESS, R.string.smart_fit3_info,
+                    R.drawable.smartfit, false, 45.724749, 21.1998))  ;
+            database.insertAttraction(new Attraction(7, R.string.continental_fitness_name, AttractionType.SALA_FITNESS, R.string.continental_fitness_info,
+                    R.drawable.continental, false, 45.7553, 21.2324))  ;
+            database.insertAttraction(new Attraction(7, R.string.world_class_name, AttractionType.SALA_FITNESS, R.string.world_class_info,
+                    R.drawable.worldclass, false, 45.7627697, 21.2297))  ;
+            database.insertAttraction(new Attraction(7, R.string.banu_fitness_name, AttractionType.SALA_FITNESS, R.string.banu_fitness_info,
+                    R.drawable.banusport, false, 45.74354, 21.242))  ;
         } catch (DBException ex) {
 
         }

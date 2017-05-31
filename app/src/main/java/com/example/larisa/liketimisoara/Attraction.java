@@ -9,9 +9,9 @@ import java.io.Serializable;
 public class Attraction implements Serializable {
 
     private int id;
-    private String name;
+    private int name;
     private AttractionType type;
-    private String info;
+    private int info;
     private int imageResourceId;
     private boolean isTop10;
     private double longitude;
@@ -19,13 +19,13 @@ public class Attraction implements Serializable {
 
     public Attraction(){}
 
-    public Attraction(int id, String name, AttractionType type) {
+    public Attraction(int id, int name, AttractionType type) {
         this.id= id;
         this.name = name;
         this.type = type;
     }
 
-    public Attraction(int id, String name, AttractionType type, String info,
+    public Attraction(int id, int name, AttractionType type, int info,
                       int imageResourceId, boolean isTop10, double longitude,
                       double latitude) {
 
@@ -45,11 +45,11 @@ public class Attraction implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
+    public int getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(int name) {
         this.name = name;
     }
 
@@ -61,11 +61,11 @@ public class Attraction implements Serializable {
         this.type = type;
     }
 
-    public String getInfo() {
+    public int getInfo() {
         return info;
     }
 
-    public void setInfo(String info) {
+    public void setInfo(int info) {
         this.info = info;
     }
 

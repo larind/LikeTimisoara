@@ -11,7 +11,60 @@
     <string name="app_title">Timisoara Capitala Culturala Europeana 2021</string>
     <string name="atrractions_button">Atractii Timisoara</string>
     <string name="history">Istoria Timisoarei</string>
+    <string name="history_name">Istoria Timisoarei</string>
+    <string name="history_content">Municipiul Timisoara este actuala resedinsta a judetului Timi, fiind situat în partea de Vest a țării, în Câmpia Timișului, câmpie scăldată de două râuri importante: Bega și Timiș. Pe malurile acestor râuri s-a dezvoltat o cetate fortificată - Castrum Temesiense – cetate cunoscută din 1212.
+Cetatea s-a dezvoltat de-a lungul timpului, ajungând ca între anii 1315-1323 să fie reședința regală a regelui Carol Robert de Anjou.
+Timișoara este atestată prima dată ca Civitas (oraș) în anul 1342, iar în secolul al XVI-lea devine un important punct de rezistență împotriva Imperiului Otoman, de aici pornind cruciații în războiul creștin, ce s-a terminat cu înfrângerea de la Nicopole. Tot de aici pornește și campania militară condusă de Iancu de Hunedoara.
+În timpul războiului țărănesc (1382-1390, război împotriva exploatării feudale) condus de Gheorghe Doja, cetatea Timișoara a fost asediată și au fost ocupate mai multe puncte fortificate. Aceasta a fost secole de-a rândul un bastion al civilizației creștine, dar în 1552 cetatea este asediată și se predă otomanilor, urmând să fie eliberată de sub dominația turcească în 1716 de către prințul Eugen de Savoya. Astfel, ajunge sub dominație habsburgică.
+Sub Imperiul Habsburgic, Timișoara este condusă de o administrație militară, avându-l ca guvernator pe generalul de cavalerie Contele Mercy. Atunci Timișoara a început un proces de înflorire nemaiîntâlnit: au început transformări profunde în organizarea satelor și a orașelor, s-au construit școli, spitale, biserici și monumente, iar Cazarma Transilvania, cu o lungime de 483 de metri, era cea mai lungă clădire din Europa acelor timpuri.
+Tot atunci a început colonizarea satelor și orașelor din Banat cu șvabi, slovaci și italieni, populații care s-au suprapus peste populația deja existentă compusă din români, sârbi, unguri,greci și evrei.
+Astfel, Banatul devine un tărâm al toleranței, înțelegerii inter-etnice, respect și colaborare între oameni, indiferent de naționalitate sau religie</string>
     <string name="nearby_attractions">Ce pot sa vizitez in zona</string>
     <string name="top10_attractions">Top 10 atractii</string>
     <string name="swimming_pools_menu">Bazine de inot</string>
+    <string name="fitness_centers_menu">Sali de fitness</string>
+    <string name="extreme_fitness_name">Extreme Fitness</string>
+    <string name="extreme_fitness_info">Str. Mures, nr. 132
+                                    Orar: Luni-Vineri: 07 - 24
+                                              Sambata: 09 - 21
+                                              Duminica: 10 - 20
+                                    Tel:  0040730830290</string>
+    <string name="friends_arena_name">Friend\'s Arena</string>
+    <string name="friends_arena_info">Str. Lacului, nr.1
+                                    Orar: Luni-Vineri: 07 - 24
+                                              Sambata-Duminica: 09 - 22
+                                    Tel: 00400256224645</string>
+    <string name="iguana_fitness_name">Iguana Fitness</string>
+    <string name="iguana_fitness_info">Str. Simion Bărnutiu, nr.49
+                                    Orar: Luni-Sambata: 08 - 23
+                                              Duminica: 12 - 16
+                                    Tel: 0040256494144</string>
+    <string name="stil_fitness_name">Stil Fitness Club</string>
+    <string name="stil_fitness_info">Str. Surorile Martir Caceu
+                                    Orar: Luni-Vineri: 08 - 24
+                                              Sambata: 09 - 22
+                                              Duminica: 10 - 14
+                                    Tel: 0040256489830</string>
+    <string name="body_time_name">Body Time</string>
+    <string name="body_time_info">Str. Sever Bocu
+                                    Orar: Luni-Sambata: 09 - 21
+                                    Tel: 0040723440463</string>
+    <string name="smart_fit3_name">Smartfit Studio 3</string>
+    <string name="smart_fit3_info">Sagului nr.100 ,
+                                    Orar: Luni-Sambata: 06:30 - 24
+                                              Duminica: 10 - 22
+                                    Tel: 0040741332001</string>
+    <string name="continental_fitness_name">Continental Fitness-Spa</string>
+    <string name="continental_fitness_info">Bulevardul Revolutiei din 1989
+                                    Orar: Luni-Duminica: 07 - 23
+                                    Tel: 0040256494144</string>
+    <string name="world_class_name">World Class Fitness Academy</string>
+    <string name="world_class_info"> Str. Aristide Demetriade Nr. 1, et.2
+                   Orar: Luni-Vineri: 07 - 21:30
+                             Sambata-Duminica: 07:30 – 21:30
+                    Tel: 0040356100671</string>
+    <string name="banu_fitness_name">Banu Sport</string>
+    <string name="banu_fitness_info"> Aleea F.C. Ripensia, nr. 33
+                                    Orar: Luni-Duminica: 07 - 24
+                                    Tel: 0040256220642</string>
 </resources>

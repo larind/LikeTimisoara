@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Like Timisoara</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
     <string name="gps_network_not_enabled">Location is not active</string>
     <string name="open_location_settings">Activate location</string>
@@ -14,6 +12,14 @@
     <string name="title_activity_sports">Like Timisoara</string>
     <string name="app_title">Timisoara European Capital of Culture in 2021</string>
     <string name="atrractions_button">Attractions of Timisoara</string>
+    <string name="history_name">History of Timisoara</string>
+    <string name="history_content">Timişoara is the current residence of Timiş County, located in the West part of the country, in the Plain of Timiş, a plain of two important rivers: Bega and Timiş. On the banks of these rivers, a fortified fortress was built - Castrum Temesiense - a well-known fortress in 1212.
+The fortress developed over time, reaching between 1315-1323 to be the royal residence of King Charles Robert of Anjou.
+Timisoara is first celebrated as Civitas (city) in 1342, and in the 16th century it becomes an important point of resistance against the Ottoman Empire, hence the Crusaders in the Christian War, which ended with the defeat at Nicopole. Also from here starts the military campaign led by Iancu de Hunedoara.
+During the Peasant War (1382-1390, war against feudal exploitation) led by Gheorghe Doja, Timisoara fortress was besieged and several fortified points were occupied. This was for centuries a bastion of Christian civilization, but in 1552 the city was besieged and taught to the Ottomans, and was released from Turkish domination in 1716 by Prince Eugene of Savoya. Thus, he comes under Habsburg rule.
+Under the Habsburg Empire, Timisoara is headed by a military administration, having as governor the Count Mercy Cavalry General. Then Timisoara began an unprecedented flowering process: profound transformations began in the organization of villages and towns, schools, hospitals, churches and monuments were built, and the Transylvania Barracks, with a length of 483 meters, was the longest building Of Europe at that time.
+At that time colonization of Banat villages and towns began with Swabians, Slovaks and Italians, populations that overlapped the already existing population of Romanians, Serbs, Hungarians, Greeks and Jews.
+Thus, Banat becomes a land of tolerance, inter-ethnic understanding, respect and collaboration between people, regardless of nationality or religion.</string>
     
     <string name="tennis_court_menu">Tennis Court</string>
     <string name="club_tivoli_name">Tennis Club Tivoli</string>
@@ -92,17 +98,6 @@
     <string name="body_time_info">Str. Sever Bocu
                                     Schedule: Monday-Saturday: 09 - 21
                                     Tel: 0040723440463</string>
-    <string name="smart_fit1_name">Smartfit Studio 1</string>
-    <string name="smart_fit1_info">Bulevardul Cetatii, no.97
-                                    Schedule: Monday-Saturday: 07 - 24
-                                              Sunday: 10 - 16
-                                    Tel: 0040356453124</string>
-    <string name="smart_fit2_name">Smartfit Studio 2</string>
-    <string name="smart_fit2_info">Buziasului no.12,
-                                    Schedule: Monday-Saturday: 06:30 - 24
-                                              Sunday: 10 - 22
-                                    Tel: 0040741332000
-                                    </string>
     <string name="smart_fit3_name">Smartfit Studio 3</string>
     <string name="smart_fit3_info">Sagului no.100 ,
                                     Schedule: Monday-Saturday: 06:30 - 24
@@ -114,24 +109,13 @@
                                     Tel: 0040256494144</string>
     <string name="world_class_name">World Class Fitness Academy</string>
     <string name="world_class_info"> Str. Aristide Demetriade No. 1, 2nd floor
-                   Schedule: Sunday-Friday: 07 - 21:30
+                   Schedule: Monday-Friday: 07 - 21:30
                              Saturday-Sunday: 07:30 – 21:30
                     Tel: 0040356100671</string>
     <string name="banu_fitness_name">Banu Sport</string>
     <string name="banu_fitness_info"> Aleea F.C. Ripensia, no. 33
                                     Schedule: Monday-Sunday: 07 - 24
                                     Tel: 0040256220642</string>
-    <string name="constantin_jude_fitness_name">Constantin Jude</string>
-    <string name="constantin_jude_fitness_info"> Aleea F.C. Ripensia
-                                    Schedule: Monday-Sunday: 08 - 23
-                                    Tel: 0040256204286,
-                                         0040256204649</string>
-    <string name="beauty_fitness_name">Beauty Center</string>
-    <string name="beauty_fitness_info">  Str. Iancu Flondor
-                                    Schedule: Monday-Friday: 07 - 22
-                                              Saturday: 10 - 20
-                                              Sunday: 11 - 17
-                                    Tel: 0040256242279</string>
     <string name="squash_menu">Squash</string>
     <string name="squash_sport_name">Squash Sport Arena</string>
     <string name="squash_sport_info">Torontalului, no.61
