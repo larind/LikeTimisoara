@@ -247,11 +247,9 @@ public class MainActivity extends AppCompatActivity
                     R.drawable.nataly, false, 45.7605894, 21.2400))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.swiso_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.swiso_rent_info),
                     R.drawable.swiso, false, 45.742574, 21.207169))  ;
-
-
-            database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.nataly_rent_info),
+            database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.nataly_rent_info),
                     R.drawable.nataly, false, 45.75140, 21.22369))  ;
-            database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.swiso_rent_info),
+            database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
                     R.drawable.swiso, false, 45.71155, 21.19121))  ;
 
 
@@ -322,13 +320,14 @@ public class MainActivity extends AppCompatActivity
         }
         else if (id == R.id.nav_inchirieri) {
             Intent mapIntent = new Intent(MainActivity.this, SportsActivity.class);
-            mapIntent.putExtra("EXTRA_ATTRACTIONS",AttractionType.INCHIRIERI_AUTO );
+            mapIntent.putExtra("EXTRA_ATTRACTION",AttractionType.INCHIRIERI_AUTO );
             startActivity(mapIntent);
         }
         else if (id == R.id.nav_bicicleta) {
-            Intent fitnessActivity = new Intent(MainActivity.this, MapsActivity.class);
-            fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.STATIE_BICICLETE);
-            startActivity(fitnessActivity);
+            Intent mapsActivity = new Intent(MainActivity.this, MapsActivity.class);
+            ArrayList<Attraction> attractions = (ArrayList<Attraction>)DB.getInstance(MainActivity.this).getAttractions(AttractionType.STATIE_BICICLETE);
+            mapsActivity.putExtra("EXTRA_ATTRACTIONS", attractions);
+            startActivity(mapsActivity);
         }
         else if (id == R.id.nav_taxi) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
