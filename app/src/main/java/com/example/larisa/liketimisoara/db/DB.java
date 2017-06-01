@@ -138,8 +138,8 @@ public class DB extends SQLiteOpenHelper {
                 Attraction attraction = new Attraction();
 
                 attraction.setType(AttractionType.values()[c.getInt(c.getColumnIndex(DBContract.AttractionsTable.COLUMN_TYPE))]);
-                attraction.setName(c.getInt(c.getColumnIndex(DBContract.AttractionsTable.COLUMN_NAME)));
-                attraction.setInfo(c.getInt(c.getColumnIndex(DBContract.AttractionsTable.COLUMN_INFO)));
+                attraction.setName(c.getString(c.getColumnIndex(DBContract.AttractionsTable.COLUMN_NAME)));
+                attraction.setInfo(c.getString(c.getColumnIndex(DBContract.AttractionsTable.COLUMN_INFO)));
                 attraction.setImageResourceId(c.getInt(c.getColumnIndex(DBContract.AttractionsTable.COLUMN_IMAGE_RESOURCE_ID)));
                 attraction.setTop10(Boolean.valueOf(c.getString(c.getColumnIndex(DBContract.AttractionsTable.COLUMN_IS_TOP_10))));
                 attraction.setLongitude(c.getDouble(c.getColumnIndex(DBContract.AttractionsTable.COLUMN_LONGITUDE)));
@@ -148,6 +148,7 @@ public class DB extends SQLiteOpenHelper {
                 results.add(attraction);
 
                 c.moveToNext();
+
             }
 
         } finally {

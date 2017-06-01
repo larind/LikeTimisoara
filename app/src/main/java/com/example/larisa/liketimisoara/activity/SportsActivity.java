@@ -121,12 +121,14 @@ public class SportsActivity extends AppCompatActivity {
 
             final Attraction attraction = (Attraction) getArguments().getSerializable(ARG_SECTION_ATTRACTION);
             View rootView = inflater.inflate(R.layout.fragment_sports, container, false);
-            TextView tile = (TextView) rootView.findViewById(R.id.sports_title);
+            TextView title = (TextView) rootView.findViewById(R.id.sports_title);
             ImageView image = (ImageView) rootView.findViewById(R.id.sports_image);
             TextView info = (TextView) rootView.findViewById(R.id.sports_info);
 
 
-            tile.setText(getString(R.string.section_format, attraction.getName()));
+            title.setText(getString(R.string.section_format, attraction.getName()));
+            info.setText(getString(R.string.section_format, attraction.getInfo()));
+            image.setImageDrawable(getResources().getDrawable(attraction.getImageResourceId()));
             Button mapsButton = (Button) rootView.findViewById(R.id.sports_maps);
             mapsButton.setOnClickListener(new View.OnClickListener(){
                 public void onClick(View v) {

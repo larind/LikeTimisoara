@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:drawableTop="@android:drawable/ic_dialog_map"
         android:background="@android:color/holo_orange_light"
-        android:text="Du-ma acolo"
+        android:text="@string/maps_button"
         android:textColor="@android:color/background_dark"
         android:textAppearance="@style/TextAppearance.AppCompat"/>
 </LinearLayout>

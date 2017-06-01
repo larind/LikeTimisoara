@@ -13,6 +13,7 @@
     <string name="app_title">Timisoara European Capital of Culture in 2021</string>
     <string name="atrractions_button">Attractions of Timisoara</string>
     <string name="history_name">History of Timisoara</string>
+    <string name="maps_button">Take me there</string>
     <string name="history_content">Timişoara is the current residence of Timiş County, located in the West part of the country, in the Plain of Timiş, a plain of two important rivers: Bega and Timiş. On the banks of these rivers, a fortified fortress was built - Castrum Temesiense - a well-known fortress in 1212.
 The fortress developed over time, reaching between 1315-1323 to be the royal residence of King Charles Robert of Anjou.
 Timisoara is first celebrated as Civitas (city) in 1342, and in the 16th century it becomes an important point of resistance against the Ottoman Empire, hence the Crusaders in the Christian War, which ended with the defeat at Nicopole. Also from here starts the military campaign led by Iancu de Hunedoara.
@@ -24,164 +25,155 @@ Thus, Banat becomes a land of tolerance, inter-ethnic understanding, respect and
     <string name="tennis_court_menu">Tennis Court</string>
     <string name="club_tivoli_name">Tennis Club Tivoli</string>
     <string name="club_tivoli_info">Aleea Ghirodei no. 36, Timisoara
-                Schedule: Monday-Sunday: 8 - 22
-                Details and reservations by phone:
-                0040755-092.021
+                /nSchedule: Monday-Sunday: 8 - 22
+                /nDetails and reservations by phone:
+                /n0040755-092.021
                 0040256-207.436</string>
-    <string name="club_millenium_name">Tennis Club Millenium</string>
-    <string name="club_millenium_info">Calea Dorobanti No. 94, Timisoara.
-                    Schedule: Monday-Sunday: 00 - 24
-                    Reservations : 0040 (256) 287575,
-                                   0040 (256) 287576,
-                                   0040 (788) 379637</string>
     <string name="club_helios_name">Helios Sport Club</string>
-    <string name="club_helios_info">
-                Iosif Bulbuca 21
-                Schedule: Monday-Sunday: 08 - 18
-                Email: office@helios-sport.ro
-                Reservations : 0040256-46-38-18,
-                               0040743-96-94-86 </string>
+    <string name="club_helios_info">Iosif Bulbuca 21
+                /nSchedule: Monday-Sunday: 08 - 18
+               /n Email: office@helios-sport.ro
+               /n Reservations :
+                                /n0040256-46-38-18,
+                                0040743-96-94-86 </string>
     <string name="berlin_sport_name">Berlin Sport</string>
     <string name="berlin_sport_info">Str. Berlin, nr. 1, Dumbravita(outdoor)
-                    Schedule: Monday-Sunday: 08 - 24
-                    Email: office@berlinsport.ro
+                    /nSchedule: Monday-Sunday: 08 - 24
+                    /nEmail: office@berlinsport.ro
                     Reservations : 0040722.534.060</string>
     <string name="banu_sport_name">Banu Sport</string>
     <string name="banu_sport_info"> Str. FC Ripensiei, nr.33
-                                    Schedule: Monday-Sunday: 08 - 24
-                                    Email: contact@banusport.ro
-                                    Reservations: 0040256220642;
-                                                  0040720440720</string>
+                                   /n Schedule: Monday-Sunday: 08 - 24
+                                   /n Email: contact@banusport.ro
+                                   /n Reservations:
+                                        /n0040256220642;
+                                        0040720440720</string>
     <string name="history">History of Timisoara</string>
     <string name="nearby_attractions">Nearby attractions</string>
     <string name="top10_attractions">Top 10 attractions</string>
     <string name="swimming_pools_menu">Swimming pools</string>
     <string name="arena_pool_name">Arena Aqua Sport</string>
     <string name="arena_pool_info">Dorobantilor, no. 92
-                    Schedule: Monday-Friday: 07 - 23
-                              Saturday-Sunday: 09 - 22
+                                /n Schedule:
+                                /nMonday-Friday: 07 - 23
+                                /nSaturday-Sunday: 09 - 22
                     Tel: 0040256213103</string>
     <string name="ice_dyp_name">Ice Dyp - Resort &amp; Spa</string>
     <string name="ice_dyp_info">Lugojului, no.37
-                    Shedule: Monday-Sunday: 07 - 23
-                    Telefon: 0040256221341,
+                    /nShedule:
+                    /nMonday-Sunday: 07 - 23
+                    /nTel:
+                        /n0040256221341,
                              0040256221343
                 </string>
-    <string name="bega_complex_name">Bega sports Complex</string>
-    <string name="bega_complex_info">Libelulei
-                            Schedule: Monday-Friday: 08 - 22
-                            Tel: 0040256444963</string>
     <string name="fitness_centers_menu">Fitness Centers</string>
     <string name="extreme_fitness_name">Extreme Fitness</string>
     <string name="extreme_fitness_info">Str. Mures, no. 132
-                                    Schedule: Monday-Friday: 07 - 24
-                                              Saturday: 09 - 21
-                                              Sunday: 10 - 20
-                                    Tel:  0040730830290</string>
+                                    \nSchedule:
+                                    \n\tMonday-Friday: 07 - 24
+                                    \n\tSaturday: 09 - 21
+                                    \n\tSunday: 10 - 20
+                                    \nTel:  0040730830290</string>
     <string name="friends_arena_name">Friend\'s Arena</string>
     <string name="friends_arena_info">Str. Lacului, no.1
-                                    Schedule: Monday-Friday: 07 - 24
-                                              Saturday-Sunday: 09 - 22
+                                    /nSchedule:
+                                              /nMonday-Friday: 07 - 24
+                                              /nSaturday-Sunday: 09 - 22
                                     Tel: 00400256224645</string>
     <string name="iguana_fitness_name">Iguana Fitness</string>
     <string name="iguana_fitness_info">Str. Simion Bărnutiu, no.49
-                                    Schedule: Monday-Saturday: 08 - 23
-                                              Sunday: 12 - 16
+                                    /nSchedule:
+                                              /nMonday-Saturday: 08 - 23
+                                             /nSunday: 12 - 16
                                     Tel: 0040256494144</string>
     <string name="stil_fitness_name">Stil Fitness Club</string>
     <string name="stil_fitness_info">Str. Martir Caceu Sisters
-                                    Schedule: Monday-Friday: 08 - 24
-                                              Saturday: 09 - 22
-                                              Sunday: 10 - 14
+                                    /nSchedule:
+                                              /nMonday-Friday: 08 - 24
+                                              /nSaturday: 09 - 22
+                                              /nSunday: 10 - 14
                                     Tel: 0040256489830</string>
     <string name="body_time_name">Body Time</string>
     <string name="body_time_info">Str. Sever Bocu
-                                    Schedule: Monday-Saturday: 09 - 21
+                                    /nSchedule: Monday-Saturday: 09 - 21
                                     Tel: 0040723440463</string>
     <string name="smart_fit3_name">Smartfit Studio 3</string>
     <string name="smart_fit3_info">Sagului no.100 ,
-                                    Schedule: Monday-Saturday: 06:30 - 24
-                                              Sunday: 10 - 22
+                                    Schedule:
+                                             /n Monday-Saturday: 06:30 - 24
+                                              /nSunday: 10 - 22
                                     Tel: 0040741332001</string>
     <string name="continental_fitness_name">Continental Fitness-Spa</string>
     <string name="continental_fitness_info">1989 Revolution Boulevard
-                                    Schedule: Monday-Sunday: 07 - 23
+                                    /nSchedule: Monday-Sunday: 07 - 23
                                     Tel: 0040256494144</string>
     <string name="world_class_name">World Class Fitness Academy</string>
     <string name="world_class_info"> Str. Aristide Demetriade No. 1, 2nd floor
-                   Schedule: Monday-Friday: 07 - 21:30
-                             Saturday-Sunday: 07:30 – 21:30
-                    Tel: 0040356100671</string>
+                                Schedule:
+                                   /n  Monday-Friday: 07 - 21:30
+                                    /n Saturday-Sunday: 07:30 – 21:30
+                                Tel: 0040356100671</string>
     <string name="banu_fitness_name">Banu Sport</string>
     <string name="banu_fitness_info"> Aleea F.C. Ripensia, no. 33
-                                    Schedule: Monday-Sunday: 07 - 24
+                                    /nSchedule: Monday-Sunday: 07 - 24
                                     Tel: 0040256220642</string>
     <string name="squash_menu">Squash</string>
     <string name="squash_sport_name">Squash Sport Arena</string>
     <string name="squash_sport_info">Torontalului, no.61
-                                    Schedule: Monday-Sunday: 08 - 24
-                                    Tel: 0040729271886</string>
+                                    /nSchedule: Monday-Sunday: 08 - 24
+                                   /nTel: 0040729271886</string>
     <string name="the_squashers_name">The Squashers</string>
     <string name="the_squashers_info">Aradului, no.48
-                                    Schedule: Monday-Saturday: 08 - 23
-                                    Tel: 0040770681288</string>
+                                    /nSchedule: Monday-Saturday: 08 - 23
+                                    /nTel: 0040770681288</string>
     <string name="helios_squash_name">Helios Sport Club</string>
-    <string name="helios_squash_info">Iosif Bulbuca 21
-                Schedule: Monday-Sunday: 08 - 18
-                Email: office@helios-sport.ro
-                Tel : 0040256463818</string>
+    <string name="helios_squash_info">Iosif Bulbuca, no. 21
+                /nSchedule: Monday-Sunday: 08 - 18
+                /nEmail: office@helios-sport.ro
+                /nTel : 0040256463818</string>
     <string name="squash_club_name">Squash Club</string>
     <string name="squash_club_info"> Str. Johann Heinrich Pestalozzi, no.20
-                Schedule: Monday-Sunday: 08 - 24
-                Tel : 0040721868477</string>
+                /nSchedule: Monday-Sunday: 08 - 24
+               /nTel : 0040721868477</string>
     <string name="sports_menu">Sports</string>
     <string name="taxi_menu">Taxi</string>
     <string name="tudo_taxi_name">Tudo Taxi</string>
     <string name="tudo_taxi_info">Price: 1.49 LEI/KM
-                             Tel: 00400256945</string>
+                             /nTel: 00400256945</string>
     <string name="pro_taxi_name">Pro Taxi</string>
     <string name="pro_taxi_info">Price: 1.49 LEI/KM
-                             Tel: 0040256942</string>
+                             /nTel: 0040256942</string>
     <string name="radio_taxi_name">Radio Taxi</string>
     <string name="radio_taxi_info">Price: 1.49 LEI/KM
-                             Tel: 0040256940</string>
+                             /nTel: 0040256940</string>
     <string name="taxi_timisoara_name">Taxi</string>
     <string name="taxi_timisoara_info">Price: 1.49 LEI/KM
-                             Tel: 0040256942</string>
+                             /nTel: 0040256942</string>
     <string name="grup_taxi_name">Taxi Grup</string>
     <string name="grup_taxi_info">Price: 1.49 LEI/KM
-                             Tel: 0040256207207</string>
+                             /nTel: 0040256207207</string>
     <string name="fan_taxi_name">Fan Taxi</string>
     <string name="fan_taxi_info">Price: 2.19 LEI/KM
-                             Tel: 0040256944</string>
-    <string name="windy_taxi_name">Pro Taxi</string>
-    <string name="windy_taxi_info">Price: 1.1 LEI/KM
-                             Tel: 0040256933</string>
+                             /nTel: 0040256944</string>
     <string name="useful_info_main">Useful infos</string>
     <string name="rent_cars_menu">Rent a car</string>
-    <string name="eleven_rent_name">Eleven 11 Rent a Car Timisoara</string>
-    <string name="eleven_rent_info">Adress:  Str. Burebista, no.3
-                                  Tel: 0040720436107</string>
     <string name="deluxe_rent_name">Deluxe Rent a Car Timisoara</string>
     <string name="deluxe_rent_info">Adress:  Str. Fedra, no.19
-                                  Tel: 0040723799649</string>
+                                  /nTel: 0040723799649</string>
     <string name="swiso_rent_name">Swiso Rent a Car Timisoara</string>
     <string name="swiso_rent_info">Adress:  Blvd. Iuliu Maniu, no.37
-                                  Tel: 0040786541800</string>
+                                  /nTel: 0040786541800</string>
     <string name="nataly_rent_name">Nataly Rent a Car Timisoara</string>
     <string name="nataly_rent_info">Adress:  Blvd. Take Ionescu, no.47
-                                  Tel: 0040751997030</string>
+                                 /n Tel: 0040751997030</string>
     <string name="novum_rent_name">Novum Rent a Car Timisoara</string>
     <string name="novum_rent_info">Adress:  Blvd. Ion Dragalina, no.3
-                                  Tel: 0040256499579</string>
+                                  /nTel: 0040256499579</string>
     <string name="marvomil_rent_name">Marvomil Auto Timisoara</string>
     <string name="marvomil_rent_info">Adress:  Str. Sever Bocu, no.37
-                                  Tel: 0040785560550</string>
+                                  /nTel: 0040785560550</string>
     <string name="bike_stations_menu">Velo TM Bike stations</string>
-    <string name="velo_ferdinand_longitude">21.22369</string>
-    <string name="velo_ferdinand_latitude">45.75140</string>
-    <string name="velo_sagului_longitude">21.19121</string>
-    <string name="velo_sagului_latitude">45.71155</string>
+    <string name="velo_tm_name">Velo TM</string>
     <string name="velo_circumvalatiunii_longitude">21.21781</string>
     <string name="velo_circumvalatiunii_latitude">45.75857</string>
     <string name="velo_sagului70_longitude">21.20471</string>

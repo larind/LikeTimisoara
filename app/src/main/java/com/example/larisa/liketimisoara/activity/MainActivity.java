@@ -23,8 +23,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.example.larisa.liketimisoara.Attraction;
 import com.example.larisa.liketimisoara.AttractionType;
@@ -36,7 +34,6 @@ import com.example.larisa.liketimisoara.db.DB;
 import com.example.larisa.liketimisoara.db.DBException;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -187,26 +184,80 @@ public class MainActivity extends AppCompatActivity
             database.insertAttraction(new Attraction(5, "Muzeul Banat", AttractionType.MUZEU, "muzeu",
                     R.drawable.parc, false, 45.7513, 21.2211));
             database.insertAttraction(new Attraction(6, "SmartFit Studio 3", AttractionType.SALA_FITNESS, "CEA MAI TARE SALA DIN ORAS",
-                    R.drawable.harta, false, 45.7513, 21.2211));      */
-            database.insertAttraction(new Attraction(7, R.string.extreme_fitness_name, AttractionType.SALA_FITNESS, R.string.extreme_fitness_info,
+                    R.drawable.harta, false, 45.7513, 21.2211));*/
+            database.insertAttraction(new Attraction(7, getString(R.string.extreme_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.extreme_fitness_info),
                     R.drawable.extreme, false, 45.728675, 21.2386))  ;
-            database.insertAttraction(new Attraction(7, R.string.friends_arena_name, AttractionType.SALA_FITNESS, R.string.friends_arena_info,
+            database.insertAttraction(new Attraction(7, getString(R.string.friends_arena_name), AttractionType.SALA_FITNESS, getString(R.string.friends_arena_info),
                     R.drawable.friends, false, 45.7301899, 21.2013))  ;
-            database.insertAttraction(new Attraction(7, R.string.iguana_fitness_name, AttractionType.SALA_FITNESS, R.string.iguana_fitness_info,
+            database.insertAttraction(new Attraction(7, getString(R.string.iguana_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.iguana_fitness_info),
                     R.drawable.iguana, false, 45.7639368, 21.2561))  ;
-            database.insertAttraction(new Attraction(7, R.string.stil_fitness_name, AttractionType.SALA_FITNESS, R.string.stil_fitness_info,
+            database.insertAttraction(new Attraction(7, getString(R.string.stil_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.stil_fitness_info),
                     R.drawable.stil, false, 45.7434774, 21.2441))  ;
-            database.insertAttraction(new Attraction(7, R.string.body_time_name, AttractionType.SALA_FITNESS, R.string.body_time_info,
+            database.insertAttraction(new Attraction(7, getString(R.string.body_time_name), AttractionType.SALA_FITNESS, getString(R.string.body_time_info),
                     R.drawable.bodytime, false, 45.7739105, 21.2313))  ;
-            database.insertAttraction(new Attraction(7, R.string.smart_fit3_name, AttractionType.SALA_FITNESS, R.string.smart_fit3_info,
+            database.insertAttraction(new Attraction(7, getString(R.string.smart_fit3_name), AttractionType.SALA_FITNESS, getString(R.string.smart_fit3_info),
                     R.drawable.smartfit, false, 45.724749, 21.1998))  ;
-            database.insertAttraction(new Attraction(7, R.string.continental_fitness_name, AttractionType.SALA_FITNESS, R.string.continental_fitness_info,
+            database.insertAttraction(new Attraction(7, getString(R.string.continental_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.continental_fitness_info),
                     R.drawable.continental, false, 45.7553, 21.2324))  ;
-            database.insertAttraction(new Attraction(7, R.string.world_class_name, AttractionType.SALA_FITNESS, R.string.world_class_info,
+            database.insertAttraction(new Attraction(7, getString(R.string.world_class_name), AttractionType.SALA_FITNESS, getString(R.string.world_class_info),
                     R.drawable.worldclass, false, 45.7627697, 21.2297))  ;
-            database.insertAttraction(new Attraction(7, R.string.banu_fitness_name, AttractionType.SALA_FITNESS, R.string.banu_fitness_info,
+            database.insertAttraction(new Attraction(7, getString(R.string.banu_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.banu_fitness_info),
                     R.drawable.banusport, false, 45.74354, 21.242))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.squash_sport_name), AttractionType.SALA_SQUASH, getString(R.string.squash_sport_info),
+                    R.drawable.squasharena, false, 45.7728636, 21.2161))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.squash_club_name), AttractionType.SALA_SQUASH, getString(R.string.squash_club_info),
+                    R.drawable.squashclub, false, 45.7546726, 21.246))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.helios_squash_name), AttractionType.SALA_SQUASH, getString(R.string.helios_squash_info),
+                    R.drawable.helios, false, 45.7385141, 21.238))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.the_squashers_name), AttractionType.SALA_SQUASH, getString(R.string.the_squashers_info),
+                    R.drawable.squashers, false, 47.048961, 21.9050))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.arena_pool_name), AttractionType.BAZIN_INOT, getString(R.string.arena_pool_info),
+                    R.drawable.arenapool, false, 45.769224, 21.2672))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.ice_dyp_name), AttractionType.BAZIN_INOT, getString(R.string.ice_dyp_info),
+                    R.drawable.icedyp, false, 45.765198, 21.25910))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.smart_fit3_name), AttractionType.BAZIN_INOT, getString(R.string.smart_fit3_info),
+                    R.drawable.smartfit, false, 45.724749, 21.1998))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.club_tivoli_name), AttractionType.TEREN_TENIS, getString(R.string.club_tivoli_info),
+                    R.drawable.tivoli, false, 45.763754, 21.275))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.club_helios_name), AttractionType.TEREN_TENIS, getString(R.string.club_helios_info),
+                    R.drawable.helios, false, 45.7385141, 21.238))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.berlin_sport_name), AttractionType.TEREN_TENIS, getString(R.string.berlin_sport_info),
+                    R.drawable.berlin, false, 45.7883605, 21.2337))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.banu_sport_name), AttractionType.TEREN_TENIS, getString(R.string.banu_sport_info),
+                    R.drawable.banusport, false, 45.74354, 21.242))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.tudo_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.tudo_taxi_info),
+                    R.drawable.tudo, false, 45.769224, 21.2672))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.fan_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.fan_taxi_info),
+                    R.drawable.fantaxi, false, 45.765198, 21.25910))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.radio_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.radio_taxi_info),
+                    R.drawable.taxilogo, false, 45.724749, 21.1998))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.pro_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.pro_taxi_info),
+                    R.drawable.taxilogo, false, 45.7385141, 21.238))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.grup_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.grup_taxi_info),
+                    R.drawable.taxilogo, false, 45.7883605, 21.2337))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.taxi_timisoara_name), AttractionType.COMPANIE_TAXI, getString(R.string.taxi_timisoara_info),
+                    R.drawable.taxilogo, false, 45.74354, 21.242))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.deluxe_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.deluxe_rent_info),
+                    R.drawable.deluxe, false, 45.7290652, 21.23161))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.novum_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.novum_rent_info),
+                    R.drawable.novum, false, 45.743281, 21.2124))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.marvomil_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.marvomil_rent_info),
+                    R.drawable.narvomil, false, 45.774424, 21.2322))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.nataly_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.nataly_rent_info),
+                    R.drawable.nataly, false, 45.7605894, 21.2400))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.swiso_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.swiso_rent_info),
+                    R.drawable.swiso, false, 45.742574, 21.207169))  ;
+
+
+            database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.nataly_rent_info),
+                    R.drawable.nataly, false, 45.75140, 21.22369))  ;
+            database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.swiso_rent_info),
+                    R.drawable.swiso, false, 45.71155, 21.19121))  ;
+
+
+
         } catch (DBException ex) {
+
 
         }
 
@@ -252,6 +303,36 @@ public class MainActivity extends AppCompatActivity
         else if (id == R.id.nav_fitness) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
             fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.SALA_FITNESS);
+            startActivity(fitnessActivity);
+        }
+        else if (id == R.id.nav_tenis) {
+            Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
+            fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.TEREN_TENIS);
+            startActivity(fitnessActivity);
+        }
+        else if (id == R.id.nav_bazine) {
+            Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
+            fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.BAZIN_INOT);
+            startActivity(fitnessActivity);
+        }
+        else if (id == R.id.nav_squash) {
+            Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
+            fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.SALA_SQUASH);
+            startActivity(fitnessActivity);
+        }
+        else if (id == R.id.nav_inchirieri) {
+            Intent mapIntent = new Intent(MainActivity.this, SportsActivity.class);
+            mapIntent.putExtra("EXTRA_ATTRACTIONS",AttractionType.INCHIRIERI_AUTO );
+            startActivity(mapIntent);
+        }
+        else if (id == R.id.nav_bicicleta) {
+            Intent fitnessActivity = new Intent(MainActivity.this, MapsActivity.class);
+            fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.STATIE_BICICLETE);
+            startActivity(fitnessActivity);
+        }
+        else if (id == R.id.nav_taxi) {
+            Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
+            fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.COMPANIE_TAXI);
             startActivity(fitnessActivity);
         }
         else if(id == R.id.istoric){
