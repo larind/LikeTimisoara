@@ -14,56 +14,56 @@
     <string name="atrractions_button">Attractions of Timisoara</string>
     <string name="history_name">History of Timisoara</string>
     <string name="maps_button">Take me there</string>
-    <string name="history_content">Timişoara is the current residence of Timiş County, located in the West part of the country, in the Plain of Timiş, a plain of two important rivers: Bega and Timiş. On the banks of these rivers, a fortified fortress was built - Castrum Temesiense - a well-known fortress in 1212.
-The fortress developed over time, reaching between 1315-1323 to be the royal residence of King Charles Robert of Anjou.
-Timisoara is first celebrated as Civitas (city) in 1342, and in the 16th century it becomes an important point of resistance against the Ottoman Empire, hence the Crusaders in the Christian War, which ended with the defeat at Nicopole. Also from here starts the military campaign led by Iancu de Hunedoara.
-During the Peasant War (1382-1390, war against feudal exploitation) led by Gheorghe Doja, Timisoara fortress was besieged and several fortified points were occupied. This was for centuries a bastion of Christian civilization, but in 1552 the city was besieged and taught to the Ottomans, and was released from Turkish domination in 1716 by Prince Eugene of Savoya. Thus, he comes under Habsburg rule.
-Under the Habsburg Empire, Timisoara is headed by a military administration, having as governor the Count Mercy Cavalry General. Then Timisoara began an unprecedented flowering process: profound transformations began in the organization of villages and towns, schools, hospitals, churches and monuments were built, and the Transylvania Barracks, with a length of 483 meters, was the longest building Of Europe at that time.
-At that time colonization of Banat villages and towns began with Swabians, Slovaks and Italians, populations that overlapped the already existing population of Romanians, Serbs, Hungarians, Greeks and Jews.
-Thus, Banat becomes a land of tolerance, inter-ethnic understanding, respect and collaboration between people, regardless of nationality or religion.</string>
+    <string name="history_content">Timisoara is the current residence of Timis County, located in the West part of the country, in the Plain of Timis, a plain of two important rivers: Bega and Timiş.
+        \nOn the banks of these rivers, a fortified fortress was built - Castrum Temesiense - a well-known fortress in 1212.The fortress developed over time, reaching between 1315-1323 to be the royal residence of King Charles Robert of Anjou.
+        \nTimisoara is first celebrated as Civitas (city) in 1342, and in the 16th century it becomes an important point of resistance against the Ottoman Empire, hence the Crusaders in the Christian War, which ended with the defeat at Nicopole. Also from here starts the military campaign led by Iancu de Hunedoara.
+        \nDuring the Peasant War (1382-1390, war against feudal exploitation) led by Gheorghe Doja, Timisoara fortress was besieged and several fortified points were occupied. This was for centuries a bastion of Christian civilization, but in 1552 the city was besieged and taught to the Ottomans, and was released from Turkish domination in 1716 by Prince Eugene of Savoya. Thus, he comes under Habsburg rule.
+        \nUnder the Habsburg Empire, Timisoara is headed by a military administration, having as governor the Count Mercy Cavalry General. Then Timisoara began an unprecedented flowering process: profound transformations began in the organization of villages and towns, schools, hospitals, churches and monuments were built, and the Transylvania Barracks, with a length of 483 meters, was the longest building Of Europe at that time.
+        \nAt that time colonization of Banat villages and towns began with Swabians, Slovaks and Italians, populations that overlapped the already existing population of Romanians, Serbs, Hungarians, Greeks and Jews.
+        \nThus, Banat becomes a land of tolerance, inter-ethnic understanding, respect and collaboration between people, regardless of nationality or religion.</string>
     
     <string name="tennis_court_menu">Tennis Court</string>
     <string name="club_tivoli_name">Tennis Club Tivoli</string>
     <string name="club_tivoli_info">Aleea Ghirodei no. 36, Timisoara
-                /nSchedule: Monday-Sunday: 8 - 22
-                /nDetails and reservations by phone:
-                /n0040755-092.021
-                0040256-207.436</string>
+                \nSchedule: Monday-Sunday: 8 - 22
+                \nDetails and reservations by phone:
+                \n0040755-092.021
+                \n0040256-207.436</string>
     <string name="club_helios_name">Helios Sport Club</string>
     <string name="club_helios_info">Iosif Bulbuca 21
-                /nSchedule: Monday-Sunday: 08 - 18
-               /n Email: office@helios-sport.ro
-               /n Reservations :
-                                /n0040256-46-38-18,
-                                0040743-96-94-86 </string>
+                \nSchedule: Monday-Sunday: 08 - 18
+               \n Email: office@helios-sport.ro
+               \n Reservations :
+                                \n0040256-46-38-18,
+                                \n0040743-96-94-86 </string>
     <string name="berlin_sport_name">Berlin Sport</string>
     <string name="berlin_sport_info">Str. Berlin, nr. 1, Dumbravita(outdoor)
-                    /nSchedule: Monday-Sunday: 08 - 24
-                    /nEmail: office@berlinsport.ro
-                    Reservations : 0040722.534.060</string>
+                    \nSchedule: Monday-Sunday: 08 - 24
+                    \nEmail: office@berlinsport.ro
+                    \nReservations : 0040722.534.060</string>
     <string name="banu_sport_name">Banu Sport</string>
     <string name="banu_sport_info"> Str. FC Ripensiei, nr.33
-                                   /n Schedule: Monday-Sunday: 08 - 24
-                                   /n Email: contact@banusport.ro
-                                   /n Reservations:
-                                        /n0040256220642;
-                                        0040720440720</string>
+                                   \n Schedule: Monday-Sunday: 08 - 24
+                                   \n Email: contact@banusport.ro
+                                   \n Reservations:
+                                        \n0040256220642;
+                                        \n0040720440720</string>
     <string name="history">History of Timisoara</string>
     <string name="nearby_attractions">Nearby attractions</string>
     <string name="top10_attractions">Top 10 attractions</string>
     <string name="swimming_pools_menu">Swimming pools</string>
     <string name="arena_pool_name">Arena Aqua Sport</string>
     <string name="arena_pool_info">Dorobantilor, no. 92
-                                /n Schedule:
-                                /nMonday-Friday: 07 - 23
-                                /nSaturday-Sunday: 09 - 22
+                                \n Schedule:
+                                \nMonday-Friday: 07 - 23
+                                \nSaturday-Sunday: 09 - 22
                     Tel: 0040256213103</string>
     <string name="ice_dyp_name">Ice Dyp - Resort &amp; Spa</string>
     <string name="ice_dyp_info">Lugojului, no.37
-                    /nShedule:
-                    /nMonday-Sunday: 07 - 23
-                    /nTel:
-                        /n0040256221341,
+                    \nShedule:
+                    \nMonday-Sunday: 07 - 23
+                    \nTel:
+                        \n0040256221341,
                              0040256221343
                 </string>
     <string name="fitness_centers_menu">Fitness Centers</string>
@@ -76,193 +76,180 @@ Thus, Banat becomes a land of tolerance, inter-ethnic understanding, respect and
                                     \nTel:  0040730830290</string>
     <string name="friends_arena_name">Friend\'s Arena</string>
     <string name="friends_arena_info">Str. Lacului, no.1
-                                    /nSchedule:
-                                              /nMonday-Friday: 07 - 24
-                                              /nSaturday-Sunday: 09 - 22
-                                    Tel: 00400256224645</string>
+                                    \nSchedule:
+                                              \nMonday-Friday: 07 - 24
+                                              \nSaturday-Sunday: 09 - 22
+                                    \nTel: 00400256224645</string>
     <string name="iguana_fitness_name">Iguana Fitness</string>
     <string name="iguana_fitness_info">Str. Simion Bărnutiu, no.49
-                                    /nSchedule:
-                                              /nMonday-Saturday: 08 - 23
-                                             /nSunday: 12 - 16
-                                    Tel: 0040256494144</string>
+                                    \nSchedule:
+                                              \nMonday-Saturday: 08 - 23
+                                             \nSunday: 12 - 16
+                                    \nTel: 0040256494144</string>
     <string name="stil_fitness_name">Stil Fitness Club</string>
     <string name="stil_fitness_info">Str. Martir Caceu Sisters
-                                    /nSchedule:
-                                              /nMonday-Friday: 08 - 24
-                                              /nSaturday: 09 - 22
-                                              /nSunday: 10 - 14
-                                    Tel: 0040256489830</string>
+                                    \nSchedule:
+                                              \nMonday-Friday: 08 - 24
+                                              \nSaturday: 09 - 22
+                                              \nSunday: 10 - 14
+                                    \nTel: 0040256489830</string>
     <string name="body_time_name">Body Time</string>
     <string name="body_time_info">Str. Sever Bocu
-                                    /nSchedule: Monday-Saturday: 09 - 21
-                                    Tel: 0040723440463</string>
+                                    \nSchedule: Monday-Saturday: 09 - 21
+                                    \nTel: 0040723440463</string>
     <string name="smart_fit3_name">Smartfit Studio 3</string>
     <string name="smart_fit3_info">Sagului no.100 ,
-                                    Schedule:
-                                             /n Monday-Saturday: 06:30 - 24
-                                              /nSunday: 10 - 22
-                                    Tel: 0040741332001</string>
+                                    \nSchedule:
+                                             \n Monday-Saturday: 06:30 - 24
+                                              \nSunday: 10 - 22
+                                    \nTel: 0040741332001</string>
     <string name="continental_fitness_name">Continental Fitness-Spa</string>
     <string name="continental_fitness_info">1989 Revolution Boulevard
-                                    /nSchedule: Monday-Sunday: 07 - 23
-                                    Tel: 0040256494144</string>
+                                    \nSchedule: Monday-Sunday: 07 - 23
+                                    \nTel: 0040256494144</string>
     <string name="world_class_name">World Class Fitness Academy</string>
     <string name="world_class_info"> Str. Aristide Demetriade No. 1, 2nd floor
-                                Schedule:
-                                   /n  Monday-Friday: 07 - 21:30
-                                    /n Saturday-Sunday: 07:30 – 21:30
-                                Tel: 0040356100671</string>
+                                \nSchedule:
+                                   \n  Monday-Friday: 07 - 21:30
+                                    \n Saturday-Sunday: 07:30 – 21:30
+                                \nTel: 0040356100671</string>
     <string name="banu_fitness_name">Banu Sport</string>
     <string name="banu_fitness_info"> Aleea F.C. Ripensia, no. 33
-                                    /nSchedule: Monday-Sunday: 07 - 24
-                                    Tel: 0040256220642</string>
+                                    \nSchedule: Monday-Sunday: 07 - 24
+                                    \nTel: 0040256220642</string>
     <string name="squash_menu">Squash</string>
     <string name="squash_sport_name">Squash Sport Arena</string>
     <string name="squash_sport_info">Torontalului, no.61
-                                    /nSchedule: Monday-Sunday: 08 - 24
-                                   /nTel: 0040729271886</string>
+                                    \nSchedule: Monday-Sunday: 08 - 24
+                                   \nTel: 0040729271886</string>
     <string name="the_squashers_name">The Squashers</string>
     <string name="the_squashers_info">Aradului, no.48
-                                    /nSchedule: Monday-Saturday: 08 - 23
-                                    /nTel: 0040770681288</string>
+                                    \nSchedule: Monday-Saturday: 08 - 23
+                                    \nTel: 0040770681288</string>
     <string name="helios_squash_name">Helios Sport Club</string>
     <string name="helios_squash_info">Iosif Bulbuca, no. 21
-                /nSchedule: Monday-Sunday: 08 - 18
-                /nEmail: office@helios-sport.ro
-                /nTel : 0040256463818</string>
+                \nSchedule: Monday-Sunday: 08 - 18
+                \nEmail: office@helios-sport.ro
+                \nTel : 0040256463818</string>
     <string name="squash_club_name">Squash Club</string>
     <string name="squash_club_info"> Str. Johann Heinrich Pestalozzi, no.20
-                /nSchedule: Monday-Sunday: 08 - 24
-               /nTel : 0040721868477</string>
+                \nSchedule: Monday-Sunday: 08 - 24
+               \nTel : 0040721868477</string>
     <string name="sports_menu">Sports</string>
     <string name="taxi_menu">Taxi</string>
     <string name="tudo_taxi_name">Tudo Taxi</string>
     <string name="tudo_taxi_info">Price: 1.49 LEI/KM
-                             /nTel: 00400256945</string>
+                             \nTel: 00400256945</string>
     <string name="pro_taxi_name">Pro Taxi</string>
     <string name="pro_taxi_info">Price: 1.49 LEI/KM
-                             /nTel: 0040256942</string>
+                             \nTel: 0040256942</string>
     <string name="radio_taxi_name">Radio Taxi</string>
     <string name="radio_taxi_info">Price: 1.49 LEI/KM
-                             /nTel: 0040256940</string>
+                             \nTel: 0040256940</string>
     <string name="taxi_timisoara_name">Taxi</string>
     <string name="taxi_timisoara_info">Price: 1.49 LEI/KM
-                             /nTel: 0040256942</string>
+                             \nTel: 0040256942</string>
     <string name="grup_taxi_name">Taxi Grup</string>
     <string name="grup_taxi_info">Price: 1.49 LEI/KM
-                             /nTel: 0040256207207</string>
+                             \nTel: 0040256207207</string>
     <string name="fan_taxi_name">Fan Taxi</string>
     <string name="fan_taxi_info">Price: 2.19 LEI/KM
-                             /nTel: 0040256944</string>
+                             \nTel: 0040256944</string>
     <string name="useful_info_main">Useful infos</string>
     <string name="rent_cars_menu">Rent a car</string>
     <string name="deluxe_rent_name">Deluxe Rent a Car Timisoara</string>
     <string name="deluxe_rent_info">Adress:  Str. Fedra, no.19
-                                  /nTel: 0040723799649</string>
+                                  \nTel: 0040723799649</string>
     <string name="swiso_rent_name">Swiso Rent a Car Timisoara</string>
     <string name="swiso_rent_info">Adress:  Blvd. Iuliu Maniu, no.37
-                                  /nTel: 0040786541800</string>
+                                  \nTel: 0040786541800</string>
     <string name="nataly_rent_name">Nataly Rent a Car Timisoara</string>
     <string name="nataly_rent_info">Adress:  Blvd. Take Ionescu, no.47
-                                 /n Tel: 0040751997030</string>
+                                 \n Tel: 0040751997030</string>
     <string name="novum_rent_name">Novum Rent a Car Timisoara</string>
     <string name="novum_rent_info">Adress:  Blvd. Ion Dragalina, no.3
-                                  /nTel: 0040256499579</string>
+                                  \nTel: 0040256499579</string>
     <string name="marvomil_rent_name">Marvomil Auto Timisoara</string>
     <string name="marvomil_rent_info">Adress:  Str. Sever Bocu, no.37
-                                  /nTel: 0040785560550</string>
+                                  \n Tel: 0040785560550</string>
     <string name="bike_stations_menu">Velo TM Bike stations</string>
     <string name="velo_tm_name">Velo TM</string>
-    <string name="velo_circumvalatiunii_longitude">21.21781</string>
-    <string name="velo_circumvalatiunii_latitude">45.75857</string>
-    <string name="velo_sagului70_longitude">21.20471</string>
-    <string name="velo_sagului70_latitude">45.72830</string>
-    <string name="velo_aradului89_longitude">21.22122</string>
-    <string name="velo_aradului89_latitude">45.77504</string>
-    <string name="velo_nikolas_longitude">21.22218</string>
-    <string name="velo_nikolas_latitude">45.75748</string>
-    <string name="velo_severbocu_longitude">21.22218</string>
-    <string name="velo_severbocu_latitude">45.75748</string>
-    <string name="velo_dacilor_longitude">21.24957</string>
-    <string name="velo_dacilor_latitude">45.75904</string>
-    <string name="velo_carturarilor_longitude">21.24306</string>
-    <string name="velo_carturarilor_latitude">45.74479</string>
-    <string name="velo_tudorvladimirescu_longitude">21.20994</string>
-    <string name="velo_tudorvladimirescu_latitude">45.74716</string>
-
 
 
     <string name="museum_card">Museums</string>
     <string name="banat_museum_name">Banat Museum</string>
-    <string name="banat_museum_info">The Museum of Banat is a museum in Timisoara, Romania, headquartered in Huniade Castle. It was founded in 1872 under the name "The Society for History and Archaeology". It hosts the largest collection of archaeological objects Banat.
-        The ground floor houses the Parța Neolithic Sanctuary, a unique monument in Europe.The museum includes departments for history, archaeology, ethnography and natural sciences.
-        The museum also has a laboratory for conservation and preservation of objects of cultural heritage and history.</string>
+    <string name="banat_museum_info">The Museum of Banat is a museum in Timisoara, Romania, headquartered in Huniade Castle. It was founded in 1872 under the name "The Society for History and Archaeology".
+        \nIt hosts the largest collection of archaeological objects Banat.
+        \nThe ground floor houses the Parța Neolithic Sanctuary, a unique monument in Europe.The museum includes departments for history, archaeology, ethnography and natural sciences.
+        \nThe museum also has a laboratory for conservation and preservation of objects of cultural heritage and history.</string>
     <string name="banat_village_museum_name">Banat Village Museum</string>
-    <string name="banat_village_museum_info">In 1928, Ioachim Miloia, the director of the Museum of Banat (1928-1940), considers the idea of creating an open-air ethnographic museum.Banat Village Museum manages to make a thumbnail of Banat villages by building authentic wood, stone and clay houses made after the local model.
-        Tourists attracted by the Banat culture can find household items used in the past centuries, can admire the architecture of the houses.
-        These, though with 2 or 3 rooms, attract attention with guest rooms, known as "clean stove," big stove" or "good stove”, being the most beautiful furnished and decorated with precious fabrics - towels, rugs, tablecloths once called "masaie".</string>
+    <string name="banat_village_museum_info">In 1928, Ioachim Miloia, the director of the Museum of Banat (1928-1940), considers the idea of creating an open-air ethnographic museum.
+        \nBanat Village Museum manages to make a thumbnail of Banat villages by building authentic wood, stone and clay houses made after the local model.
+        \nTourists attracted by the Banat culture can find household items used in the past centuries, can admire the architecture of the houses.
+        \nThese, though with 2 or 3 rooms, attract attention with guest rooms, known as "clean stove," big stove" or "good stove”, being the most beautiful furnished and decorated with precious fabrics - towels, rugs, tablecloths once called "masaie".</string>
     <string name="art_museum_name">Art Museum</string>
     <string name="art_museum_info">The Museum is hosted by the Baroque Palace. The history of the art collection is directly intertwined with the beginnings of the Banat Museum, founded in 1872.
-         One of the main exhibitions is the collection of painter Corneliu Baba, with over 80 works signed by master from various periods his artistic creation. Timisoara/’s artistic trends of the 1960s to 1980s can be found in the Collection of Contemporary Art.</string>
+         \nOne of the main exhibitions is the collection of painter Corneliu Baba, with over 80 works signed by master from various periods his artistic creation.
+        \nTimisoara/’s artistic trends of the 1960s to 1980s can be found in the Collection of Contemporary Art.</string>
     <string name="communist_museum_name">Museum of the communist consumer</string>
-    <string name="commmunist_museum_info">At the end of 1989, Timisoara became the first city freed from the Communist regime in Romania. Shortly after, many Romanians began throwing out items that were used in the household during the Communist era. It was out with the old, in with the new.
-        Museum of the Communist Consumer is a collection of items that Romanians could buy during the “golden age” (as it was called by communist propaganda) that showcases a way of life that was present in every household of Communist Romania. </string>
-    <string name="memorial_revolution_museum_name">Association of  Revolution Memorial 16-22 December 1989 </string>
-    <string name="memorial_revolution_museum_info">The Association "Memorial of the the Revolution of Timisoara 16-22 December 1989" was created in 1990 with the aim of honouring the memory of the victims of the Romanian Revolution. They created a Memorial in the Heroes Cemetery (Calea Lipovei) and subsequently a series of 12 commissioned monuments to the Martyrs of the Revolution which stand in parts of the city where people were killed during the uprising.</string>
+    <string name="commmunist_museum_info">At the end of 1989, Timisoara became the first city freed from the Communist regime in Romania.
+        \nShortly after, many Romanians began throwing out items that were used in the household during the Communist era. It was out with the old, in with the new.
+       \n Museum of the Communist Consumer is a collection of items that Romanians could buy during the “golden age” (as it was called by communist propaganda) that showcases a way of life that was present in every household of Communist Romania. </string>
 
     <string name="squares_card">Squares</string>
     <string name="traian_square_name">Traian Square</string>
     <string name="traian_square_info">Surrounded by historic buildings, in the center of Fabric district, Traian Square has also been called the Square of Complaint or Kossuth tér and Hauptplatz.
-        It was designed by military engineers in 1740, being considered a smaller replica of the Union Square, hosting the daily market and weekly fairs.
-        It has been and is still being used as an event square.</string>
+        \nIt was designed by military engineers in 1740, being considered a smaller replica of the Union Square, hosting the daily market and weekly fairs.
+       \n It has been and is still being used as a square for events.</string>
     <string name="st_gheorghe_square_name">St. Gheorghe Square</string>
     <string name="st_gheorghe_square_info">It is one of the oldest squares in Timisoara and was named after the church worn by St. George, which was transformed into a mosque during the Ottoman occupation.
-On the southern side is the Klapka house, where Georg Klapka, the son of the famous mayor Josef Klapka, was born, who founded the first public lending library in Timisoara and the first in the empire.
-In St. George\'s Square was launched the first tram on the territory of Romania in July 1869, a premiere for Timisoara.</string>
+        \nOn the southern side is the Klapka house, where Georg Klapka, the son of the famous mayor Josef Klapka, was born, who founded the first public lending library in Timisoara and the first in the empire.
+        \nIn St. George\'s Square was launched the first tram on the territory of Romania in July 1869, a premiere for Timisoara.</string>
     <string name="liberty_square_name">Liberty Square</string>
     <string name="liberty_square_info">Parade Square "-" Parade Platz "," Prince Eugen Square "-" Jenö herceg tér "or" Freedom Square "-" Freiheitsplatz ", a name acquired during the Revolution of 1848-1849, is undoubtedly the oldest square of Timisoara.
-        It is the nucleus from which Timisoara evolved, the first space where people settled and lived continuously on the hearth of the present city.
-        Here was also the "Baia Mare", the largest public bath in the city, recently erected by archaeologists, but which is now covered with sand for preservation.
-        Liberty shelters some of the oldest buildings in Timisoara: the Garrison Command, the former Chancellery of War - the eastern wing of the Old Town Hall, the Old Town Hall and the Military Casino.</string>
+        \nIt is the nucleus from which Timisoara evolved, the first space where people settled and lived continuously on the hearth of the present city.
+        \nHere was also the "Baia Mare", the largest public bath in the city, recently erected by archaeologists, but which is now covered with sand for preservation.
+        \nLiberty shelters some of the oldest buildings in Timisoara: the Garrison Command, the former Chancellery of War - the eastern wing of the Old Town Hall, the Old Town Hall and the Military Casino.</string>
     <string name="victory_square_name">Victory Square</string>
     <string name="victory_square_info">Located in the heart of Timisoara, Victory Square, the newest square in the city, has a special significance for all Romanians, being the place where the Revolutionaries of Timisoara were gathered and where Timisoara was proclaimed on December 20, 1989, the first free city in Romania.
-       The Opera Square, as it was said before the Revolution, was designed in 1870, in the hope that the decision to cancel the military fortress would be obtained.
-        It was the main boulevard of the city, from the opera and cathedral to the boulevards called "Corso" for the right side, the place of the high society walk, full of luxury shops and restaurants, and "Surogat" for the left, this being a promenade For young people and workers, but also for soldiers, who had to prove that they are on leave to walk.</string>
+       \nThe Opera Square, as it was said before the Revolution, was designed in 1870, in the hope that the decision to cancel the military fortress would be obtained.
+        \nIt was the main boulevard of the city, from the opera and cathedral to the boulevards called "Corso" for the right side, the place of the high society walk, full of luxury shops and restaurants, and "Surogat" for the left, this being a promenade For young people and workers, but also for soldiers, who had to prove that they are on leave to walk.</string>
     <string name="union_square_name">Union Square</string>
     <string name="union_square_info">Union Square is considered to be the most beautiful market in Timisoara. It hosts some of the most valuable monuments of Timisoara: Baroque Palace, Catholic Cathedral, Serbian Vicarate, Monument of the Holy Trinity.
-                Located in the old town, Unirii Square is one of the oldest, not just the most beautiful. It was named in honor of the Romanian troops that entered Timisoara on 3 August 1919 and established the Romanian administration, thus finalizing the union of Banat with Romania.
-                It is also called the "Dome Square" because it hosts the Catholic Dome, built in 1736. It was also called "Hauptplatz", which means the Main Market. For three centuries, Union Square was the site of religious events, military parades, and other prestigious political and cultural events.
-                It looks as it is today from 1988-1989, the one who "drew it" being the architect Şerban Sturdza.</string>
+                \nLocated in the old town, Unirii Square is one of the oldest, not just the most beautiful. It was named in honor of the Romanian troops that entered Timisoara on 3 August 1919 and established the Romanian administration, thus finalizing the union of Banat with Romania.
+               \n It is also called the "Dome Square" because it hosts the Catholic Dome, built in 1736. It was also called "Hauptplatz", which means the Main Market.
+                \nFor three centuries, Union Square was the site of religious events, military parades, and other prestigious political and cultural events.
+                \nIt looks as it is today from 1988-1989, the one who "drew it" being the architect Şerban Sturdza.</string>
 
     <string name="parks_card">Parks</string>
     <string name="central_park_name">Central Park</string>
     <string name="info_central_park">The "Anton Scudier" Central Park is one of the oldest parks in Timisoara, founded in 1880 by the general Anton von Scudier.
-        In the park there are several monuments of some personalities and the Monument of the Romanian Soldier.
-        The park is equipped with fountains, benches and chess tables.</string>
+        \nIn the park there are several monuments of some personalities and the Monument of the Romanian Soldier.
+       \n The park is equipped with fountains, benches and chess tables.</string>
     <string name="botanical_park_name">Botanical Park</string>
     <string name="botanical_park_info">It has an area of nearly 9 ha and is a beautiful dendrological park, which contains a wide variety of tree species.
-        In 1995, for the first time, it was declared a scientific reserve in order to protect the local and exotic flora, and Timişoara hopes to be able to declare a protected area one day</string>
+        \nIn 1995, for the first time, it was declared a scientific reserve in order to protect the local and exotic flora, and Timişoara hopes to be able to declare a protected area one day</string>
     <string name="justice_park_name">The Park of Justice</string>
-    <string name="justice_park_info">The Justice Park, formerly known as the People\'s Council Park, is located in the center of Timisoara. The name of the park comes from an old building project in the area of the Palace of Justice, abandoned project. In the middle of the park there is the monument of deportees in Baragan during 1951-1956.
-    The park was refurbished in 2015, the alleys were rebuilt and an irrigation system mounted. In the park you can find a wide variety of trees and shrubs as well as many flowers: snowflakes, hyacinths, daffodils. In the park is admitted to stay on the grass. </string>
+    <string name="justice_park_info">The Justice Park, formerly known as the People\'s Council Park, is located in the center of Timisoara. The name of the park comes from an old building project in the area of the Palace of Justice, abandoned project.In the middle of the park there is the monument of deportees in Baragan during 1951-1956.
+            \nThe park was refurbished in 2015, the alleys were rebuilt and an irrigation system mounted. In the park you can find a wide variety of trees and shrubs as well as many flowers: snowflakes, hyacinths, daffodils. In the park is admitted to stay on the grass. </string>
     <string name="roses_park_name">The Roses Park</string>
     <string name="roses_park_info">The park was established in 1891, along with the Children\'s Park on the occasion of the Universal Exhibition (Industrial, Commercial and Agrarian), where floral arrangements were made by gardeners Wilhelm Mühle, Franz Niemetz and Beno Agatsy.
-        The flowers were admired by Franz Joseph, who visited the exhibition. Landscape landscaping of the park began in 1929 by landscape architects Árpád Mühle, the son of Wilhelm Mühle, and Mihai Demetrovich, the head of the horticulture service of that period.
-        The park was designed in English style, with alleys, canopies and rows of roses. During the interwar period the name of the park was Rosarium, and there were over 1200 varieties of roses labeled.Also during this period the theater was arranged in open air.
-        In 1944 the park was destroyed after the bombings. After the Second World War, the park was restored, with various outdoor performances taking place. Also in the park there is a sports base, arranged in winter as a skating rink, and in summer as a tennis court.
-        In 2012 the park was refurbished. The busts of Wilhelm Mühle (1844-1908), unveiled on 2 August 2013 and Árpád Mühle (1870-1930), unveiled on August 1, 2014, are located near the main entrance of Academician Alexander Borza.</string>
+        \nThe flowers were admired by Franz Joseph, who visited the exhibition. Landscape landscaping of the park began in 1929 by landscape architects Árpád Mühle, the son of Wilhelm Mühle, and Mihai Demetrovich, the head of the horticulture service of that period.
+        \nThe park was designed in English style, with alleys, canopies and rows of roses. During the interwar period the name of the park was Rosarium, and there were over 1200 varieties of roses labeled.Also during this period the theater was arranged in open air.
+        \nIn 1944 the park was destroyed after the bombings. After the Second World War, the park was restored, with various outdoor performances taking place. Also in the park there is a sports base, arranged in winter as a skating rink, and in summer as a tennis court.
+        \nIn 2012 the park was refurbished. The busts of Wilhelm Mühle (1844-1908), unveiled on 2 August 2013 and Árpád Mühle (1870-1930), unveiled on August 1, 2014, are located near the main entrance of Academician Alexander Borza.</string>
     <string name="cathedral_park_name">Cathedral Park</string>
-    <string name="cathedral_park_info">As it\'s name suggests, the park is close by to the Orthodox Cathedral from Timisoara. More precisely, it\'s boundaries are the Cathedral, Regele Ferdinand Boulevard, 16th of December 1989 Boulevard and the Bega Canal.</string>
+    <string name="cathedral_park_info">As it\'s name suggests, the park is close by to the Orthodox Cathedral from Timisoara. More precisely, it\'s boundaries are the Cathedral, Regele Ferdinand Boulevard, 16th of December 1989 Boulevard and the Bega Canal.
+            \nIt is a park where you can stop for a short break to admire the beauty of Timisoara's center.</string>
     <string name="civic_park_name">The Civic Park</string>
     <string name="civic_park_info">The park has an area of 76,000 square meters. It\'s on the site, a care took place in the war in Transylvania. This was in 1960 the demolished war plan, a new city center in its place to build.
         The plan was abandoned and opened Civic Park. Between 1968 and 1971, then the largest building in Timisoara, Continental Hotel, Flower Street The proclamation of Timisoara, a landmark city was here.</string>
     <string name="childrens_park_name">The Children\'s Park</string>
    <string name="childrens_park_info">A precursor of the park was in 1858. Part of Mihai Eminescu Park was finally in a Children\'s park in 1951.
-    It was named the first "Pioneer Park" before the two-year organization. After the revolution in 1989 - Children\'s Park ("Children\'s Park"), it was named for the first time, eventually with the suffix "Ion Creanga".
-    Between 2006 and 2012 he underwent many modernization works. The reopening took place on June 1, 2012, the International Children\'s Day.
-    The park is divided into zones of 23 age groups. The enchanted forest, the giant land, the liliputani country, the Indian Land, the dark forest or Snow White and the seven dwarves are few. There are regular shows for children and dolls.
-    There is a popular carousel, outdoor chess, mountaineering and slide.</string>
+        \nIt was named the first "Pioneer Park" before the two-year organization. After the revolution in 1989 - Children\'s Park ("Children\'s Park"), it was named for the first time, eventually with the suffix "Ion Creanga".
+        \nBetween 2006 and 2012 he underwent many modernization works. The reopening took place on June 1, 2012, the International Children\'s Day.
+        \nThe park is divided into zones of 23 age groups. The enchanted forest, the giant land, the liliputani country, the Indian Land, the dark forest or Snow White and the seven dwarves are few. There are regular shows for children and dolls.
+        \nThere is a popular carousel, outdoor chess, mountaineering and slide.</string>
 
     <string name="church_card">Churches and Cathedrals</string>
     <string name="ortodox_cathedral_name">Timisoara Orthodox Cathedral</string>

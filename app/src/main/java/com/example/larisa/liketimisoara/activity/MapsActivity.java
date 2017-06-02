@@ -68,24 +68,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 //        mMap.addMarker(createMarker(45.7507, 21.2243, "Timisoara Cathedral"));
 //        mMap.addMarker(createMarker(45.7541, 21.2259, "Timisoara Opera"));
-//        mMap.addMarker(createMarker(45.7795, 21.2637, "Banat Village Museum"));
 //        mMap.addMarker(createMarker(45.7532, 21.2270, "Huniade Castle"));
 //        mMap.addMarker(createMarker(45.7809, 21.2670, "Timisoara Zoological Garden"));
-//        mMap.addMarker(createMarker(45.7570, 21.2326, "Museum of Banat"));
 //        mMap.addMarker(createMarker(45.7549, 21.2249, "St. George's Cathedral"));
 //        mMap.addMarker(createMarker(45.7501, 21.2317, "Rosenpark"));
-//        mMap.addMarker(createMarker(45.7574, 21.2294, "Baroque Palace"));
-//        mMap.addMarker(createMarker(45.7580, 21.2290, "Union Square"));
-//        mMap.addMarker(createMarker(45.7574, 21.2293, "Museum of Art"));
 //        mMap.addMarker(createMarker(45.7602, 21.2253, "Botanic Park"));
-//        mMap.addMarker(createMarker(45.7573, 21.2493, "Traian's Square"));
 //        mMap.addMarker(createMarker(45.7568, 21.2334, "Maria Therezia Bastion"));
 //        mMap.addMarker(createMarker(45.7565, 21.2260, "Cetate Synagogue"));
-//        mMap.addMarker(createMarker(45.4444, 21.1264, "Water Tower"));
-//        mMap.addMarker(createMarker(45.7580, 21.2290, "Union Square"));
 //        mMap.addMarker(createMarker(45.7513, 21.2211, "Central Park"));
 //        mMap.addMarker(createMarker(45.7570, 21.2313, "Dicasterial Palace"));
-//        mMap.addMarker(createMarker(45.7472, 21.2319, "West University of Timisoara"));
     }
 
     @NonNull
