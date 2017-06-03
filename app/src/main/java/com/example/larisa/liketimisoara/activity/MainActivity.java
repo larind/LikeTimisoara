@@ -170,136 +170,267 @@ public class MainActivity extends AppCompatActivity
         DB database = DB.getInstance(this);
 
         try {
-
-         /*   database.insertAttraction(new Attraction(0, "Parcul Central",AttractionType.PARC, getString(R.string.info_central_park),
-                    R.drawable.parculcentral, true, 21.2211, 45.7513));
-            database.insertAttraction(new Attraction(1, "Parcul Botanic", AttractionType.PARC, "parc",
-                    R.drawable.parc, true, 21.2253, 45.7602));
-            database.insertAttraction(new Attraction(2, "Parcul Poporului", AttractionType.PARC, "parc",
-                    R.drawable.parc, false, 21.2253, 45.7602));
-            database.insertAttraction(new Attraction(3, "Parcul Justitiei" , AttractionType.PARC, "parc",
-                    R.drawable.parc, false, 21.2253, 45.7602));
-            database.insertAttraction(new Attraction(4, "Hotel Arta", AttractionType.HOTEL, "hotel",
-                    R.drawable.parc, false, 45.7513, 21.2211));
-            database.insertAttraction(new Attraction(5, "Muzeul Banat", AttractionType.MUZEU, "muzeu",
-                    R.drawable.parc, false, 45.7513, 21.2211));
-            database.insertAttraction(new Attraction(6, "SmartFit Studio 3", AttractionType.SALA_FITNESS, "CEA MAI TARE SALA DIN ORAS",
-                    R.drawable.harta, false, 45.7513, 21.2211));*/
             database.insertAttraction(new Attraction(7, getString(R.string.extreme_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.extreme_fitness_info),
-                    R.drawable.extreme, false, 45.728675, 21.2386))  ;
+                    R.drawable.extreme, false, 21.2386, 45.728675))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.friends_arena_name), AttractionType.SALA_FITNESS, getString(R.string.friends_arena_info),
-                    R.drawable.friends, false, 45.7301899, 21.2013))  ;
+                    R.drawable.friends, false, 21.2013, 45.7301899))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.iguana_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.iguana_fitness_info),
-                    R.drawable.iguana, false, 45.7639368, 21.2561))  ;
+                    R.drawable.iguana, false, 21.2561, 45.7639368))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.stil_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.stil_fitness_info),
-                    R.drawable.stil, false, 45.7434774, 21.2441))  ;
+                    R.drawable.stil, false, 21.2441, 45.7434774))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.body_time_name), AttractionType.SALA_FITNESS, getString(R.string.body_time_info),
-                    R.drawable.bodytime, false, 45.7739105, 21.2313))  ;
+                    R.drawable.bodytime, false, 21.2313, 45.7739105))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.smart_fit3_name), AttractionType.SALA_FITNESS, getString(R.string.smart_fit3_info),
-                    R.drawable.smartfit, false, 45.724749, 21.1998))  ;
+                    R.drawable.smartfit, false, 21.1998, 45.724749))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.continental_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.continental_fitness_info),
-                    R.drawable.continental, false, 45.7553, 21.2324))  ;
+                    R.drawable.continental, false,21.2324, 45.7553))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.world_class_name), AttractionType.SALA_FITNESS, getString(R.string.world_class_info),
-                    R.drawable.worldclass, false, 45.7627697, 21.2297))  ;
+                    R.drawable.worldclass, false, 21.2297,45.7627697))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.banu_fitness_name), AttractionType.SALA_FITNESS, getString(R.string.banu_fitness_info),
-                    R.drawable.banusport, false, 45.74354, 21.242))  ;
+                    R.drawable.banusport, false, 21.242, 45.74354))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.squash_sport_name), AttractionType.SALA_SQUASH, getString(R.string.squash_sport_info),
-                    R.drawable.squasharena, false, 45.7728636, 21.2161))  ;
+                    R.drawable.squasharena, false, 21.2161, 45.7728636))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.squash_club_name), AttractionType.SALA_SQUASH, getString(R.string.squash_club_info),
-                    R.drawable.squashclub, false, 45.7546726, 21.246))  ;
+                    R.drawable.squashclub, false, 21.246, 45.7546726))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.helios_squash_name), AttractionType.SALA_SQUASH, getString(R.string.helios_squash_info),
-                    R.drawable.helios, false, 45.7385141, 21.238))  ;
+                    R.drawable.helios, false, 21.238, 45.7385141))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.the_squashers_name), AttractionType.SALA_SQUASH, getString(R.string.the_squashers_info),
-                    R.drawable.squashers, false, 47.048961, 21.9050))  ;
+                    R.drawable.squashers, false, 21.9050, 47.048961))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.arena_pool_name), AttractionType.BAZIN_INOT, getString(R.string.arena_pool_info),
-                    R.drawable.arenapool, false, 45.769224, 21.2672))  ;
+                    R.drawable.arenapool, false, 21.2672, 45.769224))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.ice_dyp_name), AttractionType.BAZIN_INOT, getString(R.string.ice_dyp_info),
-                    R.drawable.icedyp, false, 45.765198, 21.25910))  ;
+                    R.drawable.icedyp, false, 21.25910, 45.765198))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.smart_fit3_name), AttractionType.BAZIN_INOT, getString(R.string.smart_fit3_info),
-                    R.drawable.smartfit, false, 45.724749, 21.1998))  ;
+                    R.drawable.smartfit, false, 21.1998, 45.724749))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.club_tivoli_name), AttractionType.TEREN_TENIS, getString(R.string.club_tivoli_info),
-                    R.drawable.tivoli, false, 45.763754, 21.275))  ;
+                    R.drawable.tivoli, false, 21.275, 45.763754))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.club_helios_name), AttractionType.TEREN_TENIS, getString(R.string.club_helios_info),
-                    R.drawable.helios, false, 45.7385141, 21.238))  ;
+                    R.drawable.helios, false, 21.238, 45.7385141))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.berlin_sport_name), AttractionType.TEREN_TENIS, getString(R.string.berlin_sport_info),
-                    R.drawable.berlin, false, 45.7883605, 21.2337))  ;
+                    R.drawable.berlin, false, 21.2337, 45.7883605))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.banu_sport_name), AttractionType.TEREN_TENIS, getString(R.string.banu_sport_info),
-                    R.drawable.banusport, false, 45.74354, 21.242))  ;
+                    R.drawable.banusport, false, 21.242, 45.74354))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.tudo_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.tudo_taxi_info),
-                    R.drawable.tudo, false, 45.769224, 21.2672))  ;
+                    R.drawable.tudo, false, 21.2672, 45.769224))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.fan_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.fan_taxi_info),
-                    R.drawable.fantaxi, false, 45.765198, 21.25910))  ;
+                    R.drawable.fantaxi, false, 21.25910, 45.765198))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.radio_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.radio_taxi_info),
-                    R.drawable.taxilogo, false, 45.724749, 21.1998))  ;
+                    R.drawable.taxilogo, false, 21.1998, 45.724749))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.pro_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.pro_taxi_info),
-                    R.drawable.taxilogo, false, 45.7385141, 21.238))  ;
+                    R.drawable.taxilogo, false, 21.238, 45.7385141))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.grup_taxi_name), AttractionType.COMPANIE_TAXI, getString(R.string.grup_taxi_info),
-                    R.drawable.taxilogo, false, 45.7883605, 21.2337))  ;
+                    R.drawable.taxilogo, false, 21.2337, 45.7883605))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.taxi_timisoara_name), AttractionType.COMPANIE_TAXI, getString(R.string.taxi_timisoara_info),
-                    R.drawable.taxilogo, false, 45.74354, 21.242))  ;
+                    R.drawable.taxilogo, false, 21.242, 45.74354))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.deluxe_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.deluxe_rent_info),
-                    R.drawable.deluxe, false, 45.7290652, 21.23161))  ;
+                    R.drawable.deluxe, false, 21.23161, 45.7290652))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.novum_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.novum_rent_info),
-                    R.drawable.novum, false, 45.743281, 21.2124))  ;
+                    R.drawable.novum, false, 21.2124, 45.743281))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.marvomil_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.marvomil_rent_info),
-                    R.drawable.narvomil, false, 45.774424, 21.2322))  ;
+                    R.drawable.narvomil, false, 21.2322, 45.774424))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.nataly_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.nataly_rent_info),
-                    R.drawable.nataly, false, 45.7605894, 21.2400))  ;
+                    R.drawable.nataly, false, 21.2400, 45.7605894))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.swiso_rent_name), AttractionType.INCHIRIERI_AUTO, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.742574, 21.207169))  ;
+                    R.drawable.swiso, false, 21.207169, 45.742574))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.nataly_rent_info),
-                    R.drawable.nataly, false, 45.75140, 21.22369))  ;
+                    R.drawable.nataly, false, 21.22369, 45.75140))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.71155, 21.19121))  ;
+                    R.drawable.swiso, false, 21.19121, 45.71155))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.75857, 21.21781))  ;
+                    R.drawable.swiso, false, 21.21781, 45.75857))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.72830, 21.20471))  ;
+                    R.drawable.swiso, false, 21.20471, 45.72830))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.77504, 21.22122))  ;
+                    R.drawable.swiso, false, 21.22122, 45.77504))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.75748, 21.22218))  ;
+                    R.drawable.swiso, false, 21.22218, 45.75748))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.75748, 21.22218))  ;
+                    R.drawable.swiso, false, 21.22218, 45.75748))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.75904, 21.24957))  ;
+                    R.drawable.swiso, false, 21.24957, 45.75904))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.74479, 21.24306))  ;
+                    R.drawable.swiso, false, 21.24306, 45.74479))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.velo_tm_name), AttractionType.STATIE_BICICLETE, getString(R.string.swiso_rent_info),
-                    R.drawable.swiso, false, 45.74716, 21.20994))  ;
+                    R.drawable.swiso, false, 21.20994, 45.74716))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.art_museum_name), AttractionType.MUZEU, getString(R.string.art_museum_info),
-                    R.drawable.muzeuarta, false, 45.75738, 21.2293))  ;
+                    R.drawable.muzeuarta, false, 21.2293, 45.75738))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.banat_museum_name), AttractionType.MUZEU, getString(R.string.banat_museum_info),
-                    R.drawable.mbanatului, true, 45.757258, 21.233961))  ;
+                    R.drawable.mbanatului, true, 21.233961, 45.757258))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.communist_museum_name), AttractionType.MUZEU, getString(R.string.commmunist_museum_info),
-                    R.drawable.mconsumatorului, false, 45.74323, 21.22425))  ;
+                    R.drawable.mconsumatorului, false, 21.22425, 45.74323))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.banat_village_museum_name), AttractionType.MUZEU, getString(R.string.banat_village_museum_info),
-                    R.drawable.msatului, true, 45.77818, 21.2653))  ;
+                    R.drawable.msatului, true, 21.2653, 45.77818))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.liberty_square_name), AttractionType.PIATA, getString(R.string.liberty_square_info),
-                    R.drawable.liberatatiisquare, true, 45.755, 21.22778))  ;
+                    R.drawable.liberatatiisquare, true, 21.22778, 45.755))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.victory_square_name), AttractionType.PIATA, getString(R.string.victory_square_info),
-                    R.drawable.victorieisquare, true, 45.75286, 21.225003))  ;
+                    R.drawable.victorieisquare, true, 21.225003, 45.75286))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.traian_square_name), AttractionType.PIATA, getString(R.string.traian_square_info),
-                    R.drawable.traiansquare, false, 45.7573, 21.2493))  ;
+                    R.drawable.traiansquare, false, 21.2493, 45.7573))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.st_gheorghe_square_name), AttractionType.PIATA, getString(R.string.st_gheorghe_square_info),
-                    R.drawable.gheorghesquare, false, 45.75577, 21.228))  ;
+                    R.drawable.gheorghesquare, false, 21.228, 45.75577))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.union_square_name), AttractionType.PIATA, getString(R.string.union_square_info),
-                    R.drawable.uniriisquare, true, 45.7580, 21.2290))  ;
-
+                    R.drawable.uniriisquare, true, 21.2290, 45.7580))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.childrens_park_name), AttractionType.PARC, getString(R.string.childrens_park_info),
-                    R.drawable.copiilor, false, 45.751611, 21.233))  ;
+                    R.drawable.copiilor, false, 21.233, 45.751611))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.roses_park_name), AttractionType.PARC, getString(R.string.roses_park_info),
-                    R.drawable.rozelor, true, 45.7500943, 21.231682))  ;
+                    R.drawable.rozelor, true, 21.231682, 45.7500943))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.botanical_park_name), AttractionType.PARC, getString(R.string.botanical_park_info),
-                    R.drawable.botanic, false, 45.7601963, 21.22530))  ;
+                    R.drawable.botanic, false, 21.22530, 45.7601963))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.cathedral_park_name), AttractionType.PARC, getString(R.string.cathedral_park_info),
-                    R.drawable.catedralei, false, 45.74996, 21.2237))  ;
+                    R.drawable.catedralei, false, 21.2237, 45.74996))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.civic_park_name), AttractionType.PARC, getString(R.string.civic_park_info),
-                    R.drawable.civic, false, 45.7540275, 21.231559))  ;
+                    R.drawable.civic, false, 21.231559, 45.7540275))  ;
             database.insertAttraction(new Attraction(7, getString(R.string.justice_park_name), AttractionType.PARC, getString(R.string.justice_park_info),
-                    R.drawable.justitiei, false, 45.7499622, 21.227336))  ;
+                    R.drawable.justitiei, false, 21.227336, 45.7499622))  ;
             database.insertAttraction(new Attraction(0, getString(R.string.central_park_name),AttractionType.PARC, getString(R.string.info_central_park),
                     R.drawable.parculcentral, true, 21.2211, 45.7513));
+            database.insertAttraction(new Attraction(0, getString(R.string.bastion_name),AttractionType.ALTE_OBIECTIVE, getString(R.string.bastion_info),
+                    R.drawable.bastion, true, 21.23392, 45.75721));
+            database.insertAttraction(new Attraction(0, getString(R.string.timisoreana_name),AttractionType.ALTE_OBIECTIVE, getString(R.string.timisoreana_info),
+                    R.drawable.timisoreana, true, 21.248941, 45.754762));
+            database.insertAttraction(new Attraction(0, getString(R.string.millenium_cathedral_name),AttractionType.CATEDRALA, getString(R.string.millenium_cathedral_info),
+                    R.drawable.bisericamillenium, true, 21.247785, 45.756680));
+            database.insertAttraction(new Attraction(0, getString(R.string.ortodox_cathedral_name),AttractionType.CATEDRALA, getString(R.string.ortodox_cathedral_info),
+                    R.drawable.cathedral, false, 21.2242708, 45.7507216));
+            database.insertAttraction(new Attraction(0, getString(R.string.assumption_church_name),AttractionType.CATEDRALA, getString(R.string.assumption_church_info),
+                    R.drawable.assumption, false, 21.219880, 45.7725689));
+            database.insertAttraction(new Attraction(0, getString(R.string.catherine_church_name),AttractionType.CATEDRALA, getString(R.string.catherine_church_info),
+                    R.drawable.sfecaterina, false, 21.2280593, 45.7543008));
+            database.insertAttraction(new Attraction(0, getString(R.string.roman_catholic_catedral_name),AttractionType.CATEDRALA, getString(R.string.roman_catholic_catedral_info),
+                    R.drawable.cathedralstgheorghe, false, 21.2300940, 45.7581453));
+            database.insertAttraction(new Attraction(0, getString(R.string.elim_church_name),AttractionType.CATEDRALA, getString(R.string.elim_church_info),
+                    R.drawable.elimjpg, false, 21.2188, 45.7446917));
+            database.insertAttraction(new Attraction(0, getString(R.string.birth_mary_name),AttractionType.CATEDRALA, getString(R.string.birth_mary_info),
+                    R.drawable.birthofmarychurch, false, 21.21646, 45.746083));
+
+            database.insertAttraction(new Attraction(0, getString(R.string.merlot_restaurant_name),AttractionType.RESTAURANT, getString(R.string.merlot_restaurant_info),
+                    R.drawable.bisericamillenium, false, 21.2420, 45.756454));
+            database.insertAttraction(new Attraction(0, getString(R.string.sabres_restaurant_name),AttractionType.RESTAURANT, getString(R.string.sabres_restaurant_info),
+                    R.drawable.cathedral, false, 21.238341, 45.742456));
+            database.insertAttraction(new Attraction(0, getString(R.string.grill_to_chill_name),AttractionType.RESTAURANT, getString(R.string.grill_to_chill_info),
+                    R.drawable.assumption, false, 21.228497, 45.756759));
+            database.insertAttraction(new Attraction(0, getString(R.string.caruso_restaurant_name),AttractionType.RESTAURANT, getString(R.string.caruso_restaurant_info),
+                    R.drawable.sfecaterina, false, 21.229376, 45.7552659));
+            database.insertAttraction(new Attraction(0, getString(R.string.amphora_enoteca_restaurant_name),AttractionType.RESTAURANT, getString(R.string.amphora_enoteca_restaurant_info),
+                    R.drawable.cathedralstgheorghe, false, 21.233603, 45.756395));
+            database.insertAttraction(new Attraction(0, getString(R.string.belvedere_restaurant_name),AttractionType.RESTAURANT, getString(R.string.belvedere_restaurant_info),
+                    R.drawable.elimjpg, false, 21.22538, 45.754426));
+            database.insertAttraction(new Attraction(0, getString(R.string.enoteca_restaurant_name),AttractionType.RESTAURANT, getString(R.string.enoteca_restaurant_info),
+                    R.drawable.birthofmarychurch, false, 21.2283462, 45.75667079));
+            database.insertAttraction(new Attraction(0, getString(R.string.mercy_restaurant_name),AttractionType.RESTAURANT, getString(R.string.merlot_restaurant_info),
+                    R.drawable.elimjpg, false, 21.22868, 45.7563201));
+            database.insertAttraction(new Attraction(0, getString(R.string.ristorante_al_duomo_name),AttractionType.RESTAURANT, getString(R.string.ristorante_al_duomo_info),
+                    R.drawable.birthofmarychurch, false, 21.230911, 45.7579943));
+            database.insertAttraction(new Attraction(0, getString(R.string.timsoreana_restaurant_name),AttractionType.RESTAURANT, getString(R.string.timisoareana_restaurant_info),
+                    R.drawable.bisericamillenium, false, 21.225171, 45.7534005));
+            database.insertAttraction(new Attraction(0, getString(R.string.chinese_restaurant_name),AttractionType.RESTAURANT, getString(R.string.chinese_restaurant_info),
+                    R.drawable.cathedral, false, 21.2512388, 45.7632856));
+            database.insertAttraction(new Attraction(0, getString(R.string.riviere_restaurant_name),AttractionType.RESTAURANT, getString(R.string.riviere_restaurant_info),
+                    R.drawable.assumption, false, 21.22661, 45.7488825));
+            database.insertAttraction(new Attraction(0, getString(R.string.banat_garden_name),AttractionType.RESTAURANT, getString(R.string.banat_garden_info),
+                    R.drawable.sfecaterina, false, 21.226525, 45.7489663));
+            database.insertAttraction(new Attraction(0, getString(R.string.la_strada_name),AttractionType.RESTAURANT, getString(R.string.la_strada_info),
+                    R.drawable.cathedralstgheorghe, false, 21.22915, 45.7660743));
+            database.insertAttraction(new Attraction(0, getString(R.string.sky_restaurant_name),AttractionType.RESTAURANT, getString(R.string.sky_restaurant_info),
+                    R.drawable.elimjpg, false, 21.22185, 45.756769));
+            database.insertAttraction(new Attraction(0, getString(R.string.flower_house_name),AttractionType.RESTAURANT, getString(R.string.flower_house_info),
+                    R.drawable.birthofmarychurch, false, 21.226839, 45.7546834));
+
+            database.insertAttraction(new Attraction(0, getString(R.string.tucano_cafe_name),AttractionType.CAFENEA, getString(R.string.tucano_cafe_info),
+                    R.drawable.elimjpg, false, 21.2271253, 45.7567436));
+            database.insertAttraction(new Attraction(0, getString(R.string.starbucks_name),AttractionType.CAFENEA, getString(R.string.starbucks_info),
+                    R.drawable.birthofmarychurch, false, 21.2270906, 45.766370));
+            database.insertAttraction(new Attraction(0, getString(R.string.segafredo_name),AttractionType.CAFENEA, getString(R.string.segafredo_info),
+                    R.drawable.elimjpg, false, 21.22459, 45.7522865));
+            database.insertAttraction(new Attraction(0, getString(R.string.cafeneaua_verde_name),AttractionType.CAFENEA, getString(R.string.cafeneaua_verde_info),
+                    R.drawable.birthofmarychurch, false, 21.2268, 45.756137));
+            database.insertAttraction(new Attraction(0, getString(R.string.cafe_opera_name),AttractionType.CAFENEA, getString(R.string.cafe_opera_info),
+                    R.drawable.bisericamillenium, false, 21.2244554, 45.7520221));
+            database.insertAttraction(new Attraction(0, getString(R.string.viviani_cafe_name),AttractionType.CAFENEA, getString(R.string.viviani_cafe_info),
+                    R.drawable.cathedral, false, 21.21778, 45.7631301));
+            database.insertAttraction(new Attraction(0, getString(R.string.garage_cafe_name),AttractionType.CAFENEA, getString(R.string.garage_cafe_info),
+                    R.drawable.assumption, false, 21.230150, 45.7573328));
+            database.insertAttraction(new Attraction(0, getString(R.string.bierhaus_name),AttractionType.CAFENEA, getString(R.string.bierhaus_info),
+                    R.drawable.sfecaterina, false, 21.22714, 45.7585487));
+            database.insertAttraction(new Attraction(0, getString(R.string.toniq_bar_name),AttractionType.CAFENEA, getString(R.string.toniq_bar_info),
+                    R.drawable.cathedralstgheorghe, false, 21.2269, 45.7490329));
+            database.insertAttraction(new Attraction(0, getString(R.string.vineri_15_name),AttractionType.CAFENEA, getString(R.string.vineri_15_name),
+                    R.drawable.elimjpg, false, 21.230367, 45.748054));
+            database.insertAttraction(new Attraction(0, getString(R.string.la_capite_name),AttractionType.CAFENEA, getString(R.string.la_capite_info),
+                    R.drawable.birthofmarychurch, false, 21.230972, 45.7482099));
+
+            database.insertAttraction(new Attraction(0, getString(R.string.heaven_club_name),AttractionType.CLUB, getString(R.string.heaven_club_info),
+                    R.drawable.elimjpg, false, 21.2491382, 45.7396));
+            database.insertAttraction(new Attraction(0, getString(R.string.epic_club_name),AttractionType.CLUB, getString(R.string.epic_club_info),
+                    R.drawable.birthofmarychurch, false, 21.222902, 45.7692854));
+            database.insertAttraction(new Attraction(0, getString(R.string.fratelli_club_name),AttractionType.CLUB, getString(R.string.fratelli_club_info),
+                    R.drawable.elimjpg, false, 21.2366, 45.750845));
+            database.insertAttraction(new Attraction(0, getString(R.string.club_taine_name),AttractionType.CLUB, getString(R.string.club_taine_info),
+                    R.drawable.birthofmarychurch, false, 21.2302, 45.758429));
+            database.insertAttraction(new Attraction(0, getString(R.string.club_daos_name),AttractionType.CLUB, getString(R.string.club_daos_info),
+                    R.drawable.bisericamillenium, false, 21.21652, 45.7504715));
+            database.insertAttraction(new Attraction(0, getString(R.string.bunker_name),AttractionType.CLUB, getString(R.string.bunker_info),
+                    R.drawable.cathedral, false, 21.22704, 45.7586585));
+            database.insertAttraction(new Attraction(0, getString(R.string.nouveau_name),AttractionType.CLUB, getString(R.string.nouveau_info),
+                    R.drawable.assumption, false, 21.226541, 45.7576361));
+            database.insertAttraction(new Attraction(0, getString(R.string.storia_name),AttractionType.CLUB, getString(R.string.storia_info),
+                    R.drawable.sfecaterina, false, 21.228027, 45.756657));
+            database.insertAttraction(new Attraction(0, getString(R.string.wakeup_name),AttractionType.CLUB, getString(R.string.wakeup_info),
+                    R.drawable.cathedralstgheorghe, false, 21.238395, 45.7500517));
+            database.insertAttraction(new Attraction(0, getString(R.string.jardin_name),AttractionType.CLUB, getString(R.string.jardin_info),
+                    R.drawable.elimjpg, false, 21.22924, 45.7480009));
+            database.insertAttraction(new Attraction(0, getString(R.string.scottish_name),AttractionType.CLUB, getString(R.string.scottish_info),
+                    R.drawable.birthofmarychurch, false, 21.2286, 45.756618));
+            database.insertAttraction(new Attraction(0, getString(R.string.atu_name),AttractionType.CLUB, getString(R.string.atu_info),
+                    R.drawable.birthofmarychurch, false, 21.23854, 45.7499828));
+
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_timisoara_name),AttractionType.HOTEL, getString(R.string.hotel_timisoara_info),
+                    R.drawable.birthofmarychurch, false, 21.225327, 45.754758));
+            database.insertAttraction(new Attraction(0, getString(R.string.iosefin_residence_name),AttractionType.HOTEL, getString(R.string.iosefin_residence_info),
+                    R.drawable.elimjpg, false, 21.2158, 45.74664));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_central_name),AttractionType.HOTEL, getString(R.string.hotel_central_info),
+                    R.drawable.birthofmarychurch, false, 21.226835, 45.757676));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_savoy_name),AttractionType.HOTEL, getString(R.string.hotel_savoy_info),
+                    R.drawable.bisericamillenium, false, 21.2243426, 45.747708));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_excelsior_name),AttractionType.HOTEL, getString(R.string.hotel_excelsior_info),
+                    R.drawable.cathedral, false, 21.219738, 45.7430566));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_perla_name),AttractionType.HOTEL, getString(R.string.hotel_perla_info),
+                    R.drawable.assumption, false, 21.227554, 45.7421759));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_nh_name),AttractionType.HOTEL, getString(R.string.hotel_nh_info),
+                    R.drawable.sfecaterina, false, 21.2420786, 45.754617));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_president_name),AttractionType.HOTEL, getString(R.string.hotel_president_info),
+                    R.drawable.cathedralstgheorghe, false, 21.212774, 45.758356));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_arta_name),AttractionType.HOTEL, getString(R.string.hotel_arta_info),
+                    R.drawable.elimjpg, false, 21.289125, 45.773353));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_euro_name),AttractionType.HOTEL, getString(R.string.hotel_euro_info),
+                    R.drawable.birthofmarychurch, false, 21.24464, 45.7509937));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_pacific_name),AttractionType.HOTEL, getString(R.string.hotel_pacific_info),
+                    R.drawable.birthofmarychurch, false, 21.24685599, 45.764335));
+
+            database.insertAttraction(new Attraction(0, getString(R.string.hostel_nord_name),AttractionType.HOSTEL, getString(R.string.hostel_nord_info),
+                    R.drawable.elimjpg, false, 21.20877, 45.749113));
+            database.insertAttraction(new Attraction(0, getString(R.string.central_hostel_name),AttractionType.HOSTEL, getString(R.string.central_hostel_info),
+                    R.drawable.birthofmarychurch, false, 21.22677, 45.754769));
+            database.insertAttraction(new Attraction(0, getString(R.string.hotel_costel_name),AttractionType.HOSTEL, getString(R.string.hotel_costel_info),
+                    R.drawable.birthofmarychurch, false, 21.244692, 45.758361));
+
+            database.insertAttraction(new Attraction(0, getString(R.string.pensiune_elisei_name),AttractionType.PENSIUNE, getString(R.string.pensiune_elisei_info),
+                    R.drawable.elimjpg, false, 21.218500, 45.7346672));
+            database.insertAttraction(new Attraction(0, getString(R.string.pensiune_normandia_name),AttractionType.PENSIUNE, getString(R.string.pensiune_normandia_info),
+                    R.drawable.birthofmarychurch, false, 21.231151, 45.733085));
+            database.insertAttraction(new Attraction(0, getString(R.string.pensiune_timisreana_name),AttractionType.PENSIUNE, getString(R.string.pensiune_timisoreana_info),
+                    R.drawable.birthofmarychurch, false, 21.21080, 45.7400199));
+            database.insertAttraction(new Attraction(0, getString(R.string.pensiune_venus_name),AttractionType.PENSIUNE, getString(R.string.pensiune_venus_info),
+                    R.drawable.elimjpg, false, 21.227288, 45.7354789));
+            database.insertAttraction(new Attraction(0, getString(R.string.pensiune_vladut_name),AttractionType.PENSIUNE, getString(R.string.pensiune_vladut_info),
+                    R.drawable.birthofmarychurch, false, 21.278629, 45.75612));
+            database.insertAttraction(new Attraction(0, getString(R.string.pensiune_yasmine_name),AttractionType.PENSIUNE, getString(R.string.pensiune_yasmine_info),
+                    R.drawable.birthofmarychurch, false, 21.26158, 45.759727));
+            database.insertAttraction(new Attraction(0, getString(R.string.pensiune_voiaj_name),AttractionType.PENSIUNE, getString(R.string.pensiune_voiaj_info),
+                    R.drawable.birthofmarychurch, false, 21.21456, 45.7745));
+
+
+
 
 
 

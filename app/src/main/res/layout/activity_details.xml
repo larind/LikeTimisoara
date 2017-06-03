@@ -10,7 +10,10 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.larisa.liketimisoara.activity.DetailsActivity">
-
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
     <TextView
         android:id="@+id/attraction_title_textView"
         android:layout_width="wrap_content"
@@ -21,6 +24,16 @@
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/details_imagebutton"
+        android:layout_marginTop="20dp"
+        android:layout_width="49dp"
+        android:layout_height="66dp"
+        android:drawableTop="@drawable/pin"
+        android:background="@android:color/transparent"
+        android:gravity="right"/>
+</LinearLayout>
 
     <ImageView
         android:id="@+id/details_imageview"
@@ -37,17 +50,6 @@
         android:gravity="center"
         android:text="Cafeneau verde este cea mai frumoasa cafenea ce o puteti intalni in Timisoara. Este situata in centrul orasului si acolo puteti sa va opriti dupa o zi in care ati vizitat multe locuri minunate din oras." />
 
-
-    <Button
-        android:id="@+id/details_imagebutton"
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableTop="@android:drawable/ic_dialog_map"
-        android:background="@android:color/holo_orange_light"
-        android:text="Du-ma acolo"
-        android:textColor="@android:color/background_dark"
-        android:textAppearance="@style/TextAppearance.AppCompat"/>
 </LinearLayout>
 
 

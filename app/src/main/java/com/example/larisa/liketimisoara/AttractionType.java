@@ -22,5 +22,6 @@ public enum AttractionType {
     SALA_SQUASH,
     COMPANIE_TAXI,
     INCHIRIERI_AUTO,
-    STATIE_BICICLETE
+    STATIE_BICICLETE,
+    ALTE_OBIECTIVE
 }

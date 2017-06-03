@@ -14,6 +14,16 @@
     <string name="atrractions_button">Attractions of Timisoara</string>
     <string name="history_name">History of Timisoara</string>
     <string name="maps_button">Take me there</string>
+    <string name="bastion_name">Maria Theresia Bastion</string>
+    <string name="bastion_info">The Theresia Bastion is the only bastion that still exists in the Timisoara fortress during the period of Banat\'s affiliation to the Austrian Empire.
+        \nBeing the only bastion in Timisoara, it is also known by the Timisoara as Fortress Bastion. The bastion was rehabilitated during 2008-2010.
+        \nPrior to the rehabilitation, it housed commercial areas, restaurants, bars, a nightclub discotheque, a bookstore, two permanent exhibitions of the Banat Museum, the Information and Communication Technology and "Violin - a Lifetime Passion" Ethnography Section of the Banat Village Museum.</string>
+    <string name="timisoreana_name">Timisoreana Brewery</string>
+    <string name="timisoreana_info">The first beer factory in Romania has its origins long ago, being established in the city of Timisoara in the second decade of the eighteenth century.
+        \nThe first document attesting to this was given by the administration of the fortress and called for the construction of a beer brew and a brandy boiler.
+        \nMoreover, the same document prohibits the bringing of beer and brandy elsewhere and specifies the obligation of all the villages of Banat to take on certain quantities of these products on a distribution basis.
+        \nThis ordinance was dictated by a necessity: the satisfaction of the needs of the Austrian troops left after the liberation from the Ottoman occupation, as well as the substitution of the acute shortage of drinking water, which also led to the development of a series of projects for feeding the Citadel with water through wooden pipes Building a water tower fueled by Bega.
+        \nBeer brewing was built in Palanca Noua, the district that is now called Fabric.</string>
     <string name="history_content">Timisoara is the current residence of Timis County, located in the West part of the country, in the Plain of Timis, a plain of two important rivers: Bega and Timiş.
         \nOn the banks of these rivers, a fortified fortress was built - Castrum Temesiense - a well-known fortress in 1212.The fortress developed over time, reaching between 1315-1323 to be the royal residence of King Charles Robert of Anjou.
         \nTimisoara is first celebrated as Civitas (city) in 1342, and in the 16th century it becomes an important point of resistance against the Ottoman Empire, hence the Crusaders in the Christian War, which ended with the defeat at Nicopole. Also from here starts the military campaign led by Iancu de Hunedoara.
@@ -158,19 +168,19 @@
     <string name="useful_info_main">Useful infos</string>
     <string name="rent_cars_menu">Rent a car</string>
     <string name="deluxe_rent_name">Deluxe Rent a Car Timisoara</string>
-    <string name="deluxe_rent_info">Adress:  Str. Fedra, no.19
+    <string name="deluxe_rent_info">Address:  Str. Fedra, no.19
                                   \nTel: 0040723799649</string>
     <string name="swiso_rent_name">Swiso Rent a Car Timisoara</string>
-    <string name="swiso_rent_info">Adress:  Blvd. Iuliu Maniu, no.37
+    <string name="swiso_rent_info">Address:  Blvd. Iuliu Maniu, no.37
                                   \nTel: 0040786541800</string>
     <string name="nataly_rent_name">Nataly Rent a Car Timisoara</string>
-    <string name="nataly_rent_info">Adress:  Blvd. Take Ionescu, no.47
+    <string name="nataly_rent_info">Address:  Blvd. Take Ionescu, no.47
                                  \n Tel: 0040751997030</string>
     <string name="novum_rent_name">Novum Rent a Car Timisoara</string>
-    <string name="novum_rent_info">Adress:  Blvd. Ion Dragalina, no.3
+    <string name="novum_rent_info">Address:  Blvd. Ion Dragalina, no.3
                                   \nTel: 0040256499579</string>
     <string name="marvomil_rent_name">Marvomil Auto Timisoara</string>
-    <string name="marvomil_rent_info">Adress:  Str. Sever Bocu, no.37
+    <string name="marvomil_rent_info">Address:  Str. Sever Bocu, no.37
                                   \n Tel: 0040785560550</string>
     <string name="bike_stations_menu">Velo TM Bike stations</string>
     <string name="velo_tm_name">Velo TM</string>
@@ -240,7 +250,7 @@
         \nIn 2012 the park was refurbished. The busts of Wilhelm Mühle (1844-1908), unveiled on 2 August 2013 and Árpád Mühle (1870-1930), unveiled on August 1, 2014, are located near the main entrance of Academician Alexander Borza.</string>
     <string name="cathedral_park_name">Cathedral Park</string>
     <string name="cathedral_park_info">As it\'s name suggests, the park is close by to the Orthodox Cathedral from Timisoara. More precisely, it\'s boundaries are the Cathedral, Regele Ferdinand Boulevard, 16th of December 1989 Boulevard and the Bega Canal.
-            \nIt is a park where you can stop for a short break to admire the beauty of Timisoara's center.</string>
+            \nIt is a park where you can stop for a short break to admire the beauty of Timisoara\'s center.</string>
     <string name="civic_park_name">The Civic Park</string>
     <string name="civic_park_info">The park has an area of 76,000 square meters. It\'s on the site, a care took place in the war in Transylvania. This was in 1960 the demolished war plan, a new city center in its place to build.
         The plan was abandoned and opened Civic Park. Between 1968 and 1971, then the largest building in Timisoara, Continental Hotel, Flower Street The proclamation of Timisoara, a landmark city was here.</string>
@@ -252,66 +262,271 @@
         \nThere is a popular carousel, outdoor chess, mountaineering and slide.</string>
 
     <string name="church_card">Churches and Cathedrals</string>
-    <string name="ortodox_cathedral_name">Timisoara Orthodox Cathedral</string>
-    <string name="ortodox_cathedral_info"></string>
+    <string name="ortodox_cathedral_name">Metropolitan Cathedral of Timisoara</string>
+    <string name="ortodox_cathedral_info">The Metropolitan Cathedral of Timisoara is the largest religious building in Timisoara, the cathedral of the Banat Metropolitan Church, dedicated to the "Three Hierarchs".
+        \nIt was built between 1936 and 1941 and is a symbol of the city. It is currently the tallest church in Romania (90.5 m) and the tallest Orthodox church in the world outside of Russia (If we consider Russia and Georgia, the Cathedral of Timisoara is the eighth largest in the world)</string>
     <string name="assumption_church_name">Assumption of the Virgin Mary Church</string>
-    <string name="assumption_church_info"></string>
+    <string name="assumption_church_info">It was built in 1784 on the site of a more wooden church dating back to 1727. At first it was without a tower, only a cross with a globe lay on the roof above the altar. The tower was added in 1836.
+            \n100 years later, in 1894, the current church dedicated to the Assumption of the Virgin was built, according to the plan of the architect Stefan Toth. It has a length of 24.41 m and a width of 7.70 m. The tower is built in baroque style.</string>
     <string name="catherine_church_name">Saint Catherine Church</string>
-    <string name="catherine_church_info"></string>
+    <string name="catherine_church_info">Saint Catherine Church in Timisoara is a Catholic religious place, a historical monument, built between 1753-1756, on the site of a former mill. Currently, the church serves the Slovak Catholic community in Timisoara.
+        \nSaint Catherine Church is the successor of the medieval Franciscan church. In the crypt of the medieval church was buried in the 13th century Queen Maria de Bytom⁠, the wife of Carol Robert of Anjou.
+        \nAccording to other sources, Queen Maria would only have died in Timisoara and would have been buried at the Royal Alba.
+        \nThe church was turned into a mosque during the Ottoman occupation.</string>
     <string name="elim_church_name">Elim Church</string>
-    <string name="elim_church_info"></string>
-    <string name="birth_mary_name">The birt of Mary the Virgin Church</string>
-    <string name="birth_mary_info"></string>
-    <string name="millenium_cathedral_name">Millenium Cathedral</string>
-    <string name="millenium_cathedral_info"></string>
+    <string name="elim_church_info">The current building was founded on November 20, 1988, but its beginnings were noted between 1928-1930.
+            /nAt that time, a group of believers from Timisoara (Fabric districts, Ronat and Vii) alternately gathered in their private homes and held the imposing building of today.</string>
+    <string name="birth_mary_name">The birth of Mary the Virgin Church</string>
+    <string name="birth_mary_info">It was founded in 1921 following the steps taken by the faithful worshipers Iacob Marian and Emanoil Ungurianu.
+        \nThe parish church, dedicated to the Nativity of the Mother of God, was built between 1932 and 1936 and was sanctified on September 8, 1936, the parish priest being Ioan Imbroane.
+        \nThe worship site re-creates the traditional monastery style, with a special bell tower, the interior being inspired by the famous Saint Sofia in Constantinople.
+        \nThe mural painting was performed by Professor Catul Bogdan and Dr. Ioachim Miloia, and later was restored by Anastasie Demian and Victor Jurca, the iconostasis, the chandelier and the furniture being carved by Stefan Gajo and Stefan Novac.</string>
+    <string name="millenium_cathedral_name">Millennium Cathedral</string>
+    <string name="millenium_cathedral_info">The church project was developed by the architect YBL LAJOS and the construction was carried out by the constructor KREMER JÓZSEF. The foundation stone was deposited on October 4, 1896. The church was consecrated on 13 October 1901.
+            \n The church is built in neo-roman style and is covered from the outside with raw brick. The walls of the church are 1-3.64 m thick. Three statues of natural size are placed above the gate: the apostles Peter and Paul, and in the middle the Christ Savior with the cross.
+            \nThe main dimensions of the church:
+                \nLength measured outside: 71.12m.
+        \nThe inner surface of the church is 1170.15m², where 48 banks are located.</string>
     <string name="roman_catholic_catedral_name"> Roman Catholic Cathedral of Saint George</string>
-    <string name="roman_catholic_catedral_info"></string>
+    <string name="roman_catholic_catedral_info">Roman Catholic Dome is the cathedral of the Roman Catholic Episcopate of Timisoara and one of the city\'s emblematic monuments.
+        \nThe edifice is dedicated to St. George and was built between 1736 and 1774. The turrets have a low height, determined by the proximity of the fortress wall.
+        \nThe interior is rich and sumptuous, noting the 9 altars decorated in Baroque and Rococo style, carved by Viennese Johan Müller, decorated with old icons, the organ built by Carl Leopold Wegenstein in 1908, but also the oak doors decorated with pure nickel grids .
+        \nThe Roman Catholic Dome (the Roman Catholic Cathedral) is considered to be the most unitary and representative Baroque building of Timisoara and one of the most valuable in Banat.</string>
 
     <string name="restaurants_card">Restaurants</string>
     <string name="merlot_restaurant_name">Merlot Restaurant</string>
-    <string name="merlot_restaurant_info"></string>
+    <string name="merlot_restaurant_info">CUISINES: Mediterranean, European, Fusion, Vegetarian Friendly, Vegan Options
+                    \n Tel: 0040356450520
+                    \n Price category: $$$$</string>
     <string name="sabres_restaurant_name">Sabres Restaurant</string>
-    <string name="sabres_restaurant_info"></string>
+    <string name="sabres_restaurant_info">CUISINES:  Seafood, Mediterranean, European
+                    \n Tel: 0040722590115
+                    \n Price category: $$$$</string>
     <string name="grill_to_chill_name">Grill to chill</string>
-    <string name="grill_to_chill_info"></string>
+    <string name="grill_to_chill_info">CUISINES: Steakhouse, Barbecue, European
+                    \n Tel: 0040755111797
+                    \n Price category: $$$$</string>
     <string name="caruso_restaurant_name">Caruso Restaurant</string>
-    <string name="caruso_restaurant_info"></string>
+    <string name="caruso_restaurant_info">CUISINES:  Italian, French, Mediterranean
+                    \n Tel: 0040256224771
+                    \n Price category: $$$$</string>
     <string name="amphora_enoteca_restaurant_name">Amphora Enoteca-Restaurant</string>
-    <string name="amphora_enoteca_restaurant_info"></string>
+    <string name="amphora_enoteca_restaurant_info">CUISINES:  European, Wine Bar, Central European
+                    \n Tel: 0040732970181
+                    \n Price category: $$$$</string>
     <string name="belvedere_restaurant_name">Belvedere Restaurant</string>
-    <string name="belvedere_restaurant_info"></string>
+    <string name="belvedere_restaurant_info">CUISINES:  International, Italian, French
+                    \n Tel: 0040256300231
+                    \n Price category: $$$$</string>
     <string name="enoteca_restaurant_name">Enoteca de Savoya Restaurant</string>
-    <string name="enoteca_restaurant_info"></string>
+    <string name="enoteca_restaurant_info">CUISINES:  Austrian, International, European
+                    \n Tel: 0040256433472
+                    \n Price category: $$$$</string>
     <string name="mercy_restaurant_name">Mercy Restaurant</string>
-    <string name="mercy_restaurant_info"></string>
+    <string name="mercy_restaurant_info">CUISINES:  Italian, Mediterranean, European
+                    \n Tel: 0040356007876
+                    \n Price category: $$ - $$$</string>
     <string name="ristorante_al_duomo_name">Ristorante Al Duomo </string>
-    <string name="ristorante_al_duomo_info"></string>
+    <string name="ristorante_al_duomo_info">CUISINES:  Italian, Mediterranean, Seafood
+                    \n Tel: 0040724044423
+                    \n Price category: $$$$</string>
     <string name="timsoreana_restaurant_name">Timisoareana Restaurant</string>
-    <string name="timisoareana_restaurant_info"></string>
+    <string name="timisoareana_restaurant_info">CUISINES:  European, Eastern European, Central European, Romanian
+                    \n Tel: 0040256295421
+                    \n Price category: $$ - $$$</string>
     <string name="chinese_restaurant_name">The great Chinese Restaurant</string>
-    <string name="chinese_restaurant_info"></string>
+    <string name="chinese_restaurant_info">CUISINES: Chinese
+                    \n Tel: 0040256432188
+                    \n Price category: $$ - $$$</string>
     <string name="riviere_restaurant_name">Rivière Brasserie</string>
-    <string name="riviere_restaurant_info"></string>
+    <string name="riviere_restaurant_info">CUISINES:  European, Central European, Cafe
+                    \n Tel: 0040746095573
+                    \n Price category: $$ - $$$</string>
     <string name="banat_garden_name">Banat Garden</string>
-    <string name="banat_garden_info"></string>
-
+    <string name="banat_garden_info">CUISINES:  Eastern European, Romanian
+                    \n Tel: 0040256 292642
+                    \n Price category: $$ - $$$</string>
+    <string name="la_strada_name">La Strada</string>
+    <string name="la_strada_info">CUISINES:  French, Italian, American
+                    \n Tel: 0040758067916
+                    \n Price category: $$ - $$$</string>
+    <string name="sky_restaurant_name">Sky Restaurant</string>
+    <string name="sky_restaurant_info">CUISINES:   Italian, European, Mediterranean
+                    \n Tel: 0040758067916
+                    \n Price category: $$$$</string>
+    <string name="flower_house_name">Casa cu Flori</string>
+    <string name="flower_house_info">CUISINES:  European, Eastern European, Romanian
+                    \n Tel: 0040721180011
+                    \n Price category: $$ - $$$</string>
     <string name="cafes_card">Cafés and Bars</string>
+    <string name="tucano_cafe_name">Tucano Coffee Mexico</string>
+    <string name="tucano_cafe_info">Schedule:
+                                     \nMonday - Tuesday: 08 - 23
+                                    \n Friday - Sunday: 08 -00
+                                    \n Tel: 0040785882266</string>
+    <string name="segafredo_name">Segafredo Zanetti</string>
+    <string name="segafredo_info">Schedule:
+                                     \nMonday - Sunday: 10 - 22
+                                    \n Tel: 0040786200607</string>
+    <string name="starbucks_name">Starbucks</string>
+    <string name="starbucks_info">Schedule:
+                                     \nMonday - Sunday: 08 - 23
+                                    \n Tel: 0040786258607</string>
+    <string name="cafeneaua_verde_name">Cafeneaua Vede</string>
+    <string name="cafeneaua_verde_info">Schedule:
+                                     \nMonday - Friday: 08 - 00
+                                      \nSaturday - Sunday: 10 - 00
+                                    \n Tel: 0040724084324</string>
+    <string name="cafe_opera_name">Cafe Opera</string>
+    <string name="cafe_opera_info">Schedule:
+                                    \nMonday - Friday: 08 - 00
+                                      \nSaturday - Sunday: 09 - 00
+                                    \n Tel: 0040724084324</string>
+    <string name="viviani_cafe_name">Viviani Cafe</string>
+    <string name="viviani_cafe_info">Schedule:
+                                     \nMonday - Sunday: 08 - 00
+                                    \n Tel: 0040356468250</string>
+    <string name="garage_cafe_name">Garage Cafe</string>
+    <string name="garage_cafe_info">Schedule:
+                                     \nMonday - Friday: 07:30 - 00
+                                    \nSaturday - Sunday: 10 - 00
+                                    \n Tel: 0040356001958</string>
+    <string name="bierhaus_name">Bierhaus</string>
+    <string name="bierhaus_info">Schedule:
+                                     \nMonday - Friday: 11:30 - 01
+                                    \nSaturday: 16 - 03
+                                    \nSunday: 16 - 01
+                                    \n Tel: 0040721279039</string>
+    <string name="toniq_bar_name">Toniq Bar</string>
+    <string name="toniq_bar_info">Schedule:
+                                     \nThursday - Sunday: 08 - 06
+                                    \n Tel:  0040757888811</string>
+    <string name="vineri_15_name">Vineri 15</string>
+    <string name="vineri_15_info">Schedule:
+                                     \nMonday - Sunday: 10 - 02
+                                    \n Tel: 0040721202821</string>
+    <string name="la_capite_name">La Capite</string>
+    <string name="la_capite_info">Schedule:
+                                     \nMonday - Saturday: 10 - 01
+                                     \nSunday: 10 - 00
+                                    \n Tel:  0040755073020</string>
     <string name="clubs_card">Clubs and Pubs</string>
+    <string name="heaven_club_name">Heaven Studio</string>
+    <string name="heaven_club_info">Schedule:
+                                    \nSaturday: 23 - 05
+                                    \n Tel: 0040755432836</string>
+    <string name="epic_club_name">Epic Society</string>
+    <string name="epic_club_info">Schedule:
+                                    \nSaturday - Sunday: 23 - 06
+                                    \n Tel: 0040746099988</string>
+    <string name="fratelli_club_name">Fratelli Lounge&amp;Club</string>
+    <string name="fratelli_club_info">Schedule:
+                                    \nThursday: 19 - 03
+                                    \nFriday - Saturday: 22:30 - 06
+                                    \n Tel: 0040722122123</string>
+    <string name="club_taine_name">Club Taine</string>
+    <string name="club_taine_info">Schedule:
+                                    \nMonday: 17 - 06
+                                    \n Tel: 0040731349022</string>
+    <string name="club_daos_name">Daos Club</string>
+    <string name="club_daos_info">Schedule:
+                                    \nWednesday - Saturday: 18 - 00
+                                    \n Tel: 0040744609750</string>
+    <string name="nouveau_name">Nouveau</string>
+    <string name="nouveau_info">Schedule:
+                                    \nSunday - Thursday: 22 - 01
+                                    \nFriday - Saturday: 22 - 03
+                                    \n Tel: 0040799300800</string>
+    <string name="storia_name">Storia</string>
+    <string name="storia_info">Schedule:
+                                    \nMonday - Wednesday: 18 - 02
+                                    \nThursday - Saturday: 18 - 04
+                                    \nFriday: 18 - 01
+                                    \n Tel: 0040752177643</string>
+    <string name="wakeup_name">Wake Up</string>
+    <string name="wakeup_info">Schedule:
+                                    \nMonday - Thursday: 07 - 14
+                                    \nFriday: 07 - 04
+                                    \nSaturday: 12 - 16
+                                    \nSunday: 12 - 14
+                                    \n Tel: 0040752008009</string>
+    <string name="jardin_name">Jardin</string>
+    <string name="jardin_info">Schedule:
+                                    \nSunday - Thursday: 22 - 01
+                                    \nFriday - Saturday: 22 - 03
+                                    \n Tel: 0040799300800</string>
+    <string name="bunker_name">Bunker</string>
+    <string name="bunker_info">Schedule:
+                                    \nThursday - Saturday: 22 - 06
+                                    \n Tel: 0040732817230</string>
+    <string name="molly_name">Molly Malone\'s</string>
+    <string name="molly_info">Schedule:
+                                    \nWednesday - Saturday: 22 - 06
+                                    \n Tel: 0040732752527</string>
+    <string name="scottish_name">Scottish Pub</string>
+    <string name="scottish_info">Schedule:
+                                    \nFriday - Saturday: 22 - 06
+                                    \n Tel: 0040728740140</string>
+    <string name="atu_name">Atu Caffe Pub</string>
+    <string name="atu_info">Schedule:
+                                    \nMonday - Sunday: 08 - 00
+                                    \n Tel: 0040757888811</string>
     <string name="hotels_card">Hotels</string>
+    <string name="hotel_timisoara_name">Hotel Timisoara</string>
+    <string name="hotel_timisoara_info">Address: Str. Marasesti 1-3
+                                        /nStars: ****</string>
+    <string name="iosefin_residence_name">Iosefin Residence</string>
+    <string name="iosefin_residence_info">Address: Alexandru Mocioni 8
+                                        /nStars: ****</string>
+    <string name="hotel_central_name">Hotel Central</string>
+    <string name="hotel_central_info">Address: Str.Nikolaus Lenau
+                                        /nStars: **</string>
+    <string name="hotel_savoy_name">Hotel Savoy</string>
+    <string name="hotel_savoy_info">Address: Tudor Vladimirescu 2
+                                        /nStars: ****</string>
+    <string name="hotel_excelsior_name">Excelsior</string>
+    <string name="hotel_excelsior_info">Address:Str. Romulus 36
+                                        /nStars: ****</string>
+    <string name="hotel_perla_name">Hotel Perla</string>
+    <string name="hotel_perla_info">Address: Str. Profesor George Dragomir 7
+                                        /nStars: ****</string>
+    <string name="hotel_nh_name">Hotel NH</string>
+    <string name="hotel_nh_info">Address: Str. Johann Heinrich Pestalozzi 1A
+                                        /nStars: ****</string>
+    <string name="hotel_president_name">Hotel President</string>
+    <string name="hotel_president_info">Address: Str.Dinu Lipatti 25
+                                        /nStars: ***</string>
+    <string name="hotel_arta_name">Hotel Arta</string>
+    <string name="hotel_arta_info">Address: Lugojului 30, Ghiroda
+                                        /nStars: ***</string>
+    <string name="hotel_euro_name">Hotel Euro</string>
+    <string name="hotel_euro_info">Address: Str. Mehadia 5
+                                        /nStars: ***</string>
+    <string name="hotel_pacific_name">Hotel Pacific</string>
+    <string name="hotel_pacific_info">Address: Str. Mihail Kogalniceanu 8
+                                        /nStars: ***</string>
     <string name="hostels_cards">Hostels</string>
+    <string name="central_hostel_name">Timisoara Central Hostel</string>
+    <string name="central_hostel_info">Address:Str. Alba Iulia 3</string>
+    <string name="hostel_nord_name">Hostel Nord Timisoara</string>
+    <string name="hostel_nord_info">Address: B-dul. General Ion Dragalina</string>
+    <string name="hotel_costel_name">Hostel Costel</string>
+    <string name="hotel_costel_info">Address: Str. Petru Sfetca 1</string>
     <string name="guest_house_card">Guest houses</string>
-
-
-
-
-
-
-
-
-
-
-    
-
+    <string name="pensiune_elisei_name">Pensiune Elisei</string>
+    <string name="pensiune_elisei_info">Address: B-dul Constantin Brancoveanu 70</string>
+    <string name="pensiune_yasmine_name">Yasmine</string>
+    <string name="pensiune_yasmine_info">Address: Str. Uzinei 6</string>
+    <string name="pensiune_normandia_name">Normandia</string>
+    <string name="pensiune_normandia_info">Address: Str. Salcâmilor 35</string>
+    <string name="pensiune_vladut_name">Pensiunea Vladut</string>
+    <string name="pensiune_vladut_info">Address: Str. Luncani 12</string>
+    <string name="pensiune_venus_name">Pensiunea Venus</string>
+    <string name="pensiune_venus_info">Address: B-dul. Liviu Rebreanu 59</string>
+    <string name="pensiune_timisreana_name">Pensiunea Timisoreana</string>
+    <string name="pensiune_timisoreana_info">Address: B-dul. 16 Decembrie 1989 57</string>
+    <string name="pensiune_voiaj_name">Pensiunea Voiaj</string>
+    <string name="pensiune_voiaj_info">Address: Torontalului 90</string>
 
 
 </resources>

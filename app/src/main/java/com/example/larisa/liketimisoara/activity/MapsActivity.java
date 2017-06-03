@@ -53,7 +53,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if (attractions.size() == 1) {
 
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(attractions.get(0).getLatitude(), attractions.get(0).getLongitude()),
-                    (float) 15));
+                    (float) 13));
 
         } else if (attractions.size() > 1) {
 
@@ -65,18 +65,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         for (Attraction attraction : attractions) {
             mMap.addMarker(createMarker(attraction.getLatitude(), attraction.getLongitude(), attraction.getName()));
         }
-
-//        mMap.addMarker(createMarker(45.7507, 21.2243, "Timisoara Cathedral"));
-//        mMap.addMarker(createMarker(45.7541, 21.2259, "Timisoara Opera"));
-//        mMap.addMarker(createMarker(45.7532, 21.2270, "Huniade Castle"));
-//        mMap.addMarker(createMarker(45.7809, 21.2670, "Timisoara Zoological Garden"));
-//        mMap.addMarker(createMarker(45.7549, 21.2249, "St. George's Cathedral"));
-//        mMap.addMarker(createMarker(45.7501, 21.2317, "Rosenpark"));
-//        mMap.addMarker(createMarker(45.7602, 21.2253, "Botanic Park"));
-//        mMap.addMarker(createMarker(45.7568, 21.2334, "Maria Therezia Bastion"));
-//        mMap.addMarker(createMarker(45.7565, 21.2260, "Cetate Synagogue"));
-//        mMap.addMarker(createMarker(45.7513, 21.2211, "Central Park"));
-//        mMap.addMarker(createMarker(45.7570, 21.2313, "Dicasterial Palace"));
     }
 
     @NonNull
