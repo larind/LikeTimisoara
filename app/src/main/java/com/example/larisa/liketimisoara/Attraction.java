@@ -13,6 +13,7 @@ public class Attraction implements Serializable {
     private AttractionType type;
     private String info;
     private int imageResourceId;
+    private String phone;
     private boolean isTop10;
     private double longitude;
     private double latitude;
@@ -26,12 +27,13 @@ public class Attraction implements Serializable {
     }
 
     public Attraction(int id, String name, AttractionType type, String info,
-                      int imageResourceId, boolean isTop10, double longitude,
+                      int imageResourceId, String phone, boolean isTop10, double longitude,
                       double latitude) {
 
         this(id, name, type);
         this.info = info;
         this.imageResourceId = imageResourceId;
+        this.phone = phone;
         this.isTop10 = isTop10;
         this.longitude = longitude;
         this.latitude = latitude;
@@ -75,6 +77,14 @@ public class Attraction implements Serializable {
 
     public void setImageResourceId(int imageResourceId) {
         this.imageResourceId = imageResourceId;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public boolean isTop10() {

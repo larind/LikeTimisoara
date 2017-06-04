@@ -28,6 +28,7 @@ class DBContract {
         public static final String COLUMN_NAME = "name";
         public static final String COLUMN_INFO = "info";
         public static final String COLUMN_IMAGE_RESOURCE_ID = "imageResourceId";
+        public static final String COLUMN_PHONE = "phone";
         public static final String COLUMN_IS_TOP_10 = "isTop10";
         public static final String COLUMN_LONGITUDE = "longitude";
         public static final String COLUMN_LATITUDE = "latitude";
@@ -39,6 +40,7 @@ class DBContract {
                 + ", " + AttractionsTable.COLUMN_NAME + " " + VARCHAR
                 + ", " + AttractionsTable.COLUMN_INFO + " " + VARCHAR
                 + ", " + AttractionsTable.COLUMN_IMAGE_RESOURCE_ID + " " + INTEGER
+                + ", " + AttractionsTable.COLUMN_PHONE + " " + VARCHAR
                 + ", " + AttractionsTable.COLUMN_IS_TOP_10 + " " + INTEGER
                 + ", " + AttractionsTable.COLUMN_LONGITUDE + " " + REAL
                 + ", " + AttractionsTable.COLUMN_LATITUDE + " " + REAL

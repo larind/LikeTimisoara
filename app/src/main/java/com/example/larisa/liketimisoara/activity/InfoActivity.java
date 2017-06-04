@@ -41,7 +41,7 @@ public class InfoActivity extends AppCompatActivity {
         recyclerView.addItemDecoration(dividerItemDecoration);
 
 
-        List<Attraction> attractions = DB.getInstance(this).getAttractions(chosenAttractionType);
+        List<Attraction> attractions = DB.getInstance(getApplicationContext()).getAttractions(chosenAttractionType);
 
         RecycleViewInfoAdapter adapter = new RecycleViewInfoAdapter(attractions, this);
         recyclerView.setAdapter(adapter);

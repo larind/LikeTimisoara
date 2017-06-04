@@ -1,6 +1,9 @@
 package com.example.larisa.liketimisoara.activity;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -55,22 +58,29 @@ public class SportsActivity extends AppCompatActivity {
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
 
-        AttractionType attractionType = (AttractionType) getIntent().getSerializableExtra("EXTRA_ATTRACTION");
-        List<Attraction> attractions = DB.getInstance(this).getAttractions(attractionType);
+        List<Attraction> attractions = new ArrayList<>();
 
+        if (getIntent().hasExtra("EXTRA_IS_TOP_10")) {
+
+            List<Attraction> allAttractions = DB.getInstance(getApplicationContext()).getAttractions(null);
+
+            for (Attraction attraction : allAttractions) {
+
+                if (attraction.isTop10()) {
+                    attractions.add(attraction);
+
+                }
+            }
+
+        } else {
+            AttractionType attractionType = (AttractionType) getIntent().getSerializableExtra("EXTRA_ATTRACTION");
+            attractions = DB.getInstance(getApplicationContext()).getAttractions(attractionType);
+        }
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager(), attractions);
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_sports, menu);
-        return true;
     }
 
     @Override
@@ -124,20 +134,33 @@ public class SportsActivity extends AppCompatActivity {
             TextView title = (TextView) rootView.findViewById(R.id.sports_title);
             ImageView image = (ImageView) rootView.findViewById(R.id.sports_image);
             TextView info = (TextView) rootView.findViewById(R.id.sports_info);
+            Button phoneButton = (Button) rootView.findViewById(R.id.phone);
 
-
+            if(!attraction.isTop10()) {
+                phoneButton.setOnClickListener(new View.OnClickListener() {
+                    public void onClick(View arg0) {
+                        Intent callIntent = new Intent(Intent.ACTION_DIAL);
+                        callIntent.setData(Uri.parse("tel:" + attraction.getPhone()));
+                        startActivity(callIntent);
+                    }
+                });
+            }else phoneButton.setVisibility(View.GONE);
             title.setText(getString(R.string.section_format, attraction.getName()));
             info.setText(getString(R.string.section_format, attraction.getInfo()));
             image.setImageDrawable(getResources().getDrawable(attraction.getImageResourceId()));
             Button mapsButton = (Button) rootView.findViewById(R.id.sports_maps);
-            mapsButton.setOnClickListener(new View.OnClickListener(){
-                public void onClick(View v) {
+            if(attraction.getType().equals(AttractionType.COMPANIE_TAXI)) {
+                mapsButton.setVisibility(View.GONE);
+            }else {
+                mapsButton.setOnClickListener(new View.OnClickListener() {
+                    public void onClick(View v) {
 
-                    Intent mapIntent = new Intent(getContext(), MapsActivity.class);
-                    mapIntent.putExtra("EXTRA_ATTRACTIONS", new ArrayList<>(Collections.singletonList(attraction)));
-                    startActivity(mapIntent);
-                }
-            });
+                        Intent mapIntent = new Intent(getContext(), MapsActivity.class);
+                        mapIntent.putExtra("EXTRA_ATTRACTIONS", new ArrayList<>(Collections.singletonList(attraction)));
+                        startActivity(mapIntent);
+                    }
+                });
+            }
             return rootView;
         }
     }

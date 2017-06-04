@@ -8,17 +8,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.larisa.liketimisoara.activity.SportsActivity$PlaceholderFragment">
-
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:measureWithLargestChild="false">
     <TextView
         android:id="@+id/sports_title"
-        android:layout_width="wrap_content"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingBottom="15dp"
-        android:text="Cafeneaua Verde"
         android:textAllCaps="true"
         android:textStyle="bold"
         android:textSize="20dp"/>
+    <Button
+        android:id="@+id/sports_maps"
+        android:layout_marginTop="20dp"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:drawableTop="@drawable/pin"
+        android:background="@android:color/transparent"
+        android:gravity="right"/>
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/sports_image"
@@ -33,16 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center" />
-
-
     <Button
-        android:id="@+id/sports_maps"
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableTop="@android:drawable/ic_dialog_map"
-        android:background="@android:color/holo_orange_light"
-        android:text="@string/maps_button"
-        android:textColor="@android:color/background_dark"
-        android:textAppearance="@style/TextAppearance.AppCompat"/>
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>

@@ -1,70 +1,528 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Like Timisoara</string>
-    <string name="gps_network_not_enabled">Locatia nu este activata</string>
-    <string name="open_location_settings">Activati locatia</string>
-    <string name="Cancel">Cancel</string>
+    <string name="gps_network_not_enabled">Locația nu este activată</string>
+    <string name="open_location_settings">Activați locația</string>
+    <string name="Cancel">Anulare</string>
     <string name="title_activity_nav_menu_items">Like Timisoara</string>
     <string name="section_format">%1$s</string>
     <string name="title_activity_detail_from_menu">Like Timisoara</string>
     <string name="title_activity_sports">Like Timisoara</string>
-    <string name="app_title">Timisoara Capitala Culturala Europeana 2021</string>
-    <string name="atrractions_button">Atractii Timisoara</string>
-    <string name="history">Istoria Timisoarei</string>
-    <string name="history_name">Istoria Timisoarei</string>
-    <string name="history_content">Municipiul Timisoara este actuala resedinsta a judetului Timi, fiind situat în partea de Vest a țării, în Câmpia Timișului, câmpie scăldată de două râuri importante: Bega și Timiș. Pe malurile acestor râuri s-a dezvoltat o cetate fortificată - Castrum Temesiense – cetate cunoscută din 1212.
-Cetatea s-a dezvoltat de-a lungul timpului, ajungând ca între anii 1315-1323 să fie reședința regală a regelui Carol Robert de Anjou.
-Timișoara este atestată prima dată ca Civitas (oraș) în anul 1342, iar în secolul al XVI-lea devine un important punct de rezistență împotriva Imperiului Otoman, de aici pornind cruciații în războiul creștin, ce s-a terminat cu înfrângerea de la Nicopole. Tot de aici pornește și campania militară condusă de Iancu de Hunedoara.
-În timpul războiului țărănesc (1382-1390, război împotriva exploatării feudale) condus de Gheorghe Doja, cetatea Timișoara a fost asediată și au fost ocupate mai multe puncte fortificate. Aceasta a fost secole de-a rândul un bastion al civilizației creștine, dar în 1552 cetatea este asediată și se predă otomanilor, urmând să fie eliberată de sub dominația turcească în 1716 de către prințul Eugen de Savoya. Astfel, ajunge sub dominație habsburgică.
-Sub Imperiul Habsburgic, Timișoara este condusă de o administrație militară, avându-l ca guvernator pe generalul de cavalerie Contele Mercy. Atunci Timișoara a început un proces de înflorire nemaiîntâlnit: au început transformări profunde în organizarea satelor și a orașelor, s-au construit școli, spitale, biserici și monumente, iar Cazarma Transilvania, cu o lungime de 483 de metri, era cea mai lungă clădire din Europa acelor timpuri.
-Tot atunci a început colonizarea satelor și orașelor din Banat cu șvabi, slovaci și italieni, populații care s-au suprapus peste populația deja existentă compusă din români, sârbi, unguri,greci și evrei.
-Astfel, Banatul devine un tărâm al toleranței, înțelegerii inter-etnice, respect și colaborare între oameni, indiferent de naționalitate sau religie</string>
-    <string name="nearby_attractions">Ce pot sa vizitez in zona</string>
-    <string name="top10_attractions">Top 10 atractii</string>
-    <string name="swimming_pools_menu">Bazine de inot</string>
-    <string name="fitness_centers_menu">Sali de fitness</string>
+    <string name="app_title">Timișoara Capitală Culturală Europeană 2021</string>
+    <string name="atrractions_button">Atracții Timișoara</string>
+    <string name="history">Istoria Timișoarei</string>
+    <string name="history_name">Istoria Timișoarei</string>
+    <string name="history_content">Municipiul Timișoara este actuala reședință a județului Timiș, fiind situat în partea de Vest a țării, în Câmpia Timișului, câmpie scăldată de două râuri importante: Bega și Timiș. Pe malurile acestor râuri s-a dezvoltat o cetate fortificată - Castrum Temesiense – cetate cunoscută din 1212.
+\nCetatea s-a dezvoltat de-a lungul timpului, ajungând ca între anii 1315-1323 să fie reședința regală a regelui Carol Robert de Anjou.
+\nTimișoara este atestată prima dată ca Civitas (oraș) în anul 1342, iar în secolul al XVI-lea devine un important punct de rezistență împotriva Imperiului Otoman, de aici pornind cruciații în războiul creștin, ce s-a terminat cu înfrângerea de la Nicopole. Tot de aici pornește și campania militară condusă de Iancu de Hunedoara.
+\nÎn timpul războiului țărănesc (1382-1390, război împotriva exploatării feudale) condus de Gheorghe Doja, cetatea Timișoara a fost asediată și au fost ocupate mai multe puncte fortificate. Aceasta a fost secole de-a rândul un bastion al civilizației creștine, dar în 1552 cetatea este asediată și se predă otomanilor, urmând să fie eliberată de sub dominația turcească în 1716 de către prințul Eugen de Savoya. Astfel, ajunge sub dominație habsburgică.
+\nSub Imperiul Habsburgic, Timișoara este condusă de o administrație militară, avându-l ca guvernator pe generalul de cavalerie Contele Mercy. Atunci Timișoara a început un proces de înflorire nemaiîntâlnit: au început transformări profunde în organizarea satelor și a orașelor, s-au construit școli, spitale, biserici și monumente, iar Cazarma Transilvania, cu o lungime de 483 de metri, era cea mai lungă clădire din Europa acelor timpuri.
+\nTot atunci a început colonizarea satelor și orașelor din Banat cu șvabi, slovaci și italieni, populații care s-au suprapus peste populația deja existentă compusă din români, sârbi, unguri,greci și evrei.
+\nAstfel, Banatul devine un tărâm al toleranței, înțelegerii inter-etnice, respect și colaborare între oameni, indiferent de naționalitate sau religie</string>
+    <string name="nearby_attractions">Ce pot să vizitez în zona</string>
+    <string name="top10_attractions">Top 10 atracții</string>
+    <string name="swimming_pools_menu">Bazine de înot</string>
+    <string name="fitness_centers_menu">Săli de fitness</string>
     <string name="extreme_fitness_name">Extreme Fitness</string>
-    <string name="extreme_fitness_info">Str. Mures, nr. 132
-                                    Orar: Luni-Vineri: 07 - 24
-                                              Sambata: 09 - 21
-                                              Duminica: 10 - 20
-                                    Tel:  0040730830290</string>
+    <string name="extreme_fitness_info">Str. Mureș, nr. 132
+                                    \nOrar: Luni-Vineri: 07 - 24
+                                              \Sâmbătă: 09 - 21
+                                              \nDuminică: 10 - 20
+                                   \n Tel:  0040730830290</string>
     <string name="friends_arena_name">Friend\'s Arena</string>
     <string name="friends_arena_info">Str. Lacului, nr.1
-                                    Orar: Luni-Vineri: 07 - 24
-                                              Sambata-Duminica: 09 - 22
-                                    Tel: 00400256224645</string>
+                                    \nOrar: Luni-Vineri: 07 - 24
+                                             \nSâmbătă-Duminică: 09 - 22
+                                   \n Tel: 00400256224645</string>
     <string name="iguana_fitness_name">Iguana Fitness</string>
-    <string name="iguana_fitness_info">Str. Simion Bărnutiu, nr.49
-                                    Orar: Luni-Sambata: 08 - 23
-                                              Duminica: 12 - 16
-                                    Tel: 0040256494144</string>
+    <string name="iguana_fitness_info">Str. Simion Bărnuțiu, nr.49
+                                    \nOrar: LuniSâmbătă: 08 - 23
+                                             \n Duminică: 12 - 16
+                                    \nTel: 0040256494144</string>
     <string name="stil_fitness_name">Stil Fitness Club</string>
     <string name="stil_fitness_info">Str. Surorile Martir Caceu
-                                    Orar: Luni-Vineri: 08 - 24
-                                              Sambata: 09 - 22
-                                              Duminica: 10 - 14
-                                    Tel: 0040256489830</string>
+                                   \n Orar: Luni-Vineri: 08 - 24
+                                            \nSâmbătă: 09 - 22
+                                             \n Duminică: 10 - 14
+                                    \nTel: 0040256489830</string>
     <string name="body_time_name">Body Time</string>
     <string name="body_time_info">Str. Sever Bocu
-                                    Orar: Luni-Sambata: 09 - 21
-                                    Tel: 0040723440463</string>
+                                    \nOrar: Luni - Sâmbătă: 09 - 21
+                                    \nTel: 0040723440463</string>
     <string name="smart_fit3_name">Smartfit Studio 3</string>
     <string name="smart_fit3_info">Sagului nr.100 ,
-                                    Orar: Luni-Sambata: 06:30 - 24
-                                              Duminica: 10 - 22
-                                    Tel: 0040741332001</string>
+                                    \nOrar: Luni - Sâmbătă: 06:30 - 24
+                                             \n Duminică: 10 - 22
+                                   \n Tel: 0040741332001</string>
     <string name="continental_fitness_name">Continental Fitness-Spa</string>
     <string name="continental_fitness_info">Bulevardul Revolutiei din 1989
-                                    Orar: Luni-Duminica: 07 - 23
-                                    Tel: 0040256494144</string>
+                                    \n Orar: Luni-Duminică: 07 - 23
+                                    \n Tel: 0040256494144</string>
     <string name="world_class_name">World Class Fitness Academy</string>
     <string name="world_class_info"> Str. Aristide Demetriade Nr. 1, et.2
-                   Orar: Luni-Vineri: 07 - 21:30
-                             Sambata-Duminica: 07:30 – 21:30
-                    Tel: 0040356100671</string>
+                   \nOrar: Luni-Vineri: 07 - 21:30
+                            \nSâmbătă-Duminică: 07:30 – 21:30
+                   \n Tel: 0040356100671</string>
     <string name="banu_fitness_name">Banu Sport</string>
     <string name="banu_fitness_info"> Aleea F.C. Ripensia, nr. 33
-                                    Orar: Luni-Duminica: 07 - 24
-                                    Tel: 0040256220642</string>
+                                    \nOrar: Luni-Duminică: 07 - 24
+                                    \nTel: 0040256220642</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="bastion_name">Bastionul Maria Theresia</string>
+    <string name="bastion_info">Bastionul Theresia este singurul bastion care există încă în cetatea Timișoara din perioada aflării Banatului sub Imperiul Austriac.
+             \nFiind singurul bastion din Timișoara, este cunoscut și de Timișoara ca Bastionul Cetății. Bastionul a fost reabilitat în perioada 2008-2010.
+             \nDe la reabilitare, a găzduit spații comerciale, restaurante, baruri, cluburi de noapte, librării, două expozișii permanente ale Muzeului Banatului, Tehnologia Informației și Comunicațiilor și secțiunea de etnografie "Vioara - o viață pasională" a Muzeului Satului Banat</string>
+    <string name="timisoreana_name">Fabrica de bere Timișoreana </string>
+    <string name="timisoreana_info">Prima fabrică de bere din Romania își are originea de mult timp, fiind înființată în orașul Timișoara în a doua decadă a secolului al XVIII-lea.
+        \nPrimul document care atestă acest lucru a fost dat de administrația cetății și a cerut construirea unei băuturi de bere și a unui cazan de brandy.
+        În plus, același document interzicea aducerea berii și brandurilor în altă parte și specifică obligația tuturor satelor din Banat de a prelua anumite cantități din aceste produse pe bază de distribuție.
+        \n Această ordonanță a fost dictată de o necesitate: satisfacerea nevoilor trupelor austriece rămase după eliberarea din ocupația otomană, precum și înlocuirea penuriei acute de apă potabilă, care a condus, de asemenea, la dezvoltarea unei serii de Proiecte pentru alimentarea Cetății cu apă prin țevi din lemn; Construirea unui turn de apă alimentat de Bega.
+        \n Fabrica de bere a fost construită în Palanca Nouă, cartierul care se numește astazi Fabric</string>
+
+    <string name="tennis_court_menu">Terenuri de tenis</string>
+    <string name="club_tivoli_name">Tennis Club Tivoli</string>
+    <string name="club_tivoli_info">Aleea Ghirodei nr. 36
+                \nOrar: Luni-Duminică: 8 - 22
+                \nDetalii și rezervari la:
+                \n0040755-092.021
+                \n0040256-207.436</string>
+    <string name="club_helios_name">Helios Sport Club</string>
+    <string name="club_helios_info">Iosif Bulbuca 21
+                \nOrar: Luni-Duminică: 08 - 18
+               \n Email: office@helios-sport.ro
+               \n Rezervări :
+                                \n0040256-46-38-18,
+                                \n0040743-96-94-86 </string>
+    <string name="berlin_sport_name">Berlin Sport</string>
+    <string name="berlin_sport_info">Str. Berlin, nr. 1, Dumbrăvița(outdoor)
+                    \nOrar: Luni-Duminică: 08 - 24
+                    \nEmail: office@berlinsport.ro
+                    \nRezervări : 0040722.534.060</string>
+    <string name="banu_sport_name">Banu Sport</string>
+    <string name="banu_sport_info"> Str. FC Ripensiei, nr.33
+                                   \n Orar: Luni-Duminică: 08 - 24
+                                   \n Email: contact@banusport.ro
+                                   \n Rezervări:
+                                        \n0040256220642;
+                                        \n0040720440720</string>
+    <string name="arena_pool_name">Arena Aqua Sport</string>
+    <string name="arena_pool_info">Dorobantilor, nr. 92
+                                \n Orar:
+                                \nLuni-Vineri: 07 - 23
+                                \Sâmbătă-Duminică: 09 - 22
+                    Tel: 0040256213103</string>
+    <string name="ice_dyp_name">Ice Dyp - Resort &amp; Spa</string>
+    <string name="ice_dyp_info">Lugojului, nr.37
+                    \nOrar:
+                    \nLuni-Duminică: 07 - 23
+                    \nTel:
+                        \n0040256221341,
+                             0040256221343
+                </string>
+    <string name="squash_menu">Squash</string>
+    <string name="squash_sport_name">Squash Sport Arena</string>
+    <string name="squash_sport_info">Torontalului, nr.61
+                                    \nOrar: Luni-Duminică: 08 - 24
+                                   \nTel: 0040729271886</string>
+    <string name="the_squashers_name">The Squashers</string>
+    <string name="the_squashers_info">Aradului, nr.48
+                                    \nOrar: Luni - Sâmbătă: 08 - 23
+                                    \nTel: 0040770681288</string>
+    <string name="helios_squash_name">Helios Sport Club</string>
+    <string name="helios_squash_info">Iosif Bulbuca, nr. 21
+                \nOrar: Luni-Duminică: 08 - 18
+                \nEmail: office@helios-sport.ro
+                \nTel : 0040256463818</string>
+    <string name="squash_club_name">Squash Club</string>
+    <string name="squash_club_info"> Str. Johann Heinrich Pestalozzi, nr.20
+                \nOrar: Luni-Duminică: 08 - 24
+               \nTel : 0040721868477</string>
+    <string name="sports_menu">Sporturi</string>
+    <string name="taxi_menu">Taxi</string>
+    <string name="tudo_taxi_name">Tudo Taxi</string>
+    <string name="tudo_taxi_info">Preț: 1.49 LEI/KM
+                             \nTel: 00400256945</string>
+    <string name="pro_taxi_name">Pro Taxi</string>
+    <string name="pro_taxi_info">Preț: 1.49 LEI/KM
+                             \nTel: 0040256942</string>
+    <string name="radio_taxi_name">Radio Taxi</string>
+    <string name="radio_taxi_info">Preț: 1.49 LEI/KM
+                             \nTel: 0040256940</string>
+    <string name="taxi_timisoara_name">Taxi Timișoara</string>
+    <string name="taxi_timisoara_info">Preț: 1.49 LEI/KM
+                             \nTel: 0040256942</string>
+    <string name="grup_taxi_name">Taxi Grup</string>
+    <string name="grup_taxi_info">Preț: 1.49 LEI/KM
+                             \nTel: 0040256207207</string>
+    <string name="fan_taxi_name">Fan Taxi</string>
+    <string name="fan_taxi_info">Preț: 2.19 LEI/KM
+                             \nTel: 0040256944</string>
+    <string name="useful_info_main">Utile</string>
+    <string name="rent_cars_menu">Închiriere mașini</string>
+    <string name="deluxe_rent_name">Deluxe Rent a Car Timisoara</string>
+    <string name="deluxe_rent_info">Adresa:  Str. Fedra, nr.19
+                                  \nTel: 0040723799649</string>
+    <string name="swiso_rent_name">Swiso Rent a Car Timisoara</string>
+    <string name="swiso_rent_info">Adresa:  B-dul. Iuliu Maniu, nr.37
+                                  \nTel: 0040786541800</string>
+    <string name="nataly_rent_name">Nataly Rent a Car Timisoara</string>
+    <string name="nataly_rent_info">Adresa:  B-dul. Take Ionescu, nr.47
+                                 \n Tel: 0040751997030</string>
+    <string name="novum_rent_name">Novum Rent a Car Timisoara</string>
+    <string name="novum_rent_info">Adresa:  B-dul. Ion Dragalina, nr.3
+                                  \nTel: 0040256499579</string>
+    <string name="marvomil_rent_name">Marvomil Auto Timisoara</string>
+    <string name="marvomil_rent_info">Adresa:  Str. Sever Bocu, nr.37
+                                  \n Tel: 0040785560550</string>
+    <string name="bike_stations_menu">Velo TM Bike stations</string>
+    <string name="velo_tm_name">Velo TM</string>
+
+
+    <string name="museum_card">Muzee</string>
+    <string name="banat_museum_name">Muzeul Banat</string>
+    <string name="banat_museum_info">Muzeul Banatului este un muzeu din Timișoara, cu sediul în Castelul Huniade. A fost fondat în 1872 sub denumirea de "Societatea de Istorie și Arheologie".
+         \nAcesta găzduiește cea mai mare colecție de obiecte arheologice din Banat.
+         \nParterul găzduiește Sanctuarul Neolit Parța, un monument unic în Europa. Muzeul include secții de istorie, arheologie, etnografie și științe naturale.
+         \nMuzeul are, de asemenea, un laborator pentru conservarea și păstrarea obiectelor de patrimoniu cultural și istoric.</string>
+    <string name="banat_village_museum_name">Muzeul Satului Bănățean</string>
+    <string name="banat_village_museum_info">În 1928, Ioachim Miloia, directorul Muzeului Banatului (1928-1940), consideră ideea creării unui muzeu etnografic în aer liber.
+         \nMuzeul Satului Bănățean reușește să facă o miniatură a satelor din Banat construind case din lemn autentic, piatră și lut, realizate după modelul local.
+         \nTuriștii atrași de cultura Banatului pot găsi articole de uz casnic folosite în secolele trecute, pot admira arhitectura caselor.
+         \nAcestea, deși cu 2 sau 3 camere, atrag atenția asupra camerelor de oaspeți, cunoscute ca "aragaz curat", "aragaz mare" sau "aragaz bun", fiind cel mai frumos mobilat și decorat cu țesături prețioase - prosoape, covoare, "masaie"</string>
+    <string name="art_museum_name">Muzeul de Artă</string>
+    <string name="art_museum_info">Muzeul este găzduit de Palatul Baroc. Istoria colecției de artă este în mod direct interconectată cu începutul Muzeului Banatului, fondat în 1872.
+          \nDintre expozițiile principale se află colecția pictorului Corneliu Baba, cu peste 80 de lucrări semnate de maestru din diferite perioade ale creației sale artistice.
+         Tendințele artistice ale lui Timișoara din anii 1960 până în anii 1980 pot fi găsite în Colecția de Artă Contemporană.</string>
+    <string name="communist_museum_name">Muzeul Consumatorului Comunist</string>
+    <string name="commmunist_museum_info">La sfârșitul anului 1989, Timișoara a devenit primul oraș eliberat de regimul comunist din România.
+         \nScurt după aceea, mulți românești au început să arunce obiecte care erau folosite în gospodărie în timpul epocii comuniste.
+        \n Muzeul Consumatorului Comunist este o colecție de articole pe care românii le-ar fi putut cumpăra în timpul "epocii de aur" (după cum a fost numită de propagandă comunistă) care prezintă un mod de viață care a fost prezent în fiecare gospodărie a României comuniste. </string>
+
+    <string name="squares_card">Piețe</string>
+    <string name="traian_square_name">Piața Traian</string>
+    <string name="traian_square_info">Înconjurată de clădiri istorice, în centrul cartierului Fabric, Piața Traian a fost numită și Piața plângerii sau Kossuth tér și Hauptplatz.
+         \nA fost conceput de inginerii militari în 1740, fiind considerat o replică mai mică a Pieței Unirii, găzduind piața zilnică și târgurile săptămânale.
+        \n A fost și este încă folosită ca piață pentru evenimente</string>
+    <string name="st_gheorghe_square_name">Piața Sf. Gheorghe</string>
+    <string name="st_gheorghe_square_info">Este una dintre cele mai vechi piețe din Timișoara și a fost numită dupa biserica cu hramul de Sf. Gheorghe, care a fost transformată într-o moschee în timpul ocupației otomane.
+         \nÎn partea sudică se află casa Klapka, unde s-a născut Georg Klapka, fiul faimosului primar Josef Klapka, care a fondat prima bibliotecă de împrumuturi publice din Timișoara și prima din imperiu.
+         \n În Piața Sf. Gheorghe a fost lansat primul tramvai pe teritoriul României în iulie 1869, o premieră pentru Timișoara.</string>
+    <string name="liberty_square_name">Piața Libertății</string>
+    <string name="liberty_square_info">Parada Platz "," Piața Principele Eugen "-" Jenö herceg tér "sau" Piața Libertății "-" Freiheitsplatz ", nume dobândit în timpul Revoluției din 1848-1849, este făr îndoială cea mai veche piață din Timișoara.
+         \nEste nucleul din care a evoluat Timișoara, primul spațiu în care oamenii s-au stabilit și au trăit continuu pe vatra actualului oraș.
+         \nA fost și "Baia Mare", cea mai mare baie publică din oraș, descoperită recent de arheologi, dar acum acoperită cu nisip pentru conservare.
+         \nPiața Libertății adăpostește unele dintre cele mai vechi clădiri din Timișoara: Comandamentul Garnizoanei, fostul Cancelar al Războiului - aripa de Est a Primăriei Vechi, Primăria Veche și Cazinoul Militar.</string>
+    <string name="victory_square_name">Piața Victoriei</string>
+    <string name="victory_square_info">Situată în inima Timișoarei, Piața Victoriei, cea mai nouă piață din oraș, are o semnificație deosebită pentru toți românii, fiind locul unde s-au adunat Revoluționarii de la Timișoara și unde Timișoara a fost proclamată pe 20 decembrie 1989, primul oraș liber În România.
+        \n Piața Operei, așa cum a fost numită înainte de Revoluție, a fost proiectată în 1870, în speranța că se va obține decizia de a anula fortăreața militară.
+\nA fost bulevardul principal al orașului, de la opera și catedrala până la bulevardele numite "Corso" pentru partea dreaptă, locul plimbării societății înalte, plin de magazine și restaurante de lux și "Surogat" pentru stânga, Aceasta fiind o promenadă pentru tineri și muncitori, dar și pentru soldați, care trebuiau să dovedească că sunt în concediu să meargă.</string>
+    <string name="union_square_name">Piața Unirii</string>
+    <string name="union_square_info">Piata Unirii este considerata a fi cea mai frumoasa piata din Timisoara. Se găsește unele dintre cele mai valoroase monumente din Timișoara: Palatul Baroc, Catedrala Catolică, Vicarul sârb, Monumentul Sfintei Treimi.
+                 \ NLocat în orașul vechi, Piața Unirii este una dintre cele mai vechi, nu doar cele mai frumoase. A fost numită în cinstea trupelor românești care au intrat în Timișoara la 3 august 1919 și au înființat administrația românească, finalizând astfel unirea Banatului cu România.
+\n Se numește, de asemenea, "Piața Dome", deoarece găzduiește Domul catolic, construit în 1736. A fost denumit și "Hauptplatz", ceea ce înseamnă piața principală.
+                 \nPentru trei secole, Piata Unirii a fost locul de evenimente religioase, parade militare si alte evenimente prestigioase politice si culturale.
+                 \nArată așa cum o știm noi astăzi din 1988-1989, cel care "a desenat-o" fiind arhitectul Șerban Sturdza.</string>
+
+    <string name="parks_card">Parcuri</string>
+    <string name="central_park_name">Parcul Central</string>
+    <string name="info_central_park">Parcul Central "Anton Scudier" este unul dintre cele mai vechi parcuri din Timișoara, fondat în 1880 de generalul Anton von Scudier.
+         \nÎn parc există mai multe monumente ale unor personalități și Monumentul soldatului românească.
+        \n Parcul este dotat cu fântâni, bănci și mese de șah.</string>
+    <string name="botanical_park_name">Parcul Botanic</string>
+    <string name="botanical_park_info">Are o suprafață de aproape 9 ha și este un frumos parc dendrologic, care conține o mare varietate de specii de copaci.
+         \nÎn 1995, pentru prima dată, a fost declarată rezerva științifică pentru a proteja flora locală și exotică, iar Timișoara speră să fie capabilă să declare o zonă protejată într-o zi</string>
+    <string name="justice_park_name">Parcul Justiției</string>
+    <string name="justice_park_info">Parcul de justiție, cunoscut anterior ca Parcul Consiliului Poporului, este situat în centrul Timișoarei. Numele parcului provine dintr-un proiect vechi de construcție din zona Palatului de Justiție, proiect abandonat. În mijlocul parcului se află monumentul deportați în Baragan în perioada 1951-1956.
+             \nParcul a fost refăcut în 2015, aleile au fost reconstruite și instalat un sistem de irigare. În parc puteți găsi o varietate largă de copaci și arbuști, precum și multe flori: lalele, narcise. În parc este admis să rămână pe iarbă. </string>
+    <string name="roses_park_name">Parcul Rozelor</string>
+    <string name="roses_park_info">Parcul a fost înființat în 1891, împreună cu Parcul Copiilor, cu ocazia Expoziției Universale (industriale, comerciale și agrare), unde aranjamente florale au fost făcute de grădinarii Wilhelm Mühle, Franz Niemetz și Beno Agatsy.
+        Florile au fost admirate de Franz Joseph, care a vizitat expoziția. Amenajarea peisagistică a parcului a început în 1929 de către arhitecții de peisaj Árpád Mühle, fiul lui Wilhelm Mühle și Mihai Demetrovich, șeful serviciului de horticultură din acea perioadă.
+        \nParcul a fost proiectat în stil englezesc, cu alei, copertine și rânduri de trandafiri. În perioada interbelică numele parcului a fost Rosarium, iar peste 1200 de trandafiri au fost etichetate. De asemenea, în această perioadă teatrul a fost aranjat în aer liber.
+        \nÎn 1944 parcul a fost distrus după bombardamente. După cel de-al doilea război mondial, parcul a fost restaurat, având loc diverse spectacole în aer liber. De asemenea, în parc există o bază sportivă amenajată în timpul iernii ca un patinoar și vara ca teren de tenis.
+        \n În 2012 parcul a fost renovat. Busturile lui Wilhelm Mühle (1844-1908), dezvăluite la 2 august 2013 și Árpád Mühle (1870-1930), dezvăluite la 1 august 2014, se află lângă intrarea principală a academicianului Alexander Borza.</string>
+    <string name="cathedral_park_name">Parcul Catedralei</string>
+    <string name="cathedral_park_info">După cum sugerează și numele, parcul este aproape de catedrala ortodoxă din Timișoara. Mai exact, limitele sale sunt Catedrala, Bulevardul Regele Ferdinand, Bulevardul 16 decembrie 1989 și Canalul Bega.
+             \nEste un parc unde vă puteți opri pentru o scurtă pauză pentru a admira frumusețea centrului Timișoarei.</string>
+    <string name="civic_park_name">Parcul Civic</string>
+    <string name="civic_park_info">Parcul are o suprafață de 76.000 de metri pătrați. Este pe un loc,unde a fost războiul din Transilvania. A fost în 1960 demolat în urma planul de război ,fiind construit  un nou centru al orașului .
+         \nPlanul a fost abandonat și a fost deschis Parcul Civic. Între anii 1968 și 1971, atunci când cea mai mare clădire din Timișoara, Hotel Continental, Strada Flower Proclamarea orașului Timișoara, ca punct topografic, a fost aici.</string>
+    <string name="childrens_park_name">Parcul Copiilor</string>
+   <string name="childrens_park_info">Un precursor al parcului a fost în 1858. O parte a parcului Mihai Eminescu a fost în cele din urmă transformată într-un parc pentru copii în 1951.
+         \nA fost numit primul "Pioneer Park" înainte de organizația de doi ani. După revoluția din 1989 - Parcul Copiilor ("Parcul Copiilor"), a fost numită pentru prima dată, eventual cu sufixul "Ion Creangă".
+         \n Între 2006 și 2012 a suferit numeroase lucrări de modernizare. Redeschiderea a avut loc la 1 iunie 2012, Ziua Internațională a Copilului.
+         \nParcul este împărțit în zone de 23 de grupuri de vârstă. Pădurea încântătoare, țara uriașă, țara liliputani, ținutul indian, pădurea întunecată sau albul de zăpadă și cei șapte pitici sunt puțini. Există spectacole regulate pentru copii și păpuși.
+         \nEste un carusel popular, șah în aer liber, alpinism și tobogan.</string>
+
+    <string name="church_card">Biserici și Catedrale</string>
+    <string name="ortodox_cathedral_name">Catedrala Mitropolitană din Timișoara</string>
+    <string name="ortodox_cathedral_info">Catedrala Metropolitana din Timisoara este cea mai mare cladire religioasa din Timisoara, catedrala Bisericii Mitropoliei Banatului, cu hramul "Trei Ierarhi".
+         \nA fost construită între 1936 și 1941 și este un simbol al orașului. În prezent este cea mai înaltă biserică din România (90,5 m) și cea mai înaltă biserică ortodoxă din lume în afara Rusiei (Dacă luăm în considerare Rusia și Georgia, Catedrala din Timișoara este a opta cea mai mare din lume)</string>
+    <string name="assumption_church_name">Biserica Adormirea Maicii Domnului</string>
+    <string name="assumption_church_info">A fost construită în 1784 pe locul unei biserici mai din lemn datând din 1727. La început era fără turn, doar o cruce cu un glob stătea pe acoperiș deasupra altarului. Turnul a fost adăugat în 1836.
+             \n 100 de ani mai târziu, în 1894, a fost construită actuala biserică dedicată Adormirea Maicii Domnului, conform planului arhitectului Ștefan Toth. Are o lungime de 24,41 m și o lățime de 7,70 m. Turnul este construit în stil baroc.</string>
+    <string name="catherine_church_name">Biserica Sfânta Ecaterina</string>
+    <string name="catherine_church_info">Biserica Sf. Ecaterina din Timișoara este un loc religios catolic, un monument istoric, construit între 1753-1756, pe locul unei foste moară. În prezent, biserica deservește comunitatea catolică slovacă din Timișoara.
+         \nBiserica Sfânta Ecaterina este succesorul bisericii franciscane medievale. În cripta bisericii medievale a fost îngropată  regina Maria de Bytom, secolul al XIII-lea, soția lui Carol Robert de Anjou.
+         \nConform altor surse, regina Maria ar fi murit doar în Timișoara și ar fi fost îngropată la Royal Alba. Biserica a fost transformată într-o moschee în timpul ocupației otomane</string>
+    <string name="elim_church_name">Biserica Elim</string>
+    <string name="elim_church_info">Actuala clădire a fost înființată la 20 noiembrie 1988, însă începutul ei a fost consemnat între anii 1928-1930.
+             \nÎn acel timp, un grup de credincioși din Timișoara (districtele Fabric, Ronat și Vii) s-au adunat alternativ în casele lor private și au ținut loc clădirii impunătoare din zilele noastre.</string>
+    <string name="birth_mary_name">Biserica Nașterea Maicii Domnului</string>
+    <string name="birth_mary_info">A fost fondată în 1921, urmând pașii după schițele credincioșilor Iacob Marian și Emanoil Ungurianu.
+         Biserica parohială, dedicată Nașterii Maicii Domnului, a fost construită între 1932 și 1936 și a fost sfințită la 8 septembrie 1936, preotul parohic fiind Ioan Imbroane.
+         \nSitul cultului creează stilul tradițional al mănăstirii, cu un clopot special, interiorul fiind inspirat de faimosul Sfânt Sofia din Constantinopol.
+         \n Pictura murală a fost realizată de profesorii Catul Bogdan și Dr. Ioachim Miloia, iar mai târziu a fost restaurată de Anastasie Demian și Victor Jurca, iconostasul, candelabru și mobilierul sculptat de Stefan Gajo și Stefan Novac.</string>
+    <string name="millenium_cathedral_name">Catedrala Millennium</string>
+    <string name="millenium_cathedral_info">Proiectul bisericii a fost dezvoltat de arhitectul YBL LAJOS, iar construcția a fost realizată de constructorul KREMER JÓZSEF. Piatra de temelie a fost depusă pe 4 octombrie 1896. Biserica a fost sfințită la 13 octombrie 1901.
+             \n Biserica este construită în stil neo-roman și este acoperită din exterior cu cărămidă brută. Pereții bisericii au o grosime de 1-3,64 m. Trei statui de mărime naturală sunt așezate deasupra porții: apostolii Petru și Pavel și în mijlocul Mântuitorului Hristos cu crucea.
+             \nDimensiuni principale ale bisericii:
+                 \nDe lungime măsurată de jos: 71,12m.
+         \nBaza interioară a bisericii este de 1170,15 m², unde se află 48 de bănci.</string>
+    <string name="roman_catholic_catedral_name"> Domul Romano-Catolic Sfântul Gheorghe</string>
+    <string name="roman_catholic_catedral_info">Catedrala Romano-Catolică (Domul) este catedrala Episcopiei Romano-Catolice din Timișoara și unul dintre monumentele emblematice ale orașului.
+         \n edificiul este dedicat Sf. Gheorghe și a fost construit între anii 1736 și 1774. Turnuletele au o înălțime scăzută, determinată de apropierea zidului cetății.
+         \nInteriorul este bogat si somptuos, notand cele 9 altare decorate în stil baroc și rococo, sculptate de vienezul Johan Müller, decorate cu vechi icoane, organul construit de Carl Leopold Wegenstein in 1908, dar si usile de stejar decorate cu grilaje pure de nichel .
+         \n Catedrala romano-catolică este considerată a fi cea mai unitară și reprezentativă clădire barocă din Timișoara și una dintre cele mai valoroase din Banat</string>
+
+    <string name="restaurants_card">Restaurante</string>
+    <string name="merlot_restaurant_name">Restaurant Merlot</string>
+    <string name="merlot_restaurant_info">BUCĂTĂRII: Mediteraneană, Europeană, Vegetarian
+                    \n Tel: 0040356450520
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="sabres_restaurant_name">Sabres Restaurant</string>
+    <string name="sabres_restaurant_info">BUCĂTĂRII:  Fructe de mare, Mediteraneană, Europeană
+                    \n Tel: 0040722590115
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="grill_to_chill_name">Grill to chill</string>
+    <string name="grill_to_chill_info">BUCĂTĂRII:  Grătare, Europeană
+                    \n Tel: 0040755111797
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="caruso_restaurant_name">Restaurant Caruso </string>
+    <string name="caruso_restaurant_info">BUCĂTĂRII:  Italiană, Franceză, Mediteraneană
+                    \n Tel: 0040256224771
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="amphora_enoteca_restaurant_name">Amphora Enoteca-Restaurant</string>
+    <string name="amphora_enoteca_restaurant_info">BUCĂTĂRII:  Europeană, Central Europeană
+                    \n Tel: 0040732970181
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="belvedere_restaurant_name"> Restaurant Belvedere</string>
+    <string name="belvedere_restaurant_info">BUCĂTĂRII:  Internațională, Italiană, Franceză
+                    \n Tel: 0040256300231
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="enoteca_restaurant_name">Restaurant Enoteca de Savoya</string>
+    <string name="enoteca_restaurant_info">BUCĂTĂRII:  Austrian, Internațională, Europeană
+                    \n Tel: 0040256433472
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="mercy_restaurant_name">Restaurant Mercy </string>
+    <string name="mercy_restaurant_info">BUCĂTĂRII:  Italiană, Mediteraneană, Europeană
+                    \n Tel: 0040356007876
+                    \n Categorie de prețuri: $$ - $$$</string>
+    <string name="ristorante_al_duomo_name">Ristorante Al Duomo </string>
+    <string name="ristorante_al_duomo_info">BUCĂTĂRII:  Italiană, Mediteraneană, Fructe de mare
+                    \n Tel: 0040724044423
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="timsoreana_restaurant_name">Restaurant Timișoreana</string>
+    <string name="timisoareana_restaurant_info">BUCĂTĂRII:  Europeană, Est Europeană, Central Europeană, Românească
+                    \n Tel: 0040256295421
+                    \n Categorie de prețuri: $$ - $$$</string>
+    <string name="chinese_restaurant_name">Marele Restaurant Chinezesc</string>
+    <string name="chinese_restaurant_info">BUCĂTĂRII: Chinese
+                    \n Tel: 0040256432188
+                    \n Categorie de prețuri: $$ - $$$</string>
+    <string name="riviere_restaurant_name">Rivière Brasserie</string>
+    <string name="riviere_restaurant_info">BUCĂTĂRII:  Europeană, Central Europeană, Cafe
+                    \n Tel: 0040746095573
+                    \n Categorie de prețuri: $$ - $$$</string>
+    <string name="banat_garden_name">Grădina Bănățeană</string>
+    <string name="banat_garden_info">BUCĂTĂRII:  Est Europeană, Românească
+                    \n Tel: 0040256 292642
+                    \n Categorie de prețuri: $$ - $$$</string>
+    <string name="la_strada_name">La Strada</string>
+    <string name="la_strada_info">BUCĂTĂRII:  Franceză, Italiană, Americană
+                    \n Tel: 0040758067916
+                    \n Categorie de prețuri: $$ - $$$</string>
+    <string name="sky_restaurant_name">Sky Restaurant</string>
+    <string name="sky_restaurant_info">BUCĂTĂRII:   Italiană, Europeană, Mediteraneană
+                    \n Tel: 0040758067916
+                    \n Categorie de prețuri: $$$$</string>
+    <string name="flower_house_name">Casa cu Flori</string>
+    <string name="flower_house_info">BUCĂTĂRII:  Europeană, Est Europeană, Românească
+                    \n Tel: 0040721180011
+                    \n Categorie de prețuri: $$ - $$$</string>
+    <string name="cafes_card">Cafenele și Baruri</string>
+    <string name="tucano_cafe_name">Tucano Coffee Mexico</string>
+    <string name="tucano_cafe_info">Orar:
+                                     \nLuni - Tuesday: 08 - 23
+                                    \n Vineri - Duminică: 08 -00
+                                    \n Tel: 0040785882266</string>
+    <string name="segafredo_name">Segafredo Zanetti</string>
+    <string name="segafredo_info">Orar:
+                                     \nLuni - Duminică: 10 - 22
+                                    \n Tel: 0040786200607</string>
+    <string name="starbucks_name">Starbucks</string>
+    <string name="starbucks_info">Orar:
+                                     \nLuni - Duminică: 08 - 23
+                                    \n Tel: 0040786258607</string>
+    <string name="cafeneaua_verde_name">Cafeneaua Vede</string>
+    <string name="cafeneaua_verde_info">Orar:
+                                     \nLuni - Vineri: 08 - 00
+                                      \Sâmbătă - Duminică: 10 - 00
+                                    \n Tel: 0040724084324</string>
+    <string name="viviani_cafe_name">Viviani Cafe</string>
+    <string name="viviani_cafe_info">Orar:
+                                     \nLuni - Duminică: 08 - 00
+                                    \n Tel: 0040356468250</string>
+    <string name="garage_cafe_name">Garage Cafe</string>
+    <string name="garage_cafe_info">Orar:
+                                     \nLuni - Vineri: 07:30 - 00
+                                    \Sâmbătă - Duminică: 10 - 00
+                                    \n Tel: 0040356001958</string>
+    <string name="bierhaus_name">Bierhaus</string>
+    <string name="bierhaus_info">Orar:
+                                     \nLuni - Vineri: 11:30 - 01
+                                    \Sâmbătă: 16 - 03
+                                    \nDuminică: 16 - 01
+                                    \n Tel: 0040721279039</string>
+    <string name="toniq_bar_name">Toniq Bar</string>
+    <string name="toniq_bar_info">Orar:
+                                     \nJoi - Duminică: 08 - 06
+                                    \n Tel:  0040757888811</string>
+    <string name="vineri_15_name">Vineri 15</string>
+    <string name="vineri_15_info">Orar:
+                                     \nLuni - Duminică: 10 - 02
+                                    \n Tel: 0040721202821</string>
+    <string name="la_capite_name">La Căpițe</string>
+    <string name="la_capite_info">Orar:
+                                     \nLuni -Sâmbătă: 10 - 01
+                                     \nDuminică: 10 - 00
+                                    \n Tel:  0040755073020</string>
+    <string name="clubs_card">Cluburi și Pub-uri</string>
+    <string name="heaven_club_name">Heaven Studio</string>
+    <string name="heaven_club_info">Orar:
+                                    \Sâmbătă: 23 - 05
+                                    \n Tel: 0040755432836</string>
+    <string name="epic_club_name">Epic Society</string>
+    <string name="epic_club_info">Orar:
+                                    \Sâmbătă - Duminică: 23 - 06
+                                    \n Tel: 0040746099988</string>
+    <string name="fratelli_club_name">Fratelli Lounge&amp;Club</string>
+    <string name="fratelli_club_info">Orar:
+                                    \nJoi: 19 - 03
+                                    \nVineri -Sâmbătă: 22:30 - 06
+                                    \n Tel: 0040722122123</string>
+    <string name="club_taine_name">Club Taine</string>
+    <string name="club_taine_info">Orar:
+                                    \nLuni: 17 - 06
+                                    \n Tel: 0040731349022</string>
+    <string name="club_daos_name">Daos Club</string>
+    <string name="club_daos_info">Orar:
+                                    \nMiercuri -Sâmbătă: 18 - 00
+                                    \n Tel: 0040744609750</string>
+    <string name="nouveau_name">Nouveau</string>
+    <string name="nouveau_info">Orar:
+                                    \nDuminică - Joi: 22 - 01
+                                    \nVineri -Sâmbătă: 22 - 03
+                                    \n Tel: 0040799300800</string>
+    <string name="storia_name">Storia</string>
+    <string name="storia_info">Orar:
+                                    \nLuni - Miercuri: 18 - 02
+                                    \nJoi -Sâmbătă: 18 - 04
+                                    \nVineri: 18 - 01
+                                    \n Tel: 0040752177643</string>
+    <string name="wakeup_name">Wake Up</string>
+    <string name="wakeup_info">Orar:
+                                    \nLuni - Joi: 07 - 14
+                                    \nVineri: 07 - 04
+                                    \Sâmbătă: 12 - 16
+                                    \nDuminică: 12 - 14
+                                    \n Tel: 0040752008009</string>
+    <string name="jardin_name">Jardin</string>
+    <string name="jardin_info">Orar:
+                                    \nDuminică - Joi: 22 - 01
+                                    \nVineri -Sâmbătă: 22 - 03
+                                    \n Tel: 0040799300800</string>
+    <string name="bunker_name">Bunker</string>
+    <string name="bunker_info">Orar:
+                                    \nJoi -Sâmbătă: 22 - 06
+                                    \n Tel: 0040732817230</string>
+    <string name="molly_name">Molly Malone\'s</string>
+    <string name="molly_info">Orar:
+                                    \nMiercuri -Sâmbătă: 22 - 06
+                                    \n Tel: 0040732752527</string>
+    <string name="scottish_name">Scottish Pub</string>
+    <string name="scottish_info">Orar:
+                                    \nVineri -Sâmbătă: 22 - 06
+                                    \n Tel: 0040728740140</string>
+    <string name="atu_name">Atu Caffe Pub</string>
+    <string name="atu_info">Orar:
+                                    \nLuni - Duminică: 08 - 00
+                                    \n Tel: 0040757888811</string>
+    <string name="hotels_card">Hoteluri</string>
+    <string name="hotel_timisoara_name">Hotel Timisoara</string>
+    <string name="hotel_timisoara_info">Adresa: Str. Mărășești 1-3
+                                        \nStele: ****</string>
+    <string name="iosefin_residence_name">Iosefin Residence</string>
+    <string name="iosefin_residence_info">Adresa: Alexandru Mocioni 8
+                                        \nStele: ****</string>
+    <string name="hotel_central_name">Hotel Central</string>
+    <string name="hotel_central_info">Adresa: Str.Nikolaus Lenau
+                                        \nStele: **</string>
+    <string name="hotel_savoy_name">Hotel Savoy</string>
+    <string name="hotel_savoy_info">Adresa: Tudor Vladimirescu 2
+                                        \nStele: ****</string>
+    <string name="hotel_excelsior_name">Excelsior</string>
+    <string name="hotel_excelsior_info">Adresa:Str. Romulus 36
+                                        \nStele: ****</string>
+    <string name="hotel_perla_name">Hotel Perla</string>
+    <string name="hotel_perla_info">Adresa: Str. Profesor George Dragomir 7
+                                        \nStele: ****</string>
+    <string name="hotel_nh_name">Hotel NH</string>
+    <string name="hotel_nh_info">Adresa: Str. Johann Heinrich Pestalozzi 1A
+                                        \nStele: ****</string>
+    <string name="hotel_president_name">Hotel President</string>
+    <string name="hotel_president_info">Adresa: Str.Dinu Lipatti 25
+                                        \nStele: ***</string>
+    <string name="hotel_arta_name">Hotel Arta</string>
+    <string name="hotel_arta_info">Adresa: Lugojului 30, Ghiroda
+                                        \nStele: ***</string>
+    <string name="hotel_euro_name">Hotel Euro</string>
+    <string name="hotel_euro_info">Adresa: Str. Mehadia 5
+                                        \nStele: ***</string>
+    <string name="hotel_pacific_name">Hotel Pacific</string>
+    <string name="hotel_pacific_info">Adresa: Str. Mihail Kogalniceanu 8
+                                        \nStele: ***</string>
+    <string name="hostels_cards">Hosteluri</string>
+    <string name="central_hostel_name">Timisoara Central Hostel</string>
+    <string name="central_hostel_info">Adresa:Str. Alba Iulia 3</string>
+    <string name="hostel_nord_name">Hostel Nord Timisoara</string>
+    <string name="hostel_nord_info">Adresa: B-dul. General Ion Dragalina</string>
+    <string name="hostel_exit_name">Exit Routine</string>
+    <string name="hostel_exit_info">Adresa: Str. Valcea 1</string>
+    <string name="hostel_downtown_name">Downtown Hostel</string>
+    <string name="hostel_downtown_info">Adresa: Victoriei 3</string>
+    <string name="hostel_freeborn_name">Freeborn Hostel</string>
+    <string name="hostel_freeborn_info">Adresa: Patriah Miron Cristea 3</string>
+    <string name="hotel_costel_name">Hostel Costel</string>
+    <string name="hotel_costel_info">Adresa: Str. Petru Sfetca 1</string>
+    <string name="guest_house_card">Pensiuni</string>
+    <string name="pensiune_elisei_name">Pensiune Elisei</string>
+    <string name="pensiune_elisei_info">Adresa: B-dul Constantin Brâncoveanu 70</string>
+    <string name="pensiune_yasmine_name">Yasmine</string>
+    <string name="pensiune_yasmine_info">Adresa: Str. Uzinei 6</string>
+    <string name="pensiune_normandia_name">Normandia</string>
+    <string name="pensiune_normandia_info">Adresa: Str. Salcâmilor 35</string>
+    <string name="pensiune_vladut_name">Pensiunea Vlad</string>
+    <string name="pensiune_vladut_info">Adresa: Str. Luncani 12</string>
+    <string name="pensiune_venus_name">Pensiunea Venus</string>
+    <string name="pensiune_venus_info">Adresa: B-dul. Liviu Rebreanu 59</string>
+    <string name="pensiune_timisreana_name">Pensiunea Timișoara</string>
+    <string name="pensiune_timisoreana_info">Adresa: B-dul. 16 Decembrie 1989 57</string>
+    <string name="pensiune_voiaj_name">Pensiunea Voiaj</string>
+    <string name="pensiune_voiaj_info">Adresa: Torontalului 90</string>
+
 </resources>

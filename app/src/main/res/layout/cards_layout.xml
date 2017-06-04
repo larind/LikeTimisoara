@@ -78,8 +78,8 @@
                 android:layout_gravity="center"
                 android:layout_marginEnd="20dp"
                 android:gravity="center"
-                android:text="Hoteluri"
-                android:textSize="28sp"
+                android:text="Churches and Cathedrals"
+                android:textSize="20sp"
                 android:textAppearance="?android:attr/textAppearanceListItemSecondary" />
 
         </LinearLayout>
