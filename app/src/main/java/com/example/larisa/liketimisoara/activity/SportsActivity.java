@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -52,11 +53,6 @@ public class SportsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sports);
-
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        // Create the adapter that will return a fragment for each of the three
-        // primary sections of the activity.
 
         List<Attraction> attractions = new ArrayList<>();
 
@@ -134,7 +130,8 @@ public class SportsActivity extends AppCompatActivity {
             TextView title = (TextView) rootView.findViewById(R.id.sports_title);
             ImageView image = (ImageView) rootView.findViewById(R.id.sports_image);
             TextView info = (TextView) rootView.findViewById(R.id.sports_info);
-            Button phoneButton = (Button) rootView.findViewById(R.id.phone);
+            ImageButton phoneButton = (ImageButton) rootView.findViewById(R.id.phone);
+            TextView phone = (TextView) rootView.findViewById(R.id.phone_info);
 
             if(!attraction.isTop10()) {
                 phoneButton.setOnClickListener(new View.OnClickListener() {
@@ -144,7 +141,10 @@ public class SportsActivity extends AppCompatActivity {
                         startActivity(callIntent);
                     }
                 });
-            }else phoneButton.setVisibility(View.GONE);
+            }else {
+                phoneButton.setVisibility(View.GONE);
+                phone.setVisibility(View.GONE);
+            }
             title.setText(getString(R.string.section_format, attraction.getName()));
             info.setText(getString(R.string.section_format, attraction.getInfo()));
             image.setImageDrawable(getResources().getDrawable(attraction.getImageResourceId()));

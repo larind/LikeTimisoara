@@ -6,10 +6,7 @@
     <string name="gps_network_not_enabled">Location is not active</string>
     <string name="open_location_settings">Activate location</string>
     <string name="Cancel">Cancel</string>
-    <string name="title_activity_nav_menu_items">Like Timisoara</string>
     <string name="section_format">%1$s</string>
-    <string name="title_activity_detail_from_menu">Like Timisoara</string>
-    <string name="title_activity_sports">Like Timisoara</string>
     <string name="app_title">Timisoara European Capital of Culture in 2021</string>
     <string name="atrractions_button">Attractions of Timisoara</string>
     <string name="history_name">History of Timisoara</string>
@@ -30,32 +27,32 @@
         \nUnder the Habsburg Empire, Timisoara is headed by a military administration, having as governor the Count Mercy Cavalry General. Then Timisoara began an unprecedented flowering process: profound transformations began in the organization of villages and towns, schools, hospitals, churches and monuments were built, and the Transylvania Barracks, with a length of 483 meters, was the longest building Of Europe at that time.
         \nAt that time colonization of Banat villages and towns began with Swabians, Slovaks and Italians, populations that overlapped the already existing population of Romanians, Serbs, Hungarians, Greeks and Jews.
         \nThus, Banat becomes a land of tolerance, inter-ethnic understanding, respect and collaboration between people, regardless of nationality or religion.</string>
-    
+
     <string name="tennis_court_menu">Tennis Court</string>
     <string name="club_tivoli_name">Tennis Club Tivoli</string>
     <string name="club_tivoli_info">Aleea Ghirodei no. 36, Timisoara
                 \nSchedule: Monday-Sunday: 8 - 22
-                \nDetails and reservations by phone: 0040755092021</string>
-    <string name="club_tivoli_phone">0040755092021</string>
+                \nDetails and reservations by phone: +40 755092021</string>
+    <string name="club_tivoli_phone">+40 755092021</string>
 
     <string name="club_helios_name">Helios Sport Club</string>
     <string name="club_helios_info">Iosif Bulbuca 21
                 \nSchedule: Monday-Sunday: 08 - 18
                \n Email: office@helios-sport.ro
-               \n Reservations: 0040256463818</string>
-    <string name="club_helios_phone">0040256463818</string>
+               \n Reservations: +40 256463818</string>
+    <string name="club_helios_phone">+40 256463818</string>
     <string name="berlin_sport_name">Berlin Sport</string>
     <string name="berlin_sport_info">Str. Berlin, nr. 1, Dumbravita(outdoor)
                     \nSchedule: Monday-Sunday: 08 - 24
                     \nEmail: office@berlinsport.ro
-                    \nTel: 0040722534060</string>
-    <string name="berlin_sport_phone">0040722534060</string>
+                    \nTel: +40 722534060</string>
+    <string name="berlin_sport_phone">+40 722534060</string>
     <string name="banu_sport_name">Banu Sport</string>
     <string name="banu_sport_info"> Str. FC Ripensiei, nr.33
                                    \n Schedule: Monday-Sunday: 08 - 24
                                    \n Email: contact@banusport.ro
-                                   \n Reservations:0040720440720\</string>
-    <string name="banu_sport_phone">0040720440720</string>
+                                   \n Reservations:+40 720440720\</string>
+    <string name="banu_sport_phone">+40 720440720</string>
     <string name="history">History of Timisoara</string>
     <string name="nearby_attractions">Nearby attractions</string>
     <string name="top10_attractions">Top 10 attractions</string>
@@ -65,15 +62,15 @@
                                 \n Schedule:
                                 \nMonday-Friday: 07 - 23
                                 \nSaturday-Sunday: 09 - 22
-                    \nTel: 0040256213103</string>
-    <string name="arena_pool_phone">0040256213103</string>
+                    \nTel: +40 256213103</string>
+    <string name="arena_pool_phone">+40 256213103</string>
     <string name="ice_dyp_name">Ice Dyp - Resort &amp; Spa</string>
     <string name="ice_dyp_info">Lugojului, no.37
                     \nSchedule:
                     \nMonday-Sunday: 07 - 23
-                    \nTel: 0040256221343
+                    \nTel: +40 256221343
                 </string>
-    <string name="ice_dyp_phone">0040256221343</string>
+    <string name="ice_dyp_phone">+40 256221343</string>
     <string name="fitness_centers_menu">Fitness Centers</string>
     <string name="extreme_fitness_name">Extreme Fitness</string>
     <string name="extreme_fitness_info">Str. Mures, no. 132
@@ -81,132 +78,132 @@
                                     \n\tMonday-Friday: 07 - 24
                                     \n\tSaturday: 09 - 21
                                     \n\tSunday: 10 - 20
-                                    \nTel: 0040730830290</string>
-    <string name="extreme_fitness_phone">0040730830290</string>
+                                    \nTel: +40 730830290</string>
+    <string name="extreme_fitness_phone">+40 730830290</string>
     <string name="friends_arena_name">Friend\'s Arena</string>
     <string name="friends_arena_info">Str. Lacului, no.1
                                     \nSchedule:
                                               \nMonday-Friday: 07 - 24
                                               \nSaturday-Sunday: 09 - 22
-                                    \nTel: 00400256224645</string>
-    <string name="friends_arena_phone">00400256224645</string>
+                                    \nTel: +40 0256224645</string>
+    <string name="friends_arena_phone">+40 0256224645</string>
     <string name="iguana_fitness_name">Iguana Fitness</string>
     <string name="iguana_fitness_info">Str. Simion Bărnutiu, no.49
                                     \nSchedule:
                                               \nMonday-Saturday: 08 - 23
                                              \nSunday: 12 - 16
-                                    \nTel: 0040256494144</string>
-    <string name="iguana_fitness_phone">0040256494144</string>
+                                    \nTel: +40 256494144</string>
+    <string name="iguana_fitness_phone">+40 256494144</string>
     <string name="stil_fitness_name">Stil Fitness Club</string>
     <string name="stil_fitness_info">Str. Martir Caceu Sisters
                                     \nSchedule:
                                               \nMonday-Friday: 08 - 24
                                               \nSaturday: 09 - 22
                                               \nSunday: 10 - 14
-                                    \nTel: 0040256489830</string>
-    <string name="stil_fitness_phone">0040256489830</string>
+                                    \nTel: +40 256489830</string>
+    <string name="stil_fitness_phone">+40 256489830</string>
     <string name="body_time_name">Body Time</string>
     <string name="body_time_info">Str. Sever Bocu
                                     \nSchedule: Monday-Saturday: 09 - 21
-                                    \nTel: 0040723440463</string>
-    <string name="body_time_phone">0040723440463</string>
+                                    \nTel: +40 723440463</string>
+    <string name="body_time_phone">+40 723440463</string>
     <string name="smart_fit3_name">Smartfit Studio 3</string>
     <string name="smart_fit3_info">Sagului no.100 ,
                                     \nSchedule:
                                              \n Monday-Saturday: 06:30 - 24
                                               \nSunday: 10 - 22
-                                    \nTel: 0040741332001</string>
-    <string name="smart_fit3_phone">0040741332001</string>
+                                    \nTel: +40 741332001</string>
+    <string name="smart_fit3_phone">+40 741332001</string>
     <string name="continental_fitness_name">Continental Fitness-Spa</string>
     <string name="continental_fitness_info">1989 Revolution Boulevard
                                     \nSchedule: Monday-Sunday: 07 - 23
-                                    \nTel: 0040256494144</string>
-    <string name="continental_fitness_phone">0040256494144</string>
+                                    \nTel: +40 256494144</string>
+    <string name="continental_fitness_phone">+40 256494144</string>
     <string name="world_class_name">World Class Fitness Academy</string>
     <string name="world_class_info"> Str. Aristide Demetriade No. 1, 2nd floor
                                 \nSchedule:
                                    \n  Monday-Friday: 07 - 21:30
                                     \n Saturday-Sunday: 07:30 – 21:30
-                                \nTel: 0040356100671</string>
-    <string name="world_class_phone">0040356100671</string>
+                                \nTel: +40 356100671</string>
+    <string name="world_class_phone">+40 356100671</string>
     <string name="banu_fitness_name">Banu Sport</string>
     <string name="banu_fitness_info"> Aleea F.C. Ripensia, no. 33
                                     \nSchedule: Monday-Sunday: 07 - 24
-                                    \nTel: 0040256220642</string>
-    <string name="banu_fitness_phone">0040256220642</string>
+                                    \nTel: +40 256220642</string>
+    <string name="banu_fitness_phone">+40 256220642</string>
     <string name="squash_menu">Squash</string>
     <string name="squash_sport_name">Squash Sport Arena</string>
     <string name="squash_sport_info">Torontalului, no.61
                                     \nSchedule: Monday-Sunday: 08 - 24
-                                   \nTel: 0040729271886</string>
-    <string name="squash_sport_phone">0040729271886</string>
+                                   \nTel: +40 729271886</string>
+    <string name="squash_sport_phone">+40 729271886</string>
     <string name="the_squashers_name">The Squashers</string>
     <string name="the_squashers_info">Aradului, no.48
                                     \nSchedule: Monday-Saturday: 08 - 23
-                                    \nTel: 0040770681288</string>
-    <string name="the_squashers_phone">0040770681288</string>
+                                    \nTel: +40 770681288</string>
+    <string name="the_squashers_phone">+40 770681288</string>
     <string name="helios_squash_name">Helios Sport Club</string>
     <string name="helios_squash_info">Iosif Bulbuca, no. 21
                 \nSchedule: Monday-Sunday: 08 - 18
                 \nEmail: office@helios-sport.ro
-                \nTel : 0040256463818</string>
-    <string name="helios_squash_phone">0040256463818</string>
+                \nTel : +40 256463818</string>
+    <string name="helios_squash_phone">+40 256463818</string>
     <string name="squash_club_name">Squash Club</string>
     <string name="squash_club_info"> Str. Johann Heinrich Pestalozzi, no.20
                 \nSchedule: Monday-Sunday: 08 - 24
-               \nTel : 0040721868477</string>
-    <string name="squash_club_phone">0040721868477</string>
+               \nTel : +40 721868477</string>
+    <string name="squash_club_phone">+40 721868477</string>
     <string name="sports_menu">Sports</string>
     <string name="taxi_menu">Taxi</string>
     <string name="tudo_taxi_name">Tudo Taxi</string>
     <string name="tudo_taxi_info">Price: 1.49 LEI/KM
-                             \nTel: 00400256945</string>
-    <string name="tudo_taxi_phone">00400256945</string>
+                             \nTel: +40 0256945</string>
+    <string name="tudo_taxi_phone">+40 0256945</string>
     <string name="pro_taxi_name">Pro Taxi</string>
     <string name="pro_taxi_info">Price: 1.49 LEI/KM
-                             \nTel: 0040256942</string>
-    <string name="pro_taxi_phone">0040256942</string>
+                             \nTel: +40 256942</string>
+    <string name="pro_taxi_phone">+40 256942</string>
     <string name="radio_taxi_name">Radio Taxi</string>
     <string name="radio_taxi_info">Price: 1.49 LEI/KM
-                             \nTel: 0040256940</string>
-    <string name="radio_taxi_phone">0040256940</string>
+                             \nTel: +40 256940</string>
+    <string name="radio_taxi_phone">+40 256940</string>
     <string name="taxi_timisoara_name">Taxi Timisoara</string>
     <string name="taxi_timisoara_info">Price: 1.49 LEI/KM
-                             \nTel: 0040256942</string>
-    <string name="taxi_timisoara_phone">0040256942</string>
+                             \nTel: +40 256942</string>
+    <string name="taxi_timisoara_phone">+40 256942</string>
     <string name="grup_taxi_name">Taxi Grup</string>
     <string name="grup_taxi_info">Price: 1.49 LEI/KM
-                             \nTel: 0040256207207</string>
-    <string name="grup_taxi_phone">0040256207207</string>
+                             \nTel: +40 256207207</string>
+    <string name="grup_taxi_phone">+40 256207207</string>
     <string name="fan_taxi_name">Fan Taxi</string>
     <string name="fan_taxi_info">Price: 2.19 LEI/KM
-                             \nTel: 0040256944</string>
-    <string name="fan_taxi_phone">0040256944</string>
+                             \nTel: +40 256944</string>
+    <string name="fan_taxi_phone">+40 256944</string>
     <string name="useful_info_main">Useful infos</string>
     <string name="rent_cars_menu">Rent a car</string>
     <string name="deluxe_rent_name">Deluxe Rent a Car Timisoara</string>
     <string name="deluxe_rent_info">Address:  Str. Fedra, no.19
-                                  \nTel: 0040723799649</string>
-    <string name="deluxe_rent_phone">0040723799649</string>
+                                  \nTel: +40 723799649</string>
+    <string name="deluxe_rent_phone">+40 723799649</string>
     <string name="swiso_rent_name">Swiso Rent a Car Timisoara</string>
     <string name="swiso_rent_info">Address:  Blvd. Iuliu Maniu, no.37
-                                  \nTel: 0040786541800</string>
-    <string name="swiso_rent_phone">0040786541800</string>
+                                  \nTel: +40 786541800</string>
+    <string name="swiso_rent_phone">+40 786541800</string>
     <string name="nataly_rent_name">Nataly Rent a Car Timisoara</string>
     <string name="nataly_rent_info">Address:  Blvd. Take Ionescu, no.47
-                                 \n Tel: 0040751997030</string>
-    <string name="nataly_rent_phone">0040751997030</string>
+                                 \n Tel: +40 751997030</string>
+    <string name="nataly_rent_phone">+40 751997030</string>
     <string name="novum_rent_name">Novum Rent a Car Timisoara</string>
     <string name="novum_rent_info">Address:  Blvd. Ion Dragalina, no.3
-                                  \nTel: 0040256499579</string>
-    <string name="novum_rent_phone">0040256499579</string>
+                                  \nTel: +40 256499579</string>
+    <string name="novum_rent_phone">+40 256499579</string>
     <string name="marvomil_rent_name">Marvomil Auto Timisoara</string>
     <string name="marvomil_rent_info">Address:  Str. Sever Bocu, no.37
-                                  \n Tel: 0040785560550</string>
-    <string name="marvomil_rent_phone">0040785560550</string>
+                                  \n Tel: +40 785560550</string>
+    <string name="marvomil_rent_phone">+40 785560550</string>
     <string name="bike_stations_menu">Velo TM Bike stations</string>
     <string name="velo_tm_name">Velo TM</string>
-
+    <string name="call_now">Call now: </string>
 
     <string name="museum_card">Museums</string>
     <string name="banat_museum_name">Banat Museum</string>
@@ -318,215 +315,215 @@
     <string name="restaurants_card">Restaurants</string>
     <string name="merlot_restaurant_name">Merlot Restaurant</string>
     <string name="merlot_restaurant_info">CUISINES: Mediterranean, European, Fusion, Vegetarian Friendly, Vegan Options
-                    \n Tel: 0040356450520
+                    \n Tel: +40 356450520
                     \n Price category: $$$$</string>
-    <string name="merlot_restaurant_phone">0040356450520</string>
+    <string name="merlot_restaurant_phone">+40 356450520</string>
     <string name="sabres_restaurant_name">Sabres Restaurant</string>
-    <string name="sabres_restaurant_info">CUISINES:  Seafood, Mediterranean, European
-                    \n Tel: 0040722590115
+    <string name="sabres_restaurant_info">CUISINES: Seafood, Mediterranean, European
+                    \n Tel:+40 722590115
                     \n Price category: $$$$</string>
-    <string name="sabres_restaurant_phone">0040722590115</string>
+    <string name="sabres_restaurant_phone">+40 722590115</string>
     <string name="grill_to_chill_name">Grill to chill</string>
     <string name="grill_to_chill_info">CUISINES: Steakhouse, Barbecue, European
-                    \n Tel: 0040755111797
+                    \n Tel: +40 755111797
                     \n Price category: $$$$</string>
-    <string name="grill_to_chill_phone">0040755111797</string>
+    <string name="grill_to_chill_phone">+40 755111797</string>
     <string name="caruso_restaurant_name">Caruso Restaurant</string>
     <string name="caruso_restaurant_info">CUISINES:  Italian, French, Mediterranean
-                    \n Tel: 0040256224771
+                    \n Tel: +40 256224771
                     \n Price category: $$$$</string>
-    <string name="caruso_restaurant_phone">0040256224771</string>
+    <string name="caruso_restaurant_phone">+40 256224771</string>
     <string name="amphora_enoteca_restaurant_name">Amphora Enoteca-Restaurant</string>
     <string name="amphora_enoteca_restaurant_info">CUISINES:  European, Wine Bar, Central European
-                    \n Tel: 0040732970181
+                    \n Tel: +40 732970181
                     \n Price category: $$$$</string>
-    <string name="amphora_enoteca_restaurant_phone">0040732970181</string>
+    <string name="amphora_enoteca_restaurant_phone">+40 732970181</string>
     <string name="belvedere_restaurant_name">Belvedere Restaurant</string>
     <string name="belvedere_restaurant_info">CUISINES:  International, Italian, French
-                    \n Tel: 0040256300231
+                    \n Tel: +40 256300231
                     \n Price category: $$$$</string>
-    <string name="belvedere_restaurant_phone">0040256300231</string>
+    <string name="belvedere_restaurant_phone">+40 256300231</string>
     <string name="enoteca_restaurant_name">Enoteca de Savoya Restaurant</string>
     <string name="enoteca_restaurant_info">CUISINES:  Austrian, International, European
-                    \n Tel: 0040256433472
+                    \n Tel: +40 256433472
                     \n Price category: $$$$</string>
-    <string name="enoteca_restaurant_phone">0040256433472</string>
+    <string name="enoteca_restaurant_phone">+40 256433472</string>
     <string name="mercy_restaurant_name">Mercy Restaurant</string>
     <string name="mercy_restaurant_info">CUISINES:  Italian, Mediterranean, European
-                    \n Tel: 0040356007876
+                    \n Tel: +40 356007876
                     \n Price category: $$ - $$$</string>
-    <string name="mercy_restaurant_phone">0040356007876</string>
+    <string name="mercy_restaurant_phone">+40 356007876</string>
     <string name="ristorante_al_duomo_name">Ristorante Al Duomo </string>
     <string name="ristorante_al_duomo_info">CUISINES:  Italian, Mediterranean, Seafood
-                    \n Tel: 0040724044423
+                    \n Tel: +40 724044423
                     \n Price category: $$$$</string>
-    <string name="ristorante_al_duomo_phone">0040724044423</string>
+    <string name="ristorante_al_duomo_phone">+40 724044423</string>
     <string name="timsoreana_restaurant_name">Timisoreana Restaurant</string>
     <string name="timisoareana_restaurant_info">CUISINES:  European, Eastern European, Central European, Romanian
-                    \n Tel: 0040256295421
+                    \n Tel: +40 256295421
                     \n Price category: $$ - $$$</string>
-    <string name="timisoareana_restaurant_phone">0040256295421</string>
+    <string name="timisoareana_restaurant_phone">+40 256295421</string>
     <string name="chinese_restaurant_name">The great Chinese Restaurant</string>
     <string name="chinese_restaurant_info">CUISINES: Chinese
-                    \n Tel: 0040256432188
+                    \n Tel: +40 256432188
                     \n Price category: $$ - $$$</string>
-    <string name="chinese_restaurant_phone">0040256432188</string>
+    <string name="chinese_restaurant_phone">+40 256432188</string>
     <string name="riviere_restaurant_name">Rivière Brasserie</string>
     <string name="riviere_restaurant_info">CUISINES:  European, Central European, Cafe
-                    \n Tel: 0040746095573
+                    \n Tel: +40 746095573
                     \n Price category: $$ - $$$</string>
-    <string name="riviere_restaurant_phone">0040746095573</string>
+    <string name="riviere_restaurant_phone">+40 746095573</string>
     <string name="banat_garden_name">Banat Garden</string>
     <string name="banat_garden_info">CUISINES:  Eastern European, Romanian
-                    \n Tel: 0040256292642
+                    \n Tel: +40 256292642
                     \n Price category: $$ - $$$</string>
-    <string name="banat_garden_phone">0040256292642</string>
+    <string name="banat_garden_phone">+40 256292642</string>
     <string name="la_strada_name">La Strada</string>
     <string name="la_strada_info">CUISINES:  French, Italian, American
-                    \n Tel: 0040758067916
+                    \n Tel: +40 758067916
                     \n Price category: $$ - $$$</string>
-    <string name="la_strada_phone">0040758067916</string>
+    <string name="la_strada_phone">+40 758067916</string>
     <string name="sky_restaurant_name">Sky Restaurant</string>
     <string name="sky_restaurant_info">CUISINES:   Italian, European, Mediterranean
-                    \n Tel: 0040758067916
+                    \n Tel: +40 758067916
                     \n Price category: $$$$</string>
-    <string name="sky_restaurant_phone">0040758067916</string>
+    <string name="sky_restaurant_phone">+40 758067916</string>
     <string name="flower_house_name">Casa cu Flori</string>
     <string name="flower_house_info">CUISINES:  European, Eastern European, Romanian
-                    \n Tel: 0040721180011
+                    \n Tel: +40 721180011
                     \n Price category: $$ - $$$</string>
-    <string name="flower_house_phone">0040721180011</string>
+    <string name="flower_house_phone">+40 721180011</string>
     <string name="cafes_card">Cafés and Bars</string>
     <string name="tucano_cafe_name">Tucano Coffee Mexico</string>
     <string name="tucano_cafe_info">Schedule:
                                      \nMonday - Tuesday: 08 - 23
                                     \n Friday - Sunday: 08 -00
-                                    \n Tel: 0040785882266</string>
-    <string name="tucano_cafe_phone">0040785882266</string>
+                                    \n Tel: +40 785882266</string>
+    <string name="tucano_cafe_phone">+40 785882266</string>
     <string name="segafredo_name">Segafredo Zanetti</string>
     <string name="segafredo_info">Schedule:
                                      \nMonday - Sunday: 10 - 22
-                                    \n Tel: 0040786200607</string>
-    <string name="segafredo_phone">0040786200607</string>
+                                    \n Tel: +40 786200607</string>
+    <string name="segafredo_phone">+40 786200607</string>
     <string name="starbucks_name">Starbucks</string>
     <string name="starbucks_info">Schedule:
                                      \nMonday - Sunday: 08 - 23
-                                    \n Tel: 0040786258607</string>
-    <string name="starbucks_phone">0040786258607</string>/
+                                    \n Tel: +40 786258607</string>
+    <string name="starbucks_phone">+40 786258607</string>/
     <string name="cafeneaua_verde_name">Cafeneaua Vede</string>
     <string name="cafeneaua_verde_info">Schedule:
                                      \nMonday - Friday: 08 - 00
                                       \nSaturday - Sunday: 10 - 00
-                                    \n Tel: 0040724084324</string>
-    <string name="cafeneaua_verde_phone">0040724084324</string>
+                                    \n Tel: +40 724084324</string>
+    <string name="cafeneaua_verde_phone">+40 724084324</string>
     <string name="viviani_cafe_name">Viviani Cafe</string>
     <string name="viviani_cafe_info">Schedule:
                                      \nMonday - Sunday: 08 - 00
-                                    \n Tel: 0040356468250</string>
-    <string name="viviani_cafe_phone">0040356468250</string>
+                                    \n Tel: +40 356468250</string>
+    <string name="viviani_cafe_phone">+40 356468250</string>
     <string name="garage_cafe_name">Garage Cafe</string>
     <string name="garage_cafe_info">Schedule:
                                      \nMonday - Friday: 07:30 - 00
                                     \nSaturday - Sunday: 10 - 00
-                                    \n Tel: 0040356001958</string>
-    <string name="garage_cafe_phone">0040356001958</string>
+                                    \n Tel: +40 356001958</string>
+    <string name="garage_cafe_phone">+40 356001958</string>
     <string name="bierhaus_name">Bierhaus</string>
     <string name="bierhaus_info">Schedule:
                                      \nMonday - Friday: 11:30 - 01
                                     \nSaturday: 16 - 03
                                     \nSunday: 16 - 01
-                                    \n Tel: 0040721279039</string>
-    <string name="bierhaus_phone">0040721279039</string>
+                                    \n Tel: +40 721279039</string>
+    <string name="bierhaus_phone">+40 721279039</string>
     <string name="toniq_bar_name">Toniq Bar</string>
     <string name="toniq_bar_info">Schedule:
                                      \nThursday - Sunday: 08 - 06
-                                    \n Tel:  0040757888811</string>
-    <string name="toniq_bar_phone">0040757888811</string>
+                                    \n Tel:  +40 757888811</string>
+    <string name="toniq_bar_phone">+40 757888811</string>
     <string name="vineri_15_name">Vineri 15</string>
     <string name="vineri_15_info">Schedule:
                                      \nMonday - Sunday: 10 - 02
-                                    \n Tel: 0040721202821</string>
-    <string name="vineri_15_phone">0040721202821</string>
+                                    \n Tel: +40 721202821</string>
+    <string name="vineri_15_phone">+40 721202821</string>
     <string name="la_capite_name">La Capite</string>
     <string name="la_capite_info">Schedule:
                                      \nMonday - Saturday: 10 - 01
                                      \nSunday: 10 - 00
-                                    \n Tel:  0040755073020</string>
-    <string name="la_capite_phone">0040755073020</string>
+                                    \n Tel:  +40 755073020</string>
+    <string name="la_capite_phone">+40 755073020</string>
     <string name="clubs_card">Clubs and Pubs</string>
     <string name="heaven_club_name">Heaven Studio</string>
     <string name="heaven_club_info">Schedule:
                                     \nSaturday: 23 - 05
-                                    \n Tel: 0040755432836</string>
-    <string name="heaven_club_phone">0040755432836</string>
+                                    \n Tel: +40 755432836</string>
+    <string name="heaven_club_phone">+40 755432836</string>
     <string name="epic_club_name">Epic Society</string>
     <string name="epic_club_info">Schedule:
                                     \nSaturday - Sunday: 23 - 06
-                                    \n Tel: 0040746099988</string>
-    <string name="epic_club_phone">0040746099988</string>
+                                    \n Tel: +40 746099988</string>
+    <string name="epic_club_phone">+40 746099988</string>
     <string name="fratelli_club_name">Fratelli Lounge&amp;Club</string>
     <string name="fratelli_club_info">Schedule:
                                     \nThursday: 19 - 03
                                     \nFriday - Saturday: 22:30 - 06
-                                    \n Tel: 0040722122123</string>
-    <string name="fratelli_club_phone">0040722122123</string>
+                                    \n Tel: +40 722122123</string>
+    <string name="fratelli_club_phone">+40 722122123</string>
     <string name="club_taine_name">Club Taine</string>
     <string name="club_taine_info">Schedule:
                                     \nMonday: 17 - 06
-                                    \n Tel: 0040731349022</string>
-    <string name="club_taine_phone">0040731349022</string>
+                                    \n Tel: +40 731349022</string>
+    <string name="club_taine_phone">+40 731349022</string>
     <string name="club_daos_name">Daos Club</string>
     <string name="club_daos_info">Schedule:
                                     \nWednesday - Saturday: 18 - 00
-                                    \n Tel: 0040744609750</string>
-    <string name="club_daos_phone">0040744609750</string>
+                                    \n Tel: +40 744609750</string>
+    <string name="club_daos_phone">+40 744609750</string>
     <string name="nouveau_name">Nouveau</string>
     <string name="nouveau_info">Schedule:
                                     \nSunday - Thursday: 22 - 01
                                     \nFriday - Saturday: 22 - 03
-                                    \n Tel: 0040799300800</string>
-    <string name="nouveau_phone">0040799300800</string>
+                                    \n Tel: +40 799300800</string>
+    <string name="nouveau_phone">+40 799300800</string>
     <string name="storia_name">Storia</string>
     <string name="storia_info">Schedule:
                                     \nMonday - Wednesday: 18 - 02
                                     \nThursday - Saturday: 18 - 04
                                     \nFriday: 18 - 01
-                                    \n Tel: 0040752177643</string>
-    <string name="storia_phone">0040752177643</string>
+                                    \n Tel: +40 752177643</string>
+    <string name="storia_phone">+40 752177643</string>
     <string name="wakeup_name">Wake Up</string>
     <string name="wakeup_info">Schedule:
                                     \nMonday - Thursday: 07 - 14
                                     \nFriday: 07 - 04
                                     \nSaturday: 12 - 16
                                     \nSunday: 12 - 14
-                                    \n Tel: 0040752008009</string>
-    <string name="wakeup_phone">0040752008009</string>
+                                    \n Tel: +40 752008009</string>
+    <string name="wakeup_phone">+40 752008009</string>
     <string name="jardin_name">Jardin</string>
     <string name="jardin_info">Schedule:
                                     \nSunday - Thursday: 22 - 01
                                     \nFriday - Saturday: 22 - 03
-                                    \n Tel: 0040799300800</string>
-    <string name="jardin_phone">0040799300800</string>
+                                    \n Tel: +40 799300800</string>
+    <string name="jardin_phone">+40 799300800</string>
     <string name="bunker_name">Bunker</string>
     <string name="bunker_info">Schedule:
                                     \nThursday - Saturday: 22 - 06
-                                    \n Tel: 0040732817230</string>
-    <string name="bunker_phone">0040732817230</string>
+                                    \n Tel: +40 732817230</string>
+    <string name="bunker_phone">+40 732817230</string>
     <string name="molly_name">Molly Malone\'s</string>
     <string name="molly_info">Schedule:
                                     \nWednesday - Saturday: 22 - 06
-                                    \n Tel: 0040732752527</string>
-    <string name="molly_phone">0040732752527</string>
+                                    \n Tel: +40 732752527</string>
+    <string name="molly_phone">+40 732752527</string>
     <string name="scottish_name">Scottish Pub</string>
     <string name="scottish_info">Schedule:
                                     \nFriday - Saturday: 22 - 06
-                                    \n Tel: 0040728740140</string>
-    <string name="scottish_phone">0040728740140</string>
+                                    \n Tel: +40 728740140</string>
+    <string name="scottish_phone">+40 728740140</string>
     <string name="atu_name">Atu Caffe Pub</string>
     <string name="atu_info">Schedule:
                                     \nMonday - Sunday: 08 - 00
-                                    \n Tel: 0040757888811</string>
-    <string name="atu_phone">0040757888811</string>
+                                    \n Tel: +40 757888811</string>
+    <string name="atu_phone">+40 757888811</string>
     <string name="hotels_card">Hotels</string>
     <string name="hotel_timisoara_name">Hotel Timisoara</string>
     <string name="hotel_timisoara_info">Address: Str. Marasesti 1-3
@@ -589,6 +586,7 @@
     <string name="pensiune_timisoreana_info">Address: B-dul. 16 Decembrie 1989 57</string>
     <string name="pensiune_voiaj_name">Pensiunea Voiaj</string>
     <string name="pensiune_voiaj_info">Address: Torontalului 90</string>
+    <string name="title_activity_near_by_attractions">NearByAttractionsActivity</string>
 
 
 </resources>

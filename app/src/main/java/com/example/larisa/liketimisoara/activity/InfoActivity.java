@@ -28,9 +28,9 @@ public class InfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
 
-        AttractionType chosenAttractionType = (AttractionType) getIntent().getSerializableExtra("EXTRA_ATTRACTION_TYPE");
+        final AttractionType chosenAttractionType = (AttractionType) getIntent().getSerializableExtra("EXTRA_ATTRACTION_TYPE");
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_info);
+        final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_info);
         recyclerView.setHasFixedSize(true);
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
@@ -40,11 +40,8 @@ public class InfoActivity extends AppCompatActivity {
                 HORIZONTAL);
         recyclerView.addItemDecoration(dividerItemDecoration);
 
-
         List<Attraction> attractions = DB.getInstance(getApplicationContext()).getAttractions(chosenAttractionType);
-
-        RecycleViewInfoAdapter adapter = new RecycleViewInfoAdapter(attractions, this);
+        RecycleViewInfoAdapter adapter = new RecycleViewInfoAdapter(attractions, InfoActivity.this);
         recyclerView.setAdapter(adapter);
-
     }
 }

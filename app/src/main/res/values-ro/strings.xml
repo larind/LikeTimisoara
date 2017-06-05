@@ -4,14 +4,12 @@
     <string name="gps_network_not_enabled">Locația nu este activată</string>
     <string name="open_location_settings">Activați locația</string>
     <string name="Cancel">Anulare</string>
-    <string name="title_activity_nav_menu_items">Like Timisoara</string>
     <string name="section_format">%1$s</string>
-    <string name="title_activity_detail_from_menu">Like Timisoara</string>
-    <string name="title_activity_sports">Like Timisoara</string>
-    <string name="app_title">Timișoara Capitală Culturală Europeană 2021</string>
+    <string name="app_title">Timișoara Capitală Culturală European 2021</string>
     <string name="atrractions_button">Atracții Timișoara</string>
     <string name="history">Istoria Timișoarei</string>
     <string name="history_name">Istoria Timișoarei</string>
+    <string name="call_now">Sună:</string>
     <string name="history_content">Municipiul Timișoara este actuala reședință a județului Timiș, fiind situat în partea de Vest a țării, în Câmpia Timișului, câmpie scăldată de două râuri importante: Bega și Timiș. Pe malurile acestor râuri s-a dezvoltat o cetate fortificată - Castrum Temesiense – cetate cunoscută din 1212.
 \nCetatea s-a dezvoltat de-a lungul timpului, ajungând ca între anii 1315-1323 să fie reședința regală a regelui Carol Robert de Anjou.
 \nTimișoara este atestată prima dată ca Civitas (oraș) în anul 1342, iar în secolul al XVI-lea devine un important punct de rezistență împotriva Imperiului Otoman, de aici pornind cruciații în războiul creștin, ce s-a terminat cu înfrângerea de la Nicopole. Tot de aici pornește și campania militară condusă de Iancu de Hunedoara.
@@ -28,45 +26,45 @@
                                     \nOrar: Luni-Vineri: 07 - 24
                                               \Sâmbătă: 09 - 21
                                               \nDuminică: 10 - 20
-                                   \n Tel:  0040730830290</string>
+                                   \n Tel:  +40 730830290</string>
     <string name="friends_arena_name">Friend\'s Arena</string>
     <string name="friends_arena_info">Str. Lacului, nr.1
                                     \nOrar: Luni-Vineri: 07 - 24
                                              \nSâmbătă-Duminică: 09 - 22
-                                   \n Tel: 00400256224645</string>
+                                   \nTel: +40 0256224645</string>
     <string name="iguana_fitness_name">Iguana Fitness</string>
     <string name="iguana_fitness_info">Str. Simion Bărnuțiu, nr.49
                                     \nOrar: LuniSâmbătă: 08 - 23
                                              \n Duminică: 12 - 16
-                                    \nTel: 0040256494144</string>
+                                    \nTel: +40 256494144</string>
     <string name="stil_fitness_name">Stil Fitness Club</string>
     <string name="stil_fitness_info">Str. Surorile Martir Caceu
                                    \n Orar: Luni-Vineri: 08 - 24
                                             \nSâmbătă: 09 - 22
                                              \n Duminică: 10 - 14
-                                    \nTel: 0040256489830</string>
+                                    \nTel: +40 256489830</string>
     <string name="body_time_name">Body Time</string>
     <string name="body_time_info">Str. Sever Bocu
                                     \nOrar: Luni - Sâmbătă: 09 - 21
-                                    \nTel: 0040723440463</string>
+                                    \nTel: +40 723440463</string>
     <string name="smart_fit3_name">Smartfit Studio 3</string>
     <string name="smart_fit3_info">Sagului nr.100 ,
                                     \nOrar: Luni - Sâmbătă: 06:30 - 24
                                              \n Duminică: 10 - 22
-                                   \n Tel: 0040741332001</string>
+                                   \n Tel: +40 741332001</string>
     <string name="continental_fitness_name">Continental Fitness-Spa</string>
     <string name="continental_fitness_info">Bulevardul Revolutiei din 1989
                                     \n Orar: Luni-Duminică: 07 - 23
-                                    \n Tel: 0040256494144</string>
+                                    \n Tel: +40 256494144</string>
     <string name="world_class_name">World Class Fitness Academy</string>
     <string name="world_class_info"> Str. Aristide Demetriade Nr. 1, et.2
                    \nOrar: Luni-Vineri: 07 - 21:30
                             \nSâmbătă-Duminică: 07:30 – 21:30
-                   \n Tel: 0040356100671</string>
+                   \n Tel: +40 356100671</string>
     <string name="banu_fitness_name">Banu Sport</string>
     <string name="banu_fitness_info"> Aleea F.C. Ripensia, nr. 33
                                     \nOrar: Luni-Duminică: 07 - 24
-                                    \nTel: 0040256220642</string>
+                                    \nTel: +40 256220642</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -88,97 +86,89 @@
     <string name="club_tivoli_name">Tennis Club Tivoli</string>
     <string name="club_tivoli_info">Aleea Ghirodei nr. 36
                 \nOrar: Luni-Duminică: 8 - 22
-                \nDetalii și rezervari la:
-                \n0040755-092.021
-                \n0040256-207.436</string>
+                \nDetalii și rezervari la: +40 755092021</string>
     <string name="club_helios_name">Helios Sport Club</string>
     <string name="club_helios_info">Iosif Bulbuca 21
                 \nOrar: Luni-Duminică: 08 - 18
                \n Email: office@helios-sport.ro
-               \n Rezervări :
-                                \n0040256-46-38-18,
-                                \n0040743-96-94-86 </string>
+               \n Rezervări: +40 256463818</string>
     <string name="berlin_sport_name">Berlin Sport</string>
     <string name="berlin_sport_info">Str. Berlin, nr. 1, Dumbrăvița(outdoor)
                     \nOrar: Luni-Duminică: 08 - 24
                     \nEmail: office@berlinsport.ro
-                    \nRezervări : 0040722.534.060</string>
+                    \nRezervări: +40 722.534.060</string>
     <string name="banu_sport_name">Banu Sport</string>
     <string name="banu_sport_info"> Str. FC Ripensiei, nr.33
                                    \n Orar: Luni-Duminică: 08 - 24
                                    \n Email: contact@banusport.ro
-                                   \n Rezervări:
-                                        \n0040256220642;
-                                        \n0040720440720</string>
+                                   \n Rezervări:+40 256220642</string>
     <string name="arena_pool_name">Arena Aqua Sport</string>
     <string name="arena_pool_info">Dorobantilor, nr. 92
                                 \n Orar:
                                 \nLuni-Vineri: 07 - 23
-                                \Sâmbătă-Duminică: 09 - 22
-                    Tel: 0040256213103</string>
+                                \nSâmbătă-Duminică: 09 - 22
+                    \nTel: +40 256213103</string>
     <string name="ice_dyp_name">Ice Dyp - Resort &amp; Spa</string>
     <string name="ice_dyp_info">Lugojului, nr.37
                     \nOrar:
                     \nLuni-Duminică: 07 - 23
-                    \nTel:
-                        \n0040256221341,
-                             0040256221343
+                    \nTel:+40 256221341
                 </string>
     <string name="squash_menu">Squash</string>
     <string name="squash_sport_name">Squash Sport Arena</string>
     <string name="squash_sport_info">Torontalului, nr.61
                                     \nOrar: Luni-Duminică: 08 - 24
-                                   \nTel: 0040729271886</string>
+                                   \nTel: +40 729271886</string>
     <string name="the_squashers_name">The Squashers</string>
     <string name="the_squashers_info">Aradului, nr.48
                                     \nOrar: Luni - Sâmbătă: 08 - 23
-                                    \nTel: 0040770681288</string>
+                                    \nTel: +40 770681288</string>
     <string name="helios_squash_name">Helios Sport Club</string>
     <string name="helios_squash_info">Iosif Bulbuca, nr. 21
                 \nOrar: Luni-Duminică: 08 - 18
                 \nEmail: office@helios-sport.ro
-                \nTel : 0040256463818</string>
+                \nTel : +40 256463818</string>
     <string name="squash_club_name">Squash Club</string>
     <string name="squash_club_info"> Str. Johann Heinrich Pestalozzi, nr.20
                 \nOrar: Luni-Duminică: 08 - 24
-               \nTel : 0040721868477</string>
+               \nTel : +40 721868477</string>
     <string name="sports_menu">Sporturi</string>
     <string name="taxi_menu">Taxi</string>
     <string name="tudo_taxi_name">Tudo Taxi</string>
     <string name="tudo_taxi_info">Preț: 1.49 LEI/KM
-                             \nTel: 00400256945</string>
+                             \nTel: +40 0256945</string>
     <string name="pro_taxi_name">Pro Taxi</string>
     <string name="pro_taxi_info">Preț: 1.49 LEI/KM
-                             \nTel: 0040256942</string>
+                             \nTel: +40 256942</string>
     <string name="radio_taxi_name">Radio Taxi</string>
     <string name="radio_taxi_info">Preț: 1.49 LEI/KM
-                             \nTel: 0040256940</string>
+                             \nTel: +40 256940</string>
     <string name="taxi_timisoara_name">Taxi Timișoara</string>
     <string name="taxi_timisoara_info">Preț: 1.49 LEI/KM
-                             \nTel: 0040256942</string>
+                             \nTel: +40 256942</string>
     <string name="grup_taxi_name">Taxi Grup</string>
     <string name="grup_taxi_info">Preț: 1.49 LEI/KM
-                             \nTel: 0040256207207</string>
+                             \nTel: +40 256207207</string>
     <string name="fan_taxi_name">Fan Taxi</string>
     <string name="fan_taxi_info">Preț: 2.19 LEI/KM
-                             \nTel: 0040256944</string>
+                             \nTel: +40 256944</string>
     <string name="useful_info_main">Utile</string>
     <string name="rent_cars_menu">Închiriere mașini</string>
     <string name="deluxe_rent_name">Deluxe Rent a Car Timisoara</string>
     <string name="deluxe_rent_info">Adresa:  Str. Fedra, nr.19
-                                  \nTel: 0040723799649</string>
+                                  \nTel: +40 723799649</string>
     <string name="swiso_rent_name">Swiso Rent a Car Timisoara</string>
     <string name="swiso_rent_info">Adresa:  B-dul. Iuliu Maniu, nr.37
-                                  \nTel: 0040786541800</string>
+                                  \nTel: +40 786541800</string>
     <string name="nataly_rent_name">Nataly Rent a Car Timisoara</string>
     <string name="nataly_rent_info">Adresa:  B-dul. Take Ionescu, nr.47
-                                 \n Tel: 0040751997030</string>
+                                 \n Tel: +40 751997030</string>
     <string name="novum_rent_name">Novum Rent a Car Timisoara</string>
     <string name="novum_rent_info">Adresa:  B-dul. Ion Dragalina, nr.3
-                                  \nTel: 0040256499579</string>
+                                  \nTel: +40 256499579</string>
     <string name="marvomil_rent_name">Marvomil Auto Timisoara</string>
     <string name="marvomil_rent_info">Adresa:  Str. Sever Bocu, nr.37
-                                  \n Tel: 0040785560550</string>
+                                  \n Tel: +40 785560550</string>
     <string name="bike_stations_menu">Velo TM Bike stations</string>
     <string name="velo_tm_name">Velo TM</string>
 
@@ -223,7 +213,7 @@
 \nA fost bulevardul principal al orașului, de la opera și catedrala până la bulevardele numite "Corso" pentru partea dreaptă, locul plimbării societății înalte, plin de magazine și restaurante de lux și "Surogat" pentru stânga, Aceasta fiind o promenadă pentru tineri și muncitori, dar și pentru soldați, care trebuiau să dovedească că sunt în concediu să meargă.</string>
     <string name="union_square_name">Piața Unirii</string>
     <string name="union_square_info">Piata Unirii este considerata a fi cea mai frumoasa piata din Timisoara. Se găsește unele dintre cele mai valoroase monumente din Timișoara: Palatul Baroc, Catedrala Catolică, Vicarul sârb, Monumentul Sfintei Treimi.
-                 \ NLocat în orașul vechi, Piața Unirii este una dintre cele mai vechi, nu doar cele mai frumoase. A fost numită în cinstea trupelor românești care au intrat în Timișoara la 3 august 1919 și au înființat administrația românească, finalizând astfel unirea Banatului cu România.
+                 \ NLocat în orașul vechi, Piața Unirii este una dintre cele mai vechi, nu doar cele mai frumoase. A fost numită în cinstea trupelor românești care au intrat în Timișoara la 3 august 1919 și au înființat administrația Românesc, finalizând astfel unirea Banatului cu România.
 \n Se numește, de asemenea, "Piața Dome", deoarece găzduiește Domul catolic, construit în 1736. A fost denumit și "Hauptplatz", ceea ce înseamnă piața principală.
                  \nPentru trei secole, Piata Unirii a fost locul de evenimente religioase, parade militare si alte evenimente prestigioase politice si culturale.
                  \nArată așa cum o știm noi astăzi din 1988-1989, cel care "a desenat-o" fiind arhitectul Șerban Sturdza.</string>
@@ -231,7 +221,7 @@
     <string name="parks_card">Parcuri</string>
     <string name="central_park_name">Parcul Central</string>
     <string name="info_central_park">Parcul Central "Anton Scudier" este unul dintre cele mai vechi parcuri din Timișoara, fondat în 1880 de generalul Anton von Scudier.
-         \nÎn parc există mai multe monumente ale unor personalități și Monumentul soldatului românească.
+         \nÎn parc există mai multe monumente ale unor personalități și Monumentul soldatului Românesc.
         \n Parcul este dotat cu fântâni, bănci și mese de șah.</string>
     <string name="botanical_park_name">Parcul Botanic</string>
     <string name="botanical_park_info">Are o suprafață de aproape 9 ha și este un frumos parc dendrologic, care conține o mare varietate de specii de copaci.
@@ -291,177 +281,177 @@
 
     <string name="restaurants_card">Restaurante</string>
     <string name="merlot_restaurant_name">Restaurant Merlot</string>
-    <string name="merlot_restaurant_info">BUCĂTĂRII: Mediteraneană, Europeană, Vegetarian
-                    \n Tel: 0040356450520
+    <string name="merlot_restaurant_info">SPECIFIC: Mediteraneană, European, Vegetarian
+                    \n Tel: +40 356450520
                     \n Categorie de prețuri: $$$$</string>
     <string name="sabres_restaurant_name">Sabres Restaurant</string>
-    <string name="sabres_restaurant_info">BUCĂTĂRII:  Fructe de mare, Mediteraneană, Europeană
-                    \n Tel: 0040722590115
+    <string name="sabres_restaurant_info">SPECIFIC:  Fructe de mare, Mediteraneană, European
+                    \n Tel: +40 722590115
                     \n Categorie de prețuri: $$$$</string>
     <string name="grill_to_chill_name">Grill to chill</string>
-    <string name="grill_to_chill_info">BUCĂTĂRII:  Grătare, Europeană
-                    \n Tel: 0040755111797
+    <string name="grill_to_chill_info">SPECIFIC:  Grătare, European
+                    \n Tel: +40 755111797
                     \n Categorie de prețuri: $$$$</string>
     <string name="caruso_restaurant_name">Restaurant Caruso </string>
-    <string name="caruso_restaurant_info">BUCĂTĂRII:  Italiană, Franceză, Mediteraneană
-                    \n Tel: 0040256224771
+    <string name="caruso_restaurant_info">SPECIFIC:  Italiană, Franceză, Mediteraneană
+                    \n Tel: +40 256224771
                     \n Categorie de prețuri: $$$$</string>
     <string name="amphora_enoteca_restaurant_name">Amphora Enoteca-Restaurant</string>
-    <string name="amphora_enoteca_restaurant_info">BUCĂTĂRII:  Europeană, Central Europeană
-                    \n Tel: 0040732970181
+    <string name="amphora_enoteca_restaurant_info">SPECIFIC:  European, Central European
+                    \n Tel: +40 732970181
                     \n Categorie de prețuri: $$$$</string>
     <string name="belvedere_restaurant_name"> Restaurant Belvedere</string>
-    <string name="belvedere_restaurant_info">BUCĂTĂRII:  Internațională, Italiană, Franceză
-                    \n Tel: 0040256300231
+    <string name="belvedere_restaurant_info">SPECIFIC:  Internațională, Italiană, Franceză
+                    \n Tel: +40 256300231
                     \n Categorie de prețuri: $$$$</string>
     <string name="enoteca_restaurant_name">Restaurant Enoteca de Savoya</string>
-    <string name="enoteca_restaurant_info">BUCĂTĂRII:  Austrian, Internațională, Europeană
-                    \n Tel: 0040256433472
+    <string name="enoteca_restaurant_info">SPECIFIC:  Austrian, Internațională, European
+                    \n Tel: +40 256433472
                     \n Categorie de prețuri: $$$$</string>
     <string name="mercy_restaurant_name">Restaurant Mercy </string>
-    <string name="mercy_restaurant_info">BUCĂTĂRII:  Italiană, Mediteraneană, Europeană
-                    \n Tel: 0040356007876
+    <string name="mercy_restaurant_info">SPECIFIC:  Italiană, Mediteraneană, European
+                    \n Tel: +40 356007876
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="ristorante_al_duomo_name">Ristorante Al Duomo </string>
-    <string name="ristorante_al_duomo_info">BUCĂTĂRII:  Italiană, Mediteraneană, Fructe de mare
-                    \n Tel: 0040724044423
+    <string name="ristorante_al_duomo_info">SPECIFIC:  Italiană, Mediteraneană, Fructe de mare
+                    \n Tel: +40 724044423
                     \n Categorie de prețuri: $$$$</string>
     <string name="timsoreana_restaurant_name">Restaurant Timișoreana</string>
-    <string name="timisoareana_restaurant_info">BUCĂTĂRII:  Europeană, Est Europeană, Central Europeană, Românească
-                    \n Tel: 0040256295421
+    <string name="timisoareana_restaurant_info">SPECIFIC:  European, Est European, Central European, Românesc
+                    \n Tel: +40 256295421
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="chinese_restaurant_name">Marele Restaurant Chinezesc</string>
-    <string name="chinese_restaurant_info">BUCĂTĂRII: Chinese
-                    \n Tel: 0040256432188
+    <string name="chinese_restaurant_info">SPECIFIC: Chinezesc
+                    \n Tel: +40 256432188
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="riviere_restaurant_name">Rivière Brasserie</string>
-    <string name="riviere_restaurant_info">BUCĂTĂRII:  Europeană, Central Europeană, Cafe
-                    \n Tel: 0040746095573
+    <string name="riviere_restaurant_info">SPECIFIC:  European, Central European, Cafe
+                    \n Tel: +40 746095573
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="banat_garden_name">Grădina Bănățeană</string>
-    <string name="banat_garden_info">BUCĂTĂRII:  Est Europeană, Românească
-                    \n Tel: 0040256 292642
+    <string name="banat_garden_info">SPECIFIC:  Est European, Românesc
+                    \n Tel: +40 256 292642
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="la_strada_name">La Strada</string>
-    <string name="la_strada_info">BUCĂTĂRII:  Franceză, Italiană, Americană
-                    \n Tel: 0040758067916
+    <string name="la_strada_info">SPECIFIC:  Franceză, Italiană, Americană
+                    \n Tel: +40 758067916
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="sky_restaurant_name">Sky Restaurant</string>
-    <string name="sky_restaurant_info">BUCĂTĂRII:   Italiană, Europeană, Mediteraneană
-                    \n Tel: 0040758067916
+    <string name="sky_restaurant_info">SPECIFIC:   Italiană, European, Mediteraneană
+                    \n Tel: +40 758067916
                     \n Categorie de prețuri: $$$$</string>
     <string name="flower_house_name">Casa cu Flori</string>
-    <string name="flower_house_info">BUCĂTĂRII:  Europeană, Est Europeană, Românească
-                    \n Tel: 0040721180011
+    <string name="flower_house_info">SPECIFIC:  European, Est European, Românesc
+                    \n Tel: +40 721180011
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="cafes_card">Cafenele și Baruri</string>
     <string name="tucano_cafe_name">Tucano Coffee Mexico</string>
     <string name="tucano_cafe_info">Orar:
                                      \nLuni - Tuesday: 08 - 23
                                     \n Vineri - Duminică: 08 -00
-                                    \n Tel: 0040785882266</string>
+                                    \n Tel: +40 785882266</string>
     <string name="segafredo_name">Segafredo Zanetti</string>
     <string name="segafredo_info">Orar:
                                      \nLuni - Duminică: 10 - 22
-                                    \n Tel: 0040786200607</string>
+                                    \n Tel: +40 786200607</string>
     <string name="starbucks_name">Starbucks</string>
     <string name="starbucks_info">Orar:
                                      \nLuni - Duminică: 08 - 23
-                                    \n Tel: 0040786258607</string>
+                                    \n Tel: +40 786258607</string>
     <string name="cafeneaua_verde_name">Cafeneaua Vede</string>
     <string name="cafeneaua_verde_info">Orar:
                                      \nLuni - Vineri: 08 - 00
                                       \Sâmbătă - Duminică: 10 - 00
-                                    \n Tel: 0040724084324</string>
+                                    \n Tel: +40 724084324</string>
     <string name="viviani_cafe_name">Viviani Cafe</string>
     <string name="viviani_cafe_info">Orar:
                                      \nLuni - Duminică: 08 - 00
-                                    \n Tel: 0040356468250</string>
+                                    \n Tel: +40 356468250</string>
     <string name="garage_cafe_name">Garage Cafe</string>
     <string name="garage_cafe_info">Orar:
                                      \nLuni - Vineri: 07:30 - 00
                                     \Sâmbătă - Duminică: 10 - 00
-                                    \n Tel: 0040356001958</string>
+                                    \n Tel: +40 356001958</string>
     <string name="bierhaus_name">Bierhaus</string>
     <string name="bierhaus_info">Orar:
                                      \nLuni - Vineri: 11:30 - 01
                                     \Sâmbătă: 16 - 03
                                     \nDuminică: 16 - 01
-                                    \n Tel: 0040721279039</string>
+                                    \n Tel: +40 721279039</string>
     <string name="toniq_bar_name">Toniq Bar</string>
     <string name="toniq_bar_info">Orar:
                                      \nJoi - Duminică: 08 - 06
-                                    \n Tel:  0040757888811</string>
+                                    \n Tel:  +40 757888811</string>
     <string name="vineri_15_name">Vineri 15</string>
     <string name="vineri_15_info">Orar:
                                      \nLuni - Duminică: 10 - 02
-                                    \n Tel: 0040721202821</string>
+                                    \n Tel: +40 721202821</string>
     <string name="la_capite_name">La Căpițe</string>
     <string name="la_capite_info">Orar:
                                      \nLuni -Sâmbătă: 10 - 01
                                      \nDuminică: 10 - 00
-                                    \n Tel:  0040755073020</string>
+                                    \n Tel:  +40 755073020</string>
     <string name="clubs_card">Cluburi și Pub-uri</string>
     <string name="heaven_club_name">Heaven Studio</string>
     <string name="heaven_club_info">Orar:
                                     \Sâmbătă: 23 - 05
-                                    \n Tel: 0040755432836</string>
+                                    \n Tel: +40 755432836</string>
     <string name="epic_club_name">Epic Society</string>
     <string name="epic_club_info">Orar:
                                     \Sâmbătă - Duminică: 23 - 06
-                                    \n Tel: 0040746099988</string>
+                                    \n Tel: +40 746099988</string>
     <string name="fratelli_club_name">Fratelli Lounge&amp;Club</string>
     <string name="fratelli_club_info">Orar:
                                     \nJoi: 19 - 03
                                     \nVineri -Sâmbătă: 22:30 - 06
-                                    \n Tel: 0040722122123</string>
+                                    \n Tel: +40 722122123</string>
     <string name="club_taine_name">Club Taine</string>
     <string name="club_taine_info">Orar:
                                     \nLuni: 17 - 06
-                                    \n Tel: 0040731349022</string>
+                                    \n Tel: +40 731349022</string>
     <string name="club_daos_name">Daos Club</string>
     <string name="club_daos_info">Orar:
                                     \nMiercuri -Sâmbătă: 18 - 00
-                                    \n Tel: 0040744609750</string>
+                                    \n Tel: +40 744609750</string>
     <string name="nouveau_name">Nouveau</string>
     <string name="nouveau_info">Orar:
                                     \nDuminică - Joi: 22 - 01
                                     \nVineri -Sâmbătă: 22 - 03
-                                    \n Tel: 0040799300800</string>
+                                    \n Tel: +40 799300800</string>
     <string name="storia_name">Storia</string>
     <string name="storia_info">Orar:
                                     \nLuni - Miercuri: 18 - 02
                                     \nJoi -Sâmbătă: 18 - 04
                                     \nVineri: 18 - 01
-                                    \n Tel: 0040752177643</string>
+                                    \n Tel: +40 752177643</string>
     <string name="wakeup_name">Wake Up</string>
     <string name="wakeup_info">Orar:
                                     \nLuni - Joi: 07 - 14
                                     \nVineri: 07 - 04
                                     \Sâmbătă: 12 - 16
                                     \nDuminică: 12 - 14
-                                    \n Tel: 0040752008009</string>
+                                    \n Tel: +40 752008009</string>
     <string name="jardin_name">Jardin</string>
     <string name="jardin_info">Orar:
                                     \nDuminică - Joi: 22 - 01
                                     \nVineri -Sâmbătă: 22 - 03
-                                    \n Tel: 0040799300800</string>
+                                    \n Tel: +40 799300800</string>
     <string name="bunker_name">Bunker</string>
     <string name="bunker_info">Orar:
                                     \nJoi -Sâmbătă: 22 - 06
-                                    \n Tel: 0040732817230</string>
+                                    \n Tel: +40 732817230</string>
     <string name="molly_name">Molly Malone\'s</string>
     <string name="molly_info">Orar:
                                     \nMiercuri -Sâmbătă: 22 - 06
-                                    \n Tel: 0040732752527</string>
+                                    \n Tel: +40 732752527</string>
     <string name="scottish_name">Scottish Pub</string>
     <string name="scottish_info">Orar:
                                     \nVineri -Sâmbătă: 22 - 06
-                                    \n Tel: 0040728740140</string>
+                                    \n Tel: +40 728740140</string>
     <string name="atu_name">Atu Caffe Pub</string>
     <string name="atu_info">Orar:
                                     \nLuni - Duminică: 08 - 00
-                                    \n Tel: 0040757888811</string>
+                                    \n Tel: +40 757888811</string>
     <string name="hotels_card">Hoteluri</string>
     <string name="hotel_timisoara_name">Hotel Timisoara</string>
     <string name="hotel_timisoara_info">Adresa: Str. Mărășești 1-3

@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,35 +8,47 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     tools:context="com.example.larisa.liketimisoara.activity.SportsActivity$PlaceholderFragment">
+
     <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:measureWithLargestChild="false">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="false"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
     <TextView
         android:id="@+id/sports_title"
-        android:layout_width="180dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:paddingBottom="15dp"
-        android:textAllCaps="true"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
         android:textStyle="bold"
-        android:textSize="20dp"/>
+        android:textSize="24dp"/>
+
     <Button
         android:id="@+id/sports_maps"
-        android:layout_marginTop="20dp"
-        android:layout_width="45dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
+        android:layout_weight="1"
         android:drawableTop="@drawable/pin"
         android:background="@android:color/transparent"
-        android:gravity="right"/>
-    </LinearLayout>
+        android:layout_gravity="center"/>
+        </LinearLayout>
 
     <ImageView
         android:id="@+id/sports_image"
-        android:layout_width="270dp"
+        android:layout_width="match_parent"
         android:layout_height="220dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@null"
         android:paddingBottom="20dp"/>
 
     <TextView
@@ -44,9 +56,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/darker_gray"
         android:gravity="center" />
-    <Button
-        android:id="@+id/phone"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/phone_info"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="@string/call_now"/>
+
+    <ImageButton
+        android:id="@+id/phone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:background="@color/wallet_holo_blue_light"
+        android:src="@android:drawable/stat_sys_phone_call" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -8,9 +8,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -23,6 +26,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.larisa.liketimisoara.Attraction;
 import com.example.larisa.liketimisoara.AttractionType;
@@ -33,25 +37,20 @@ import com.example.larisa.liketimisoara.activity.adapter.CustomAdapter;
 import com.example.larisa.liketimisoara.db.DB;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private static final String DB_INIT_KEY = "DB_INIT_KEY";
 
-    private static RecyclerView.Adapter adapter;
-    private RecyclerView.LayoutManager layoutManager;
-    private static RecyclerView recyclerView;
-    private static ArrayList<DataModel> data;
+    private LocationManager locationManager;
 
     private AnimatorSet mSetRightOut;
     private AnimatorSet mSetLeftIn;
-    private boolean mIsBackVisible = false;
     public View mCardFrontLayout;
     private View mCardBackLayout;
     private Context context;
-
-    private boolean initDone = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +62,8 @@ public class MainActivity extends AppCompatActivity
 
         SharedPreferences sharedPreferences = getPreferences(MODE_PRIVATE);
 
+        locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+
         if (!sharedPreferences.getBoolean(DB_INIT_KEY, false)) {
             // enter first time
 
@@ -72,14 +73,15 @@ public class MainActivity extends AppCompatActivity
             DB.getInstance(getApplicationContext()).initDatabase(getApplicationContext());
         }
 
-        recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
         recyclerView.setHasFixedSize(true);
 
-        layoutManager = new LinearLayoutManager(this);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
+        loadAnimations();
 
-        data = new ArrayList<>();
+        ArrayList<DataModel> data = new ArrayList<>();
         for (int i = 0; i < MyData.nameArray.length; i++) {
             data.add(new DataModel(
                     MyData.nameArray[i],
@@ -89,7 +91,7 @@ public class MainActivity extends AppCompatActivity
             ));
         }
 
-        adapter = new CustomAdapter(data, this);
+        RecyclerView.Adapter adapter = new CustomAdapter(data, this);
         recyclerView.setAdapter(adapter);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -114,45 +116,134 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
 
-        loadAnimations();
+    private boolean checkLocation() {
+        if (!isLocationEnabled())
+            showAlert();
+        return isLocationEnabled();
+    }
 
-        LocationManager lm = (LocationManager)context.getSystemService(Context.LOCATION_SERVICE);
+    private void showAlert() {
+
         boolean gps_enabled = false;
         boolean network_enabled = false;
 
         try {
-            gps_enabled = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
-        } catch(Exception ex) {}
+            gps_enabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
 
         try {
-            network_enabled = lm.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
-        } catch(Exception ex) {}
+            network_enabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
 
-        if(!gps_enabled && !network_enabled) {
+        if (!gps_enabled && !network_enabled) {
             // notify user
-            AlertDialog.Builder dialog = new AlertDialog.Builder(context);
-            dialog.setMessage(context.getResources().getString(R.string.gps_network_not_enabled));
-            final AlertDialog.Builder builder = dialog.setPositiveButton(context.getResources().getString(R.string.open_location_settings), new DialogInterface.OnClickListener() {
+
+            runOnUiThread(new Runnable() {
                 @Override
-                public void onClick(DialogInterface paramDialogInterface, int paramInt) {
-                    // TODO Auto-generated method stub
-                    Intent myIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
-                    context.startActivity(myIntent);
-                    //get gps
+                public void run() {
+                    AlertDialog.Builder dialog = new AlertDialog.Builder(context);
+                    dialog.setMessage(context.getResources().getString(R.string.gps_network_not_enabled));
+                    dialog.setPositiveButton(context.getResources().getString(R.string.open_location_settings), new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+
+                            Intent myIntent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                            context.startActivity(myIntent);
+                            //get gps
+                        }
+                    });
+                    dialog.setNegativeButton(context.getString(R.string.Cancel), new DialogInterface.OnClickListener() {
+
+                        @Override
+                        public void onClick(DialogInterface paramDialogInterface, int paramInt) {
+
+                        }
+                    });
+                    dialog.show();
+
                 }
             });
-            dialog.setNegativeButton(context.getString(R.string.Cancel), new DialogInterface.OnClickListener() {
-
-                @Override
-                public void onClick(DialogInterface paramDialogInterface, int paramInt) {
-                    // TODO Auto-generated method stub
-
-                }
-            });
-            dialog.show();
         }
     }
+
+    private boolean isLocationEnabled() {
+        return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+    }
+
+    public void toggleGPSUpdates(View view) {
+
+        if (checkLocation()) {
+            try {
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10 * 1000, 10, locationListenerGPS);
+            } catch (SecurityException e) {
+                Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show(); // lets the user know there is a problem with the gps
+            }
+        }
+    }
+
+    private List<Attraction> getNearbyAttractions(List<Attraction> allAttractions, double currentLatitude, double currentLongitude) {
+
+        float[] distance = new float[1];
+
+        List<Attraction> nearbyAttractions = new ArrayList<>();
+
+        for (Attraction attraction : allAttractions) {
+
+            Location.distanceBetween(currentLatitude, currentLongitude, attraction.getLatitude(), attraction.getLongitude(), distance);
+
+            if (distance[0] <= 1000) {
+
+                nearbyAttractions.add(attraction);
+            }
+        }
+
+        return nearbyAttractions;
+    }
+
+    private final LocationListener locationListenerGPS = new LocationListener() {
+
+        public void onLocationChanged(Location location) {
+
+            double currentLongitude = location.getLongitude();
+            double currentLatitude = location.getLatitude();
+
+            List<Attraction> allAttractions = DB.getInstance(getApplicationContext()).getAttractions(null);
+
+            ArrayList<Attraction> nearbyAttractions = (ArrayList<Attraction>) getNearbyAttractions(allAttractions, currentLatitude, currentLongitude);
+
+            try {
+                locationManager.removeUpdates(locationListenerGPS);
+            } catch (SecurityException ex) {
+                ex.printStackTrace();
+            }
+
+            Intent mapsActivity = new Intent(MainActivity.this, MapsActivity.class);
+            mapsActivity.putExtra("EXTRA_ATTRACTIONS", nearbyAttractions);
+            startActivity(mapsActivity);
+        }
+
+        @Override
+        public void onStatusChanged(String provider, int status, Bundle extras) {
+
+        }
+
+        @Override
+        public void onProviderEnabled(String provider) {
+
+        }
+
+        @Override
+        public void onProviderDisabled(String provider) {
+
+        }
+    };
+
 
     @Override
     public void onBackPressed() {
@@ -189,56 +280,46 @@ public class MainActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.obiective_apropiate) {
-            Intent obiectiveApropiate = new Intent(MainActivity.this, SportsActivity.class);
-            startActivity(obiectiveApropiate);
-
+            toggleGPSUpdates(null);
         } else if (id == R.id.top10) {
             Intent top10 = new Intent(MainActivity.this, SportsActivity.class);
             top10.putExtra("EXTRA_IS_TOP_10", true);
             startActivity(top10);
-        }
-        else if (id == R.id.nav_fitness) {
+        } else if (id == R.id.nav_fitness) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
             fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.SALA_FITNESS);
             startActivity(fitnessActivity);
-        }
-        else if (id == R.id.nav_tenis) {
+        } else if (id == R.id.nav_tenis) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
             fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.TEREN_TENIS);
             startActivity(fitnessActivity);
-        }
-        else if (id == R.id.nav_bazine) {
+        } else if (id == R.id.nav_bazine) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
             fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.BAZIN_INOT);
             startActivity(fitnessActivity);
-        }
-        else if (id == R.id.nav_squash) {
+        } else if (id == R.id.nav_squash) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
             fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.SALA_SQUASH);
             startActivity(fitnessActivity);
-        }
-        else if (id == R.id.nav_inchirieri) {
+        } else if (id == R.id.nav_inchirieri) {
             Intent mapIntent = new Intent(MainActivity.this, SportsActivity.class);
-            mapIntent.putExtra("EXTRA_ATTRACTION",AttractionType.INCHIRIERI_AUTO );
+            mapIntent.putExtra("EXTRA_ATTRACTION", AttractionType.INCHIRIERI_AUTO);
             startActivity(mapIntent);
-        }
-        else if (id == R.id.nav_bicicleta) {
+        } else if (id == R.id.nav_bicicleta) {
             Intent mapsActivity = new Intent(MainActivity.this, MapsActivity.class);
-            ArrayList<Attraction> attractions = (ArrayList<Attraction>)DB.getInstance(getApplicationContext()).getAttractions(AttractionType.STATIE_BICICLETE);
+            ArrayList<Attraction> attractions = (ArrayList<Attraction>) DB.getInstance(getApplicationContext()).getAttractions(AttractionType.STATIE_BICICLETE);
             mapsActivity.putExtra("EXTRA_ATTRACTIONS", attractions);
             startActivity(mapsActivity);
-        }
-        else if (id == R.id.nav_taxi) {
+        } else if (id == R.id.nav_taxi) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
             fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.COMPANIE_TAXI);
             startActivity(fitnessActivity);
-        }
-        else if(id == R.id.istoric){
+        } else if (id == R.id.istoric) {
             Intent historyIntent = new Intent(MainActivity.this, HistoryActivity.class);
             startActivity(historyIntent);
         }
@@ -254,31 +335,10 @@ public class MainActivity extends AppCompatActivity
         mSetLeftIn = (AnimatorSet) AnimatorInflater.loadAnimator(this, R.animator.in_animation);
     }
 
-    private void init(View view) {
-
-        View parent = (View) view.getParent();
-
-        mCardFrontLayout = parent.findViewById(R.id.card_view_front);
-        mCardFrontLayout.setCameraDistance(getResources().getDisplayMetrics().density * 8000);
-        mCardBackLayout = parent.findViewById(R.id.card_view_back);
-        mCardBackLayout.setCameraDistance(getResources().getDisplayMetrics().density * 8000);
-
-        initDone = true;
-    }
-
     public void flipToBack(View view) {
 
-//        final Animation animationFadeIn = AnimationUtils.loadAnimation(this, R.anim.in_animation);
-//        final Animation animationFadeOut = AnimationUtils.loadAnimation(this, R.anim.out_animation);
-
         mCardFrontLayout = view;
-        mCardBackLayout = ((View)view.getParent()).findViewById(R.id.card_view_back);
-
-//        mCardFrontLayout.startAnimation(animationFadeOut);
-//        mCardBackLayout.startAnimation(animationFadeIn);
-//
-//        mCardFrontLayout.setVisibility(View.INVISIBLE);
-//        mCardBackLayout.setVisibility(View.VISIBLE);
+        mCardBackLayout = ((View) view.getParent()).findViewById(R.id.card_view_back);
 
         mCardFrontLayout.setCameraDistance(getResources().getDisplayMetrics().density * 8000);
         mCardBackLayout.setCameraDistance(getResources().getDisplayMetrics().density * 8000);
@@ -344,7 +404,7 @@ public class MainActivity extends AppCompatActivity
     public void flipToFront(View view) {
 
         mCardBackLayout = (View) view.getParent();
-        mCardFrontLayout = ((View)view.getParent().getParent()).findViewById(R.id.card_view_front);
+        mCardFrontLayout = ((View) view.getParent().getParent()).findViewById(R.id.card_view_front);
 
         mCardBackLayout.setCameraDistance(getResources().getDisplayMetrics().density * 8000);
         mCardFrontLayout.setCameraDistance(getResources().getDisplayMetrics().density * 8000);

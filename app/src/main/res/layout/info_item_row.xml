@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:id="@+id/info_row_view">
 
     <TextView
         android:id="@+id/infoTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textColor="@color/cardview_dark_background"
         android:clickable="true"
-        />
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"/>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/cardview_dark_background"/>
+
 </LinearLayout>
