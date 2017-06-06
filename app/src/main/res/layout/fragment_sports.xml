@@ -2,11 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context="com.example.larisa.liketimisoara.activity.SportsActivity$PlaceholderFragment">
 
     <LinearLayout
@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <LinearLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:measureWithLargestChild="false"
@@ -22,68 +22,75 @@
             android:weightSum="2">
 
 
-    <TextView
-        android:id="@+id/sports_title"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_vertical"
-        android:textStyle="bold"
-        android:textSize="24dp"/>
+            <TextView
+                android:id="@+id/sports_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:textSize="24sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:text="lalalal"/>
 
-    <Button
-        android:id="@+id/sports_maps"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_weight="1"
-        android:drawableTop="@drawable/pin"
-        android:background="@android:color/transparent"
-        android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/sports_maps"
+                android:layout_width="0dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/pin" />
         </LinearLayout>
 
-    <ImageView
-        android:id="@+id/sports_image"
-        android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@null"
-        android:paddingBottom="20dp"/>
+        <ImageView
+            android:id="@+id/sports_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@null"
+            android:paddingBottom="20dp" />
 
-    <TextView
-        android:id="@+id/sports_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
-        android:textColor="@android:color/darker_gray"
-        android:gravity="center" />
+        <TextView
+            android:id="@+id/sports_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/darker_gray" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/phone_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textStyle="italic"
-        android:text="@string/call_now"/>
+            <TextView
+                android:id="@+id/phone_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/call_now"
+                android:textStyle="italic" />
 
-    <ImageButton
-        android:id="@+id/phone"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:contentDescription="@null"
-        android:background="@color/wallet_holo_blue_light"
-        android:src="@android:drawable/stat_sys_phone_call" />
+            <ImageButton
+                android:id="@+id/phone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@null"
+                android:src="@drawable/phone" />
+
+        </LinearLayout>
+
     </LinearLayout>
-    </LinearLayout>
+
 </ScrollView>

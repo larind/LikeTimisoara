@@ -2,6 +2,7 @@ package com.example.larisa.liketimisoara.activity.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 
 import com.example.larisa.liketimisoara.Attraction;
 import com.example.larisa.liketimisoara.DataModel;
+import com.example.larisa.liketimisoara.FontAssetPath;
 import com.example.larisa.liketimisoara.R;
 import com.example.larisa.liketimisoara.activity.DetailsActivity;
 import com.example.larisa.liketimisoara.activity.InfoActivity;
@@ -28,7 +30,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     private ArrayList<DataModel> dataSet;
     private Context context;
 
-    public static class MyViewHolder extends RecyclerView.ViewHolder {
+    class MyViewHolder extends RecyclerView.ViewHolder {
 
         View cardView;
         TextView textViewName;
@@ -43,6 +45,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             this.imageViewIcon = (ImageView) itemView.findViewById(R.id.imageView);
             this.infoItemImageButton = (ImageButton) itemView.findViewById(R.id.itemInfo);
             this.mapItemImageButton = (ImageButton) itemView.findViewById(R.id.itemMap);
+
+            this.textViewName.setTypeface(Typeface.createFromAsset(context.getAssets(), FontAssetPath.MONTSERRAT_SEMI_BOLD));
         }
     }
 

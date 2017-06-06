@@ -185,11 +185,11 @@
          \nTuriștii atrași de cultura Banatului pot găsi articole de uz casnic folosite în secolele trecute, pot admira arhitectura caselor.
          \nAcestea, deși cu 2 sau 3 camere, atrag atenția asupra camerelor de oaspeți, cunoscute ca "aragaz curat", "aragaz mare" sau "aragaz bun", fiind cel mai frumos mobilat și decorat cu țesături prețioase - prosoape, covoare, "masaie"</string>
     <string name="art_museum_name">Muzeul de Artă</string>
-    <string name="art_museum_info">Muzeul este găzduit de Palatul Baroc. Istoria colecției de artă este în mod direct interconectată cu începutul Muzeului Banatului, fondat în 1872.
-          \nDintre expozițiile principale se află colecția pictorului Corneliu Baba, cu peste 80 de lucrări semnate de maestru din diferite perioade ale creației sale artistice.
-         Tendințele artistice ale lui Timișoara din anii 1960 până în anii 1980 pot fi găsite în Colecția de Artă Contemporană.</string>
+    <string name="art_museum_info">\tMuzeul este găzduit de Palatul Baroc. Istoria colecției de artă este în mod direct interconectată cu începutul Muzeului Banatului, fondat în 1872.
+          \n\tDintre expozițiile principale se află colecția pictorului Corneliu Baba, cu peste 80 de lucrări semnate de maestru din diferite perioade ale creației sale artistice.
+        \n\tTendințele artistice ale lui Timișoara din anii 1960 până în anii 1980 pot fi găsite în Colecția de Artă Contemporană.</string>
     <string name="communist_museum_name">Muzeul Consumatorului Comunist</string>
-    <string name="commmunist_museum_info">La sfârșitul anului 1989, Timișoara a devenit primul oraș eliberat de regimul comunist din România.
+    <string name="commmunist_museum_info">\tLa sfârșitul anului 1989, Timișoara a devenit primul oraș eliberat de regimul comunist din România.
          \nScurt după aceea, mulți românești au început să arunce obiecte care erau folosite în gospodărie în timpul epocii comuniste.
         \n Muzeul Consumatorului Comunist este o colecție de articole pe care românii le-ar fi putut cumpăra în timpul "epocii de aur" (după cum a fost numită de propagandă comunistă) care prezintă un mod de viață care a fost prezent în fiecare gospodărie a României comuniste. </string>
 
@@ -248,7 +248,7 @@
          \nParcul este împărțit în zone de 23 de grupuri de vârstă. Pădurea încântătoare, țara uriașă, țara liliputani, ținutul indian, pădurea întunecată sau albul de zăpadă și cei șapte pitici sunt puțini. Există spectacole regulate pentru copii și păpuși.
          \nEste un carusel popular, șah în aer liber, alpinism și tobogan.</string>
 
-    <string name="church_card">Biserici și Catedrale</string>
+    <string name="church_card">Biserici și catedrale</string>
     <string name="ortodox_cathedral_name">Catedrala Mitropolitană din Timișoara</string>
     <string name="ortodox_cathedral_info">Catedrala Metropolitana din Timisoara este cea mai mare cladire religioasa din Timisoara, catedrala Bisericii Mitropoliei Banatului, cu hramul "Trei Ierarhi".
          \nA fost construită între 1936 și 1941 și este un simbol al orașului. În prezent este cea mai înaltă biserică din România (90,5 m) și cea mai înaltă biserică ortodoxă din lume în afara Rusiei (Dacă luăm în considerare Rusia și Georgia, Catedrala din Timișoara este a opta cea mai mare din lume)</string>
@@ -281,11 +281,11 @@
 
     <string name="restaurants_card">Restaurante</string>
     <string name="merlot_restaurant_name">Restaurant Merlot</string>
-    <string name="merlot_restaurant_info">SPECIFIC: Mediteraneană, European, Vegetarian
+    <string name="merlot_restaurant_info">SPECIFIC: Mediteranean, European, Vegetarian
                     \n Tel: +40 356450520
                     \n Categorie de prețuri: $$$$</string>
     <string name="sabres_restaurant_name">Sabres Restaurant</string>
-    <string name="sabres_restaurant_info">SPECIFIC:  Fructe de mare, Mediteraneană, European
+    <string name="sabres_restaurant_info">SPECIFIC:  Fructe de mare, Mediteranean, European
                     \n Tel: +40 722590115
                     \n Categorie de prețuri: $$$$</string>
     <string name="grill_to_chill_name">Grill to chill</string>
@@ -293,7 +293,7 @@
                     \n Tel: +40 755111797
                     \n Categorie de prețuri: $$$$</string>
     <string name="caruso_restaurant_name">Restaurant Caruso </string>
-    <string name="caruso_restaurant_info">SPECIFIC:  Italiană, Franceză, Mediteraneană
+    <string name="caruso_restaurant_info">SPECIFIC:  Italian, Francez, Mediteranean
                     \n Tel: +40 256224771
                     \n Categorie de prețuri: $$$$</string>
     <string name="amphora_enoteca_restaurant_name">Amphora Enoteca-Restaurant</string>
@@ -301,19 +301,19 @@
                     \n Tel: +40 732970181
                     \n Categorie de prețuri: $$$$</string>
     <string name="belvedere_restaurant_name"> Restaurant Belvedere</string>
-    <string name="belvedere_restaurant_info">SPECIFIC:  Internațională, Italiană, Franceză
+    <string name="belvedere_restaurant_info">SPECIFIC:  Internațional, Italian, Francez
                     \n Tel: +40 256300231
                     \n Categorie de prețuri: $$$$</string>
     <string name="enoteca_restaurant_name">Restaurant Enoteca de Savoya</string>
-    <string name="enoteca_restaurant_info">SPECIFIC:  Austrian, Internațională, European
+    <string name="enoteca_restaurant_info">SPECIFIC:  Austrian, Internațional, European
                     \n Tel: +40 256433472
                     \n Categorie de prețuri: $$$$</string>
     <string name="mercy_restaurant_name">Restaurant Mercy </string>
-    <string name="mercy_restaurant_info">SPECIFIC:  Italiană, Mediteraneană, European
+    <string name="mercy_restaurant_info">SPECIFIC:  Italian, Mediteranean, European
                     \n Tel: +40 356007876
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="ristorante_al_duomo_name">Ristorante Al Duomo </string>
-    <string name="ristorante_al_duomo_info">SPECIFIC:  Italiană, Mediteraneană, Fructe de mare
+    <string name="ristorante_al_duomo_info">SPECIFIC:  Italian, Mediteranean, Fructe de mare
                     \n Tel: +40 724044423
                     \n Categorie de prețuri: $$$$</string>
     <string name="timsoreana_restaurant_name">Restaurant Timișoreana</string>
@@ -333,18 +333,18 @@
                     \n Tel: +40 256 292642
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="la_strada_name">La Strada</string>
-    <string name="la_strada_info">SPECIFIC:  Franceză, Italiană, Americană
+    <string name="la_strada_info">SPECIFIC:  Francez, Italian, American
                     \n Tel: +40 758067916
                     \n Categorie de prețuri: $$ - $$$</string>
     <string name="sky_restaurant_name">Sky Restaurant</string>
-    <string name="sky_restaurant_info">SPECIFIC:   Italiană, European, Mediteraneană
+    <string name="sky_restaurant_info">SPECIFIC:   Italian, European, Mediteranean
                     \n Tel: +40 758067916
                     \n Categorie de prețuri: $$$$</string>
     <string name="flower_house_name">Casa cu Flori</string>
     <string name="flower_house_info">SPECIFIC:  European, Est European, Românesc
                     \n Tel: +40 721180011
                     \n Categorie de prețuri: $$ - $$$</string>
-    <string name="cafes_card">Cafenele și Baruri</string>
+    <string name="cafes_card">Cafenele și baruri</string>
     <string name="tucano_cafe_name">Tucano Coffee Mexico</string>
     <string name="tucano_cafe_info">Orar:
                                      \nLuni - Tuesday: 08 - 23
@@ -391,7 +391,7 @@
                                      \nLuni -Sâmbătă: 10 - 01
                                      \nDuminică: 10 - 00
                                     \n Tel:  +40 755073020</string>
-    <string name="clubs_card">Cluburi și Pub-uri</string>
+    <string name="clubs_card">Cluburi și pub-uri</string>
     <string name="heaven_club_name">Heaven Studio</string>
     <string name="heaven_club_info">Orar:
                                     \Sâmbătă: 23 - 05

@@ -50,7 +50,7 @@
 
         <activity
             android:name=".activity.InfoActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/InfoTheme" />
         <activity
             android:name=".activity.DetailsActivity"
             android:theme="@style/AppTheme.NoActionBar" />

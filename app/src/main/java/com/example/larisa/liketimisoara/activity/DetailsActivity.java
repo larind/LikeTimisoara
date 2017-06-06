@@ -1,6 +1,7 @@
 package com.example.larisa.liketimisoara.activity;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +14,7 @@ import android.widget.TextView;
 
 import com.example.larisa.liketimisoara.Attraction;
 import com.example.larisa.liketimisoara.AttractionType;
+import com.example.larisa.liketimisoara.FontAssetPath;
 import com.example.larisa.liketimisoara.R;
 
 import java.util.ArrayList;
@@ -32,6 +34,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         TextView attractionInfoTextView = (TextView) findViewById(R.id.details_textview);
         attractionInfoTextView.setText(chosenAttraction.getInfo());
+        attractionInfoTextView.setTypeface(Typeface.createFromAsset(getAssets(), FontAssetPath.MONTSERRAT_LIGHT));
 
         ImageView attractionPictureImageView = (ImageView) findViewById(R.id.details_imageview);
         attractionPictureImageView.setBackground(getResources().getDrawable(chosenAttraction.getImageResourceId()));

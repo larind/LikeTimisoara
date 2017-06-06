@@ -35,7 +35,7 @@
             <Button
                 android:id="@+id/details_imagebutton"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="62dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
@@ -59,8 +59,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
-            android:textColor="@android:color/darker_gray"
-            android:gravity="center" />
+            android:textColor="@android:color/black"
+            android:gravity="start" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,8 +85,7 @@
                 android:layout_gravity="center"
                 android:contentDescription="@null"
                 android:layout_marginStart="10dp"
-                android:background="@color/wallet_holo_blue_light"
-                android:src="@android:drawable/stat_sys_phone_call" />
+                android:src="@drawable/phone" />
 
         </LinearLayout>
 

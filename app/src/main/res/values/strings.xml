@@ -280,7 +280,7 @@
         \nThe park is divided into zones of 23 age groups. The enchanted forest, the giant land, the liliputani country, the Indian Land, the dark forest or Snow White and the seven dwarves are few. There are regular shows for children and dolls.
         \nThere is a popular carousel, outdoor chess, mountaineering and slide.</string>
 
-    <string name="church_card">Churches and Cathedrals</string>
+    <string name="church_card">Churches and cathedrals</string>
     <string name="ortodox_cathedral_name">Metropolitan Cathedral of Timisoara</string>
     <string name="ortodox_cathedral_info">The Metropolitan Cathedral of Timisoara is the largest religious building in Timisoara, the cathedral of the Banat Metropolitan Church, dedicated to the "Three Hierarchs".
         \nIt was built between 1936 and 1941 and is a symbol of the city. It is currently the tallest church in Romania (90.5 m) and the tallest Orthodox church in the world outside of Russia (If we consider Russia and Georgia, the Cathedral of Timisoara is the eighth largest in the world)</string>
@@ -393,7 +393,7 @@
                     \n Tel: +40 721180011
                     \n Price category: $$ - $$$</string>
     <string name="flower_house_phone">+40 721180011</string>
-    <string name="cafes_card">Cafés and Bars</string>
+    <string name="cafes_card">Cafés and bars</string>
     <string name="tucano_cafe_name">Tucano Coffee Mexico</string>
     <string name="tucano_cafe_info">Schedule:
                                      \nMonday - Tuesday: 08 - 23
@@ -450,7 +450,7 @@
                                      \nSunday: 10 - 00
                                     \n Tel:  +40 755073020</string>
     <string name="la_capite_phone">+40 755073020</string>
-    <string name="clubs_card">Clubs and Pubs</string>
+    <string name="clubs_card">Clubs and pubs</string>
     <string name="heaven_club_name">Heaven Studio</string>
     <string name="heaven_club_info">Schedule:
                                     \nSaturday: 23 - 05
