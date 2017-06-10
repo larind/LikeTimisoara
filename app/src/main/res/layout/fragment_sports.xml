@@ -61,7 +61,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
             android:gravity="center"
-            android:textColor="@android:color/darker_gray" />
+            android:textColor="@android:color/black" />
 
         <LinearLayout
             android:layout_width="match_parent"

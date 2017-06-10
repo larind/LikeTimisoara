@@ -8,7 +8,7 @@
     <string name="Cancel">Cancel</string>
     <string name="section_format">%1$s</string>
     <string name="app_title">Timisoara European Capital of Culture in 2021</string>
-    <string name="atrractions_button">Attractions of Timisoara</string>
+    <string name="atrractions_button">Visit Timisoara</string>
     <string name="history_name">History of Timisoara</string>
     <string name="bastion_name">Maria Theresia Bastion</string>
     <string name="bastion_info">The Theresia Bastion is the only bastion that still exists in the Timisoara fortress during the period of Banat\'s affiliation to the Austrian Empire.
@@ -587,6 +587,58 @@
     <string name="pensiune_voiaj_name">Pensiunea Voiaj</string>
     <string name="pensiune_voiaj_info">Address: Torontalului 90</string>
     <string name="title_activity_near_by_attractions">NearByAttractionsActivity</string>
+    <string name="timisoara_festivals">Timisoara\'s festivals</string>
+    <string name="timfloralis_name">Timfloralis</string>
+    <string name="timfloralis_info"> 28 - 30 April , Victory Square
+        \nFor three days, the organizers, the City Hall of Timisoara through the Cultural House of the Municipality will bring together designers, architects, landscape designers, international florists, ecologists, students, students, schools, universities, artists, firms and merchants.
+        \nTo highlight the beauty of nature in the urban context, the chosen theme being Timişoara European Capital of Culture 2021.
+            \nThe project also includes, besides floral exhibitions and arrangements, a series of interesting workshops for the general public as well as professional florists, a fashion parade with floral accessories, unusual music and dance performances, events with and for children.
+    </string>
+    <string name="jazztm_name">JazzTM</string>
+    <string name="jazztm_info"> 30 June - 2 July, Victory Square, Civic Park
+        \nChristian Scott and Tunde Adjuah, for the first time in Romania, on the JAZZ ™ scene
+        \nPremieres for Romania continue on the JazzTM scene with Christian Scott and Tunde Adjuah, the American trompetist, composer and producer who crosses the limits of genres to form his own. Named by Jazz Times as "the architect of an unmistakably viable fusion," the artist will bring Victory Square a jazz with influences of hip-hop and EDM.
+        \nBesides Christian Scott concert aTunde Adjuah, Jazz ™ 2017 means: Thomas Pourquery  &amp; Supersonic, Monty Alexander Harlem Kingston Express, The Chick Corea Elektric Band, Miles Mosley feat. The West Coast Get Down, Bill Laurance, China Moses, SUBJazz, Alex Calancea Band, Paolo Propheti European Collective, The Egocentrics, The Best Bad Trip, Armies Live, BAB, Paperjam, Toth Bagi Csaba, Balkan, Ana Dubyk Quartet, AC Leonte Reveries and Teo Milea.</string>
+    <string name="rock_festival_name">Timisoara Rock Festival</string>
+    <string name="rock_festival_info">16 - 17 June, Victory Square
+        \nAfter reinventing the event in 2016, Timisoara Rocks! It continues his journey, bringing to Timisoara bands whose songs are known all over the world.
+        \nCrazy Town
+        \nOne of the first hybrid bands to combine urban and mainstream culture. They erupted after the hit "Butterfly" and became the most wanted group of the moment, with an album that ranked first in over 15 countries. They have sold over 6 million copies of their first album, reaching the status of legends in the field. Their presence in Timisoara Rocks! Will be a premiere for Romania.
+        \nThe Toy Dolls
+        \nOne of the most important punk bands in history, set up in 1979, has performed on the world\'s biggest scenes and has changed the audience\'s eye for punk music. The Toy Dolls are known for giving up aggressive messages, often associated with punk music, instead promoting good mood.
+        \nThe Darkness
+        \nThe glam rock rock band in Suffolk, England, formed in 2000, has conquered the international charts with the release of their first album titled "Permission to Land" [2003]. Singles such as "I Believe in a Thing Called Love", "Growing On Me", "Get Your Hands Off My Woman" and "Love Is Only A Feeling" brought four platinum discs to the UK. In 2004, the band won three British awards in Best British Group, Best British Rock Act and Best British Album. The Darkness are explosive and enjoy the best reviews ever since the band was set up.</string>
+    <string name="begaboulevard_name">Bega Bulevard</string>
+    <string name="begaboulevard_info"> 3 - 4 September, Timisoara ( more details about location soon)
+        \nSince its first edition in 2008, the Bega Bulevard Festival has sought to draw attention to the importance of the Bega Channel to the city and the possibilities of recreation, recreation, sports or entertainment that it offers. The festival was designed to highlight Bega from all points of view: aesthetic, urban, ecological, and will focus on informative, entertainment and cultural activities during the three days.
+        \nThe agenda of the festival will include a series of concerts, shows and numerous activities for children, drawing workshops, painting, painting, exhibitions and information stands with interactive, cultural and artistic activities.
+        \nAll these events will take place between Metropolitan Bridge Şaguna (Youth) and Traian Bridge, in the Alpinet Park, on the Bega Canal and on the water.</string>
+    <string name="artfestival_name">The Arts Festival</string>
+    <string name="artfestival_info"> 15 - 11 June, Liberty Square, Union Square
+        \nThe festival aims at promoting local artists on the one hand, and on the other hand facilitating broad public access to the diversity of our city\'s cultural manifestations.
+            \nOver a week, Timişoara artists: musicians of all genres, dancers, actors and other actors in the theater and film, writers, painters, sculptors and designers will come to Timişoara and visitors to delight them with their talent.
+            \nWhat can we do at the Timişorene Arts Festival?
+             \nMusic, dance, film, sculpture, painting, fashion, theater, design, literature, photography, creative workshops, all of which you can meet for a week in Timisoara. Artists of all genres, performers, pupils, students invite you to discover the fascinating world of arts.</string>
 
-
+    <string-array name="filter_location">
+        <item>All</item>
+        <item>Restaurants</item>
+        <item>Squares</item>
+        <item>Parks</item>
+        <item>Churches and cathedrals</item>
+        <item>Museums</item>
+        <item>Cafes and bars</item>
+        <item>Clubs and pubs</item>
+        <item>Hotels</item>
+        <item>Hostels</item>
+        <item>Guest houses</item>
+        <item>Swimming pools</item>
+        <item>Fitness centers</item>
+        <item>Tennis courts</item>
+        <item>Squash centers</item>
+        <item>Rent a car</item>
+        <item>Velo TM bike stations</item>
+    </string-array>
+    <string name="message_nolocation1">There are no</string>
+    <string name="message_nolocation2">nearby</string>
 </resources>

@@ -31,6 +31,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
+
+
         attractions = (List<Attraction>) getIntent().getSerializableExtra("EXTRA_ATTRACTIONS");
     }
 

@@ -2,6 +2,7 @@ package com.example.larisa.liketimisoara.activity;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -25,6 +26,7 @@ import android.widget.TextView;
 
 import com.example.larisa.liketimisoara.Attraction;
 import com.example.larisa.liketimisoara.AttractionType;
+import com.example.larisa.liketimisoara.FontAssetPath;
 import com.example.larisa.liketimisoara.R;
 import com.example.larisa.liketimisoara.db.DB;
 
@@ -130,10 +132,15 @@ public class SportsActivity extends AppCompatActivity {
             TextView title = (TextView) rootView.findViewById(R.id.sports_title);
             ImageView image = (ImageView) rootView.findViewById(R.id.sports_image);
             TextView info = (TextView) rootView.findViewById(R.id.sports_info);
+            info.setTypeface(Typeface.createFromAsset(getActivity().getAssets(), FontAssetPath.MONTSERRAT_LIGHT));
             ImageButton phoneButton = (ImageButton) rootView.findViewById(R.id.phone);
             TextView phone = (TextView) rootView.findViewById(R.id.phone_info);
 
-            if(!attraction.isTop10()) {
+            if(attraction.isTop10() || attraction.getType().equals(AttractionType.FESTIVAL)) {
+                phoneButton.setVisibility(View.GONE);
+                phone.setVisibility(View.GONE);
+
+            }else {
                 phoneButton.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View arg0) {
                         Intent callIntent = new Intent(Intent.ACTION_DIAL);
@@ -141,15 +148,13 @@ public class SportsActivity extends AppCompatActivity {
                         startActivity(callIntent);
                     }
                 });
-            }else {
-                phoneButton.setVisibility(View.GONE);
-                phone.setVisibility(View.GONE);
             }
+
             title.setText(getString(R.string.section_format, attraction.getName()));
             info.setText(getString(R.string.section_format, attraction.getInfo()));
             image.setImageDrawable(getResources().getDrawable(attraction.getImageResourceId()));
             Button mapsButton = (Button) rootView.findViewById(R.id.sports_maps);
-            if(attraction.getType().equals(AttractionType.COMPANIE_TAXI)) {
+            if(attraction.getType().equals(AttractionType.COMPANIE_TAXI) || attraction.getType().equals(AttractionType.FESTIVAL)) {
                 mapsButton.setVisibility(View.GONE);
             }else {
                 mapsButton.setOnClickListener(new View.OnClickListener() {

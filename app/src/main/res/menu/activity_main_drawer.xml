@@ -13,6 +13,10 @@
         android:id="@+id/top10"
         android:icon="@drawable/top10"
         android:title="@string/top10_attractions" />
+    <item
+        android:id="@+id/festivals"
+        android:icon="@drawable/festivals"
+        android:title="@string/timisoara_festivals" />
 
     <item android:title="@string/sports_menu">
         <menu>

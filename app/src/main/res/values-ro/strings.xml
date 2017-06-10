@@ -6,7 +6,7 @@
     <string name="Cancel">Anulare</string>
     <string name="section_format">%1$s</string>
     <string name="app_title">Timișoara Capitală Culturală European 2021</string>
-    <string name="atrractions_button">Atracții Timișoara</string>
+    <string name="atrractions_button">Vizitează Timișoara</string>
     <string name="history">Istoria Timișoarei</string>
     <string name="history_name">Istoria Timișoarei</string>
     <string name="call_now">Sună:</string>
@@ -169,7 +169,7 @@
     <string name="marvomil_rent_name">Marvomil Auto Timisoara</string>
     <string name="marvomil_rent_info">Adresa:  Str. Sever Bocu, nr.37
                                   \n Tel: +40 785560550</string>
-    <string name="bike_stations_menu">Velo TM Bike stations</string>
+    <string name="bike_stations_menu">Stații biciclete Velo TM </string>
     <string name="velo_tm_name">Velo TM</string>
 
 
@@ -514,5 +514,57 @@
     <string name="pensiune_timisoreana_info">Adresa: B-dul. 16 Decembrie 1989 57</string>
     <string name="pensiune_voiaj_name">Pensiunea Voiaj</string>
     <string name="pensiune_voiaj_info">Adresa: Torontalului 90</string>
-
+    <string name="timisoara_festivals">Festivaluri în Timișoara</string>
+    <string name="timfloralis_name">Timfloralis</string>
+    <string name="timfloralis_info"> 28 - 30 Aprilie , Piața Victoriei
+       \nPentru trei zile, organizatorii, Primăria Timișoarei prin Casa Culturală a Primăriei vor reuni designeri, arhitecți, designeri peisagiști, florariști internaționali, ecologiști, studenți, studenți, școli, universități, artiști, firme și comercianți.
+\n Pentru a evidenția frumusețea naturii în contextul urban, tema aleasă este Timișoara Capitala Europeană a Culturii 2021.
+\nProiectul include, pe lângă expozițiile și aranjamentele florale, o serie de ateliere interesante pentru publicul larg, precum și florării profesionale, o paradă de modă cu accesorii florale, spectacole muzicale și dans neobișnuite, evenimente cu și pentru copii.
+    </string>
+    <string name="jazztm_name">JazzTM</string>
+    <string name="jazztm_info"> 30 Iunie - 2 Iulie, Piața Victoriei, Parcul Civic
+    \nChristian Scott și Tunde Adjuah, pentru prima dată în România, pe scena JAZZ ™
+         \nPremierele pentru România continuă pe scena JazzTM cu Christian Scott și Tunde Adjuah, trompeticianul, compozitorul și producătorul american care traversează limitele genurilor pentru a-și forma propriul. Numit de Jazz Times ca "arhitectul unei fuziuni inconfundabil viabile", artistul va aduce Piața Victoriei un jazz cu influențe de hip-hop și EDM.
+         \nCu concursul Christian Scott aTunde Adjuah, Jazz ™ 2017 înseamnă: Thomas Pourquery &amp; Supersonic, Monty Alexander Harlem Kingston Express, The Chick Corea Elektric Band, Miles Mosley feat. West Coast Get Down, Bill Laurance, China Moses, SUBJazz, Alex Calancea Band, Paolo Propheti Colectivul European, Egocentria, Cea mai bună călătorie rău, Armies Live, BAB, Paperjam, Toth Bagi Csaba, Balkan, Cvartetul Ana Dubyk, AC Leonte Reveries și Teo Milea. </string>
+       <string name="rock_festival_name">Timișoara Rock Festival</string>
+    <string name="rock_festival_info">16 - 17 Iunie, Piața Victoriei
+        \nDupă reinventarea evenimentului în 2016, Rocks Timisoara! Continuând călătoria, aducând la Timișoara trupe ale căror cântece sunt cunoscute peste tot în lume.
+        \ NCrazy Town
+        \nUna dintre primele trupe hibride de a combina cultura urbană și de masă. Au izbucnit după hit-ul "Butterfly" și au devenit grupul cel mai dorit al momentului, cu un album care sa clasat pe primul loc în peste 15 țări. Au vândut peste șase milioane de copii ale primului lor album, ajungând la statutul de legende pe teren. Prezența lor la Rocks Timisoara! Va fi o premieră pentru România.
+        \nThe Toy Dolls
+        \nPrintre cele mai importante trupe de punk din istorie, înființate în 1979, a jucat pe cele mai mari scene din lume și și-a schimbat audiența pentru muzica punk. Jucăriile pentru jucării sunt cunoscute pentru renunțarea la mesaje agresive, adesea asociate cu muzica punk, în schimb, promovând buna dispoziție.
+        \nThe Darkness
+        \nTrupa rock NGla Rock din Suffolk, Anglia, înființată în anul 2000, a cucerit grafica internațională cu lansarea primului lor album intitulat "Permisiunea spre Teren" [2003]. Single-uri precum "Eu cred într-un lucru pe care-l iubesc", "Growing On Me", "Ia-ți mâinile de pe femeia mea" și "Love is only a Feeling" au adus patru discuri de platină în Marea Britanie. În 2004, formația a câștigat trei premii britanice în Best British Group, Best British Rock Act și Best British Album. Darkness este exploziv și se bucură de cele mai bune recenzii încă de la înființarea trupei.</string>
+    <string name="begaboulevard_name">Bega Bulevard</string>
+    <string name="begaboulevard_info"> 3 - 4 Septembrie, Timișoara ( mai multe detalii despre locații în curând)
+        \nDe la prima ediție din 2008, Festivalul Bega Bulevard a căutat să atragă atenția asupra importanței Canalului Bega asupra orașului și asupra posibilităților de recreere, recreere, sport sau divertisment pe care le oferă. Festivalul a fost conceput pentru a evidenția Bega din toate punctele de vedere: estetic, urban, ecologic și se va concentra pe activități informative, de divertisment și culturale în cele trei zile.
+         \nProgramul festivalului va include o serie de concerte, spectacole și numeroase activități pentru copii, ateliere de desen, pictura, pictura, expoziții și standuri de informare cu activități interactive, culturale și artistice.
+         \nToate aceste evenimente vor avea loc între Metropolitan Bridge Șaguna (Tineret) și Podul Traian, în Parcul Alpinet, pe Canalul Bega și pe apă.</string>
+    <string name="artfestival_name">Festivalul Artelor</string>
+    <string name="artfestival_info"> 15 - 11 Iunie, Piața Libertății, Piața Unirii
+\nFestivalul vizează promovarea artiștilor locali pe de o parte și, pe de altă parte, facilitarea accesului larg al publicului la diversitatea manifestărilor culturale ale orașului.
+             \nPentru o săptămână, artiștii din Timișoara: muzicieni de toate genurile, dansatori, actori și alți actori în teatru și film, scriitori, pictori, sculptori și designeri vor veni la Timișoara și vizitatori pentru a le încânta cu talentul lor.
+             \nCe putem face la Festivalul de Arte Timișorene?
+              \nMuzică, dans, film, sculptură, pictură, modă, teatru, design, literatură, fotografie, ateliere de creație, toate întâlnite timp de o săptămână la Timișoara. Artiști de toate genurile, artiștii, elevii, studenții vă invită să descoperiți lumea fascinantă a artelor. </string>
+    <string-array name="filter_location">
+        <item>Toate</item>
+        <item>Restaurante</item>
+        <item>Piețe</item>
+        <item>Parcuri</item>
+        <item>Biserici și catedrale</item>
+        <item>Muzee</item>
+        <item>Cafenele și baruri</item>
+        <item>Cluburi și pub-uri</item>
+        <item>Hoteluri</item>
+        <item>Hosteluri</item>
+        <item>Pensiuni</item>
+        <item>Bazine de înot</item>
+        <item>Săli de fitness</item>
+        <item>Terenuri de tenis</item>
+        <item>Squash</item>
+        <item>Închiriere mașini</item>
+        <item>Stații bicilete Velo TM</item>
+    </string-array>
+    <string name="message_nolocation1">Nu sunt</string>
+    <string name="message_nolocation2">în apropiere</string>
 </resources>

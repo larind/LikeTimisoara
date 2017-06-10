@@ -453,6 +453,19 @@ public class DB extends SQLiteOpenHelper {
             database.insertAttraction(new Attraction(0, context.getString(R.string.pensiune_voiaj_name),AttractionType.PENSIUNE, context.getString(R.string.pensiune_voiaj_info),
                     R.drawable.pensiunevoiajjpg,context.getString(R.string.club_daos_phone), false, 21.21456, 45.7745));
 
+            database.insertAttraction(new Attraction(0, context.getString(R.string.timfloralis_name),AttractionType.FESTIVAL, context.getString(R.string.timfloralis_info),
+                    R.drawable.timfloralis, context.getString(R.string.club_daos_phone),false, 21.21080, 45.7400199));
+            database.insertAttraction(new Attraction(0, context.getString(R.string.jazztm_name),AttractionType.FESTIVAL, context.getString(R.string.jazztm_info),
+                    R.drawable.jazztm,context.getString(R.string.club_daos_phone), false, 21.227288, 45.7354789));
+            database.insertAttraction(new Attraction(0, context.getString(R.string.begaboulevard_name),AttractionType.FESTIVAL, context.getString(R.string.begaboulevard_info),
+                    R.drawable.begabulevard, context.getString(R.string.club_daos_phone),false, 21.278629, 45.75612));
+            database.insertAttraction(new Attraction(0, context.getString(R.string.rock_festival_name),AttractionType.FESTIVAL, context.getString(R.string.rock_festival_info),
+                    R.drawable.rockfestival, context.getString(R.string.club_daos_phone),false, 21.26158, 45.759727));
+            database.insertAttraction(new Attraction(0, context.getString(R.string.artfestival_name),AttractionType.FESTIVAL, context.getString(R.string.artfestival_info),
+                    R.drawable.festivalulartelor,context.getString(R.string.club_daos_phone), false, 21.21456, 45.7745));
+
+
+
         } catch (DBException ex) {
 
 

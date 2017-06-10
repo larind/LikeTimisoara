@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity
 
         if (checkLocation()) {
             try {
-                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10 * 1000, 10, locationListenerGPS);
+                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 10 * 1000, 10, locationListenerGPS);
             } catch (SecurityException e) {
                 Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show(); // lets the user know there is a problem with the gps
             }
@@ -223,7 +223,7 @@ public class MainActivity extends AppCompatActivity
                 ex.printStackTrace();
             }
 
-            Intent mapsActivity = new Intent(MainActivity.this, MapsActivity.class);
+            Intent mapsActivity = new Intent(MainActivity.this, Maps2Activity.class);
             mapsActivity.putExtra("EXTRA_ATTRACTIONS", nearbyAttractions);
             startActivity(mapsActivity);
         }
@@ -293,6 +293,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_fitness) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
             fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.SALA_FITNESS);
+            startActivity(fitnessActivity);
+        }else if (id == R.id.festivals) {
+            Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
+            fitnessActivity.putExtra("EXTRA_ATTRACTION", AttractionType.FESTIVAL);
             startActivity(fitnessActivity);
         } else if (id == R.id.nav_tenis) {
             Intent fitnessActivity = new Intent(MainActivity.this, SportsActivity.class);
