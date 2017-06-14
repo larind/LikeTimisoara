@@ -63,7 +63,8 @@
         <activity
             android:name=".activity.HistoryActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity.Maps2Activity"></activity>
+        <activity android:name=".activity.Maps2Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

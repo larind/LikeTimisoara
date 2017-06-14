@@ -75,7 +75,7 @@ public class Maps2Activity extends LocalizationActivity implements OnMapReadyCal
                 }
 
                 if (attractions.isEmpty()) {
-                    Toast.makeText(Maps2Activity.this, getString(R.string.message_nolocation2) + " " + parent.getSelectedItem().toString() + " " + getString(R.string.message_nolocation2), Toast.LENGTH_LONG).show();
+                    Toast.makeText(Maps2Activity.this, getString(R.string.message_nolocation1) + " " + parent.getSelectedItem().toString() + " " + getString(R.string.message_nolocation2), Toast.LENGTH_LONG).show();
                 }
                 map2Fragment.getMapAsync(Maps2Activity.this);
             }
