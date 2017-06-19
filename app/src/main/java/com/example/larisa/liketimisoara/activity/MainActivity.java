@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity
 
         if (checkLocation()) {
             try {
-                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 10 * 1000, 10, locationListenerGPS);
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10 * 1000, 10, locationListenerGPS);
             } catch (SecurityException e) {
                 Toast.makeText(MainActivity.this, "Error", Toast.LENGTH_SHORT).show(); // lets the user know there is a problem with the gps
             }

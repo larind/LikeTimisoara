@@ -27,11 +27,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="@string/history_name"/>
+            android:text="@string/history_name"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"/>
 
             <ImageView
-                android:layout_width="182dp"
-                android:layout_height="78dp"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
                 android:src="@drawable/stema"
                 android:id="@+id/imageView4" />
         </LinearLayout>
@@ -50,10 +52,11 @@
             android:gravity="fill_horizontal">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_gravity="start"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
             android:src="@drawable/istoric"
-            android:id="@+id/imageView3" />
+            android:id="@+id/imageView3"
+            android:layout_below="@+id/textView"/>
         </LinearLayout>
 
     </LinearLayout>
